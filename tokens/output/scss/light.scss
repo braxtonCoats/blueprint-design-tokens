@@ -1,0 +1,1787 @@
+
+/**
+ * Do not edit directly
+ * Generated on Wed, 26 Apr 2023 15:53:20 GMT
+ */
+
+$bp-sys-color-primary-main: #076ea8 !default;
+$bp-sys-color-primary-on-main: #ffffff !default;
+$bp-sys-color-primary-container: #e6f5fd !default;
+$bp-sys-color-primary-container-variant: #9bd7f8 !default;
+$bp-sys-color-primary-on-container: #084f7a !default;
+$bp-sys-color-secondary-main: #084f7a !default;
+$bp-sys-color-secondary-on-main: #ffffff !default;
+$bp-sys-color-secondary-container: #075e91 !default;
+$bp-sys-color-secondary-container-variant: #076ea8 !default;
+$bp-sys-color-secondary-on-container: #ffffff !default;
+$bp-sys-color-tertiary-main: #8b50b1 !default;
+$bp-sys-color-tertiary-on-main: #ffffff !default;
+$bp-sys-color-tertiary-container: #512e65 !default;
+$bp-sys-color-tertiary-container-variant: #341c3f !default;
+$bp-sys-color-tertiary-on-container: #ffffff !default;
+$bp-sys-color-error-main: #c43837 !default;
+$bp-sys-color-error-on-main: #ffffff !default;
+$bp-sys-color-error-container: #fdf7f7 !default;
+$bp-sys-color-error-container-variant: #fbebeb !default;
+$bp-sys-color-error-on-container: #320e11 !default;
+$bp-sys-color-warning-main: #b19014 !default;
+$bp-sys-color-warning-on-main: #ffffff !default;
+$bp-sys-color-warning-container: #fefcf1 !default;
+$bp-sys-color-warning-container-variant: #fefae8 !default;
+$bp-sys-color-warning-on-container: #392b0a !default;
+$bp-sys-color-success-main: #028663 !default;
+$bp-sys-color-success-on-main: #ffffff !default;
+$bp-sys-color-success-container: #f4fcfa !default;
+$bp-sys-color-success-container-variant: #e5f8f3 !default;
+$bp-sys-color-success-on-container: #072820 !default;
+$bp-sys-color-surface-main: #ffffff !default;
+$bp-sys-color-surface-on-main: #090306 !default;
+$bp-sys-color-surface-variant: #e5e5e5 !default;
+$bp-sys-color-surface-on-variant: #777476 !default;
+$bp-sys-color-background-main: #f9f9f9 !default;
+$bp-sys-color-background-on-main: #6b6769 !default;
+$bp-sys-color-background-variant: #f2f2f2 !default;
+$bp-sys-color-outline-main: #cdcccd !default;
+$bp-sys-color-outline-variant: #848182 !default;
+$bp-sys-color-outline-primary: #079cee !default;
+$bp-sys-color-outline-warning: #facd1a !default;
+$bp-sys-color-outline-error: #efb1b1 !default;
+$bp-sys-color-outline-success: #99e5d1 !default;
+$bp-sys-color-outline-seperator: #cdcccd !default;
+$bp-sys-color-disabled-main: #dad9d9 !default;
+$bp-sys-color-disabled-on-main: #5e5a5c !default;
+$bp-sys-m01: 0px 1px 1px 0px #00000024, 0px 2px 1px 0px #0000001f, 0px 1px 3px 0px #00000033 !default;
+$bp-sys-m02: 0px 1px 5px 0px #00000033, 0px 3px 1px 0px #0000001f, 0px 2px 2px 0px #00000024 !default;
+$bp-sys-m03: 0px 1px 8px 0px #00000033, 0px 3px 3px 0px #0000001f, 0px 3px 4px 0px #00000024 !default;
+$bp-sys-m04: 0px 2px 4px 0px #00000033, 0px 1px 10px 0px #0000001f, 0px 4px 5px 0px #00000024 !default;
+$bp-sys-m06: 0px 3px 5px 0px #00000033, 0px 1px 18px 0px #0000001f, 0px 6px 10px 0px #00000024 !default;
+$bp-sys-m08: 0px 5px 5px 0px #00000033, 0px 3px 14px 0px #0000001f, 0px 8px 10px 0px #00000024 !default;
+$bp-sys-m09: 0px 5px 6px 0px #00000033, 0px 3px 16px 0px #0000001f, 0px 9px 12px 0px #00000024 !default;
+$bp-sys-m12: 0px 7px 8px 0px #00000033, 0px 5px 22px 0px #0000001f, 0px 12px 17px 0px #00000024 !default;
+$bp-sys-m16: 0px 8px 10px 0px #00000033, 0px 6px 30px 0px #0000001f, 0px 16px 24px 0px #00000024 !default;
+$bp-sys-m24: 0px 24px 38px 0px #00000024, 0px 9px 46px 0px #0000001f, 0px 11px 15px 0px #00000033 !default;
+$bp-color-background-primary: #f2f2f2 !default;
+$bp-color-background-disabled: #dad9d9 !default;
+$bp-color-background-success: #e5f8f3 !default;
+$bp-color-background-warning: #fefae8 !default;
+$bp-color-background-info: #e6f5fd !default;
+$bp-color-background-error: #fbebeb !default;
+$bp-color-accordion-background-default: #ffffff !default;
+$bp-color-accordion-background-features: #e5e5e5 !default;
+$bp-color-accordion-border-default: #cdcccd !default;
+$bp-color-surface-primary: #ffffff !default;
+$bp-color-surface-secondary: #e5e5e5 !default;
+$bp-color-navigation-background-default: #ffffff !default;
+$bp-color-navigation-background-hover: #e6f5fd !default;
+$bp-color-navigation-background-active: #e6f5fd !default;
+$bp-color-navigation-background-selected: #075e91 !default;
+$bp-color-navigation-background-emergency: #e66440 !default;
+$bp-color-navigation-background-slim-default: #ffffff !default;
+$bp-color-navigation-background-slim-hover: #075e91 !default;
+$bp-color-navigation-background-slim-active: #075e91 !default;
+$bp-color-navigation-background-slim-selected: #075e91 !default;
+$bp-color-navigation-background-slim-emergency: #e66440 !default;
+$bp-color-navigation-icon-default: #076ea8 !default;
+$bp-color-navigation-icon-hover: #084f7a !default;
+$bp-color-navigation-icon-active: #084f7a !default;
+$bp-color-navigation-icon-selected: #ffffff !default;
+$bp-color-navigation-icon-slim-default: #076ea8 !default;
+$bp-color-navigation-icon-slim-hover: #ffffff !default;
+$bp-color-navigation-icon-slim-active: #ffffff !default;
+$bp-color-navigation-icon-slim-selected: #ffffff !default;
+$bp-color-navigation-text-default: #090306 !default;
+$bp-color-navigation-text-hover: #084f7a !default;
+$bp-color-navigation-text-active: #ffffff !default;
+$bp-color-navigation-border-active: #084f7a !default;
+$bp-color-navigation-border-default: #cdcccd !default;
+$bp-color-secondary-navigation-background-default: #e6f5fd !default;
+$bp-color-secondary-navigation-background-hover: #ffffff !default;
+$bp-color-secondary-navigation-background-active: #e6f5fd !default;
+$bp-color-secondary-navigation-background-selected: #ffffff !default;
+$bp-color-secondary-navigation-text-default: #090306 !default;
+$bp-color-secondary-navigation-text-selected: #076ea8 !default;
+$bp-color-secondary-navigation-text-active: #084f7a !default;
+$bp-color-secondary-navigation-border-active: #084f7a !default;
+$bp-color-input-background-default: #ffffff !default;
+$bp-color-input-background-hover: #ffffff !default;
+$bp-color-input-background-selected: #076ea8 !default;
+$bp-color-input-background-disabled: #dad9d9 !default;
+$bp-color-input-background-disabled-selected: #5e5a5c !default;
+$bp-color-input-icon-default: #777476 !default;
+$bp-color-input-icon-disabled: #5e5a5c !default;
+$bp-color-input-border-default: #cdcccd !default;
+$bp-color-input-border-hover: #cdcccd !default;
+$bp-color-input-border-selected: #076ea8 !default;
+$bp-color-input-border-error: #c43837 !default;
+$bp-color-input-border-disabled: #5e5a5c !default;
+$bp-color-input-text-placeholder: #777476 !default;
+$bp-color-input-text-input: #090306 !default;
+$bp-color-input-text-requried: #c43837 !default;
+$bp-color-dropdown-background-default: #ffffff !default;
+$bp-color-dropdown-background-hover: #ffffff !default;
+$bp-color-dropdown-background-selected: #ffffff !default;
+$bp-color-dropdown-background-disabled: #dad9d9 !default;
+$bp-color-dropdown-background-error: #ffffff !default;
+$bp-color-dropdown-border-default: #cdcccd !default;
+$bp-color-dropdown-border-hover: #848182 !default;
+$bp-color-dropdown-border-selected: #848182 !default;
+$bp-color-dropdown-border-error: #c43837 !default;
+$bp-color-dropdown-border-disabled: #5e5a5c !default;
+$bp-color-dropdown-border-selected-variant: #e6f5fd !default;
+$bp-color-dropdown-icon-default: #777476 !default;
+$bp-color-dropdown-icon-disabled: #5e5a5c !default;
+$bp-color-chip-background-default: #ffffff !default;
+$bp-color-chip-background-enabled: #028663 !default;
+$bp-color-chip-background-error: #c43837 !default;
+$bp-color-chip-background-pending: #b19014 !default;
+$bp-color-chip-background-messaging: #00bf8c !default;
+$bp-color-chip-background-voice: #9a59c5 !default;
+$bp-color-chip-background-disabled: #dad9d9 !default;
+$bp-color-chip-background-numbers: #652b51 !default;
+$bp-color-chip-text-default: #090306 !default;
+$bp-color-chip-text-enabled: #ffffff !default;
+$bp-color-chip-text-error: #ffffff !default;
+$bp-color-chip-text-pending: #ffffff !default;
+$bp-color-chip-text-messaging: #072820 !default;
+$bp-color-chip-text-voice: #ffffff !default;
+$bp-color-chip-text-disabled: #5e5a5c !default;
+$bp-color-chip-text-numbers: #ffffff !default;
+$bp-color-modal-background-header: #ffffff !default;
+$bp-color-modal-background-footer: #e5e5e5 !default;
+$bp-color-radio-background-default: #ffffff !default;
+$bp-color-radio-background-hover: #e6f5fd !default;
+$bp-color-radio-background-active: #ffffff !default;
+$bp-color-radio-background-selected: #076ea8 !default;
+$bp-color-radio-background-selected-hover: #084f7a !default;
+$bp-color-radio-background-disabled: #dad9d9 !default;
+$bp-color-radio-background-disabled-selected: #5e5a5c !default;
+$bp-color-radio-background-selected-active: #084f7a !default;
+$bp-color-radio-border-default: #cdcccd !default;
+$bp-color-radio-border-hover: #cdcccd !default;
+$bp-color-radio-border-active: #084f7a !default;
+$bp-color-radio-border-selected: #076ea8 !default;
+$bp-color-radio-border-selected-hover: #084f7a !default;
+$bp-color-radio-border-disabled: #5e5a5c !default;
+$bp-color-radio-border-disabled-selected: #5e5a5c !default;
+$bp-color-radio-border-selected-active: #076ea8 !default;
+$bp-color-switch-background-default: #ffffff !default;
+$bp-color-switch-background-hover: #e6f5fd !default;
+$bp-color-switch-background-selected: #076ea8 !default;
+$bp-color-switch-background-selected-hover: #084f7a !default;
+$bp-color-switch-background-disabled: #dad9d9 !default;
+$bp-color-switch-background-disabled-selected: #5e5a5c !default;
+$bp-color-switch-icon-default: #090306 !default;
+$bp-color-switch-icon-selected: #ffffff !default;
+$bp-color-switch-icon-disabled: #5e5a5c !default;
+$bp-color-switch-border-default: #cdcccd !default;
+$bp-color-switch-border-selected: #076ea8 !default;
+$bp-color-switch-border-selected-hover: #084f7a !default;
+$bp-color-switch-border-disabled: #5e5a5c !default;
+$bp-color-table-background-header: #e5e5e5 !default;
+$bp-color-table-background-cell: #ffffff !default;
+$bp-color-table-border-default: #cdcccd !default;
+$bp-color-table-icons-default: #5e5a5c !default;
+$bp-color-table-icons-active: #076ea8 !default;
+$bp-color-badge-background-default: #f4fcfa !default;
+$bp-color-badge-background-disabled: #dad9d9 !default;
+$bp-color-badge-background-error: #c43837 !default;
+$bp-color-badge-background-warning: #b19014 !default;
+$bp-color-badge-background-admin: #090306 !default;
+$bp-color-badge-background-success: #028663 !default;
+$bp-color-badge-background-product-messaging: #00bf8c !default;
+$bp-color-badge-background-product-voice: #9a59c5 !default;
+$bp-color-badge-background-product-numbers: #652b51 !default;
+$bp-color-badge-text-default: #090306 !default;
+$bp-color-badge-text-disabled: #5e5a5c !default;
+$bp-color-badge-text-error: #ffffff !default;
+$bp-color-badge-text-warning: #ffffff !default;
+$bp-color-badge-text-success: #ffffff !default;
+$bp-color-badge-text-product-messagin: #072820 !default;
+$bp-color-badge-text-product-voice: #ffffff !default;
+$bp-color-badge-text-product-numbers: #ffffff !default;
+$bp-color-badge-text-admin: #ffffff !default;
+$bp-color-badge-border-default: #028663 !default;
+$bp-color-badge-border-error: #c43837 !default;
+$bp-color-badge-border-warning: #b19014 !default;
+$bp-color-badge-icon-admin: #ffffff !default;
+$bp-color-badge-icon-admin-background: #079cee !default;
+$bp-color-button-outlined-background-default: #ffffff !default;
+$bp-color-button-outlined-background-hover: #ffffff !default;
+$bp-color-button-outlined-background-active: #ffffff !default;
+$bp-color-button-outlined-background-disabled: #f2f2f2 !default;
+$bp-color-button-outlined-border-default: #076ea8 !default;
+$bp-color-button-outlined-border-hover: #075e91 !default;
+$bp-color-button-outlined-border-active: #084f7a !default;
+$bp-color-button-outlined-border-disabled: #dad9d9 !default;
+$bp-color-button-outlined-text-default: #076ea8 !default;
+$bp-color-button-outlined-text-hover: #075e91 !default;
+$bp-color-button-outlined-text-active: #084f7a !default;
+$bp-color-button-outlined-text-disabled: #5e5a5c !default;
+$bp-color-button-outlined-icon-default: #076ea8 !default;
+$bp-color-button-outlined-icon-hover: #075e91 !default;
+$bp-color-button-outlined-icon-active: #084f7a !default;
+$bp-color-button-outlined-icon-disabled: #5e5a5c !default;
+$bp-color-button-contained-background-default: #076ea8 !default;
+$bp-color-button-contained-background-hover: #075e91 !default;
+$bp-color-button-contained-background-active: #084f7a !default;
+$bp-color-button-contained-background-disabled: #dad9d9 !default;
+$bp-color-button-contained-border-default: #076ea8 !default;
+$bp-color-button-contained-border-hover: #075e91 !default;
+$bp-color-button-contained-border-active: #084f7a !default;
+$bp-color-button-contained-border-disabled: #dad9d9 !default;
+$bp-color-button-contained-text-default: #ffffff !default;
+$bp-color-button-contained-text-disabled: #5e5a5c !default;
+$bp-color-button-contained-icon-default: #ffffff !default;
+$bp-color-button-contained-icon-hover: #ffffff !default;
+$bp-color-button-contained-icon-active: #ffffff !default;
+$bp-color-button-contained-icon-disabled: #5e5a5c !default;
+$bp-color-button-text-default: #076ea8 !default;
+$bp-color-button-text-hover: #084f7a !default;
+$bp-color-button-text-active: #084f7a !default;
+$bp-color-button-text-disabled: #5e5a5c !default;
+$bp-color-button-text-background-hover: #e6f5fd !default;
+$bp-color-button-text-background-active: #e6f5fd !default;
+$bp-color-button-text-icon-default: #076ea8 !default;
+$bp-color-button-text-icon-hover: #084f7a !default;
+$bp-color-button-text-icon-active: #084f7a !default;
+$bp-color-button-text-icon-disabled: #5e5a5c !default;
+$bp-color-button-icon-background-default: #ffffff !default;
+$bp-color-button-icon-background-hover: #e6f5fd !default;
+$bp-color-button-icon-background-active: #e6f5fd !default;
+$bp-color-button-icon-background-disabled: #dad9d9 !default;
+$bp-color-button-icon-border-active: #084f7a !default;
+$bp-color-button-icon-icon-default: #076ea8 !default;
+$bp-color-button-icon-icon-hover: #084f7a !default;
+$bp-color-button-icon-icon-active: #084f7a !default;
+$bp-color-button-icon-icon-disabled: #5e5a5c !default;
+$bp-color-outline-focus: #079cee !default;
+$bp-color-alert-text-info: #084f7a !default;
+$bp-color-alert-text-success: #072820 !default;
+$bp-color-alert-text-warning: #392b0a !default;
+$bp-color-alert-text-error: #320e11 !default;
+$bp-color-alert-border-info: #076ea8 !default;
+$bp-color-alert-border-warning: #b19014 !default;
+$bp-color-alert-border-success: #028663 !default;
+$bp-color-alert-border-error: #c43837 !default;
+$bp-color-link-text-default: #076ea8 !default;
+$bp-color-link-text-hover: #076ea8 !default;
+$bp-color-link-text-active: #076ea8 !default;
+$bp-color-link-text-disabled: #5e5a5c !default;
+$bp-color-link-text-visited: #084f7a !default;
+$bp-color-link-background-hover: #e6f5fd !default;
+$bp-color-link-icon-default: #076ea8 !default;
+$bp-color-link-icon-visited: #084f7a !default;
+$bp-color-icon-default: #090306 !default;
+$bp-color-icon-primary: #076ea8 !default;
+$bp-color-icon-info: #076ea8 !default;
+$bp-color-icon-success: #028663 !default;
+$bp-color-icon-warning: #b19014 !default;
+$bp-color-icon-error: #c43837 !default;
+$bp-color-icon-disabled: #5e5a5c !default;
+$bp-color-icon-on-primary: #ffffff !default;
+$bp-color-tab-text-selected: #076ea8 !default;
+$bp-color-tab-border-selected: #076ea8 !default;
+$bp-color-tab-border-hover: #084f7a !default;
+$bp-color-tab-border-default: #cdcccd !default;
+$bp-color-tooltip-background: #ffffff !default;
+$bp-color-logo-mark: #076ea8 !default;
+$bp-color-logo-text: #076ea8 !default;
+$bp-color-logo-seperator: #076ea8 !default;
+$bp-color-text-placeholder: #777476 !default;
+$bp-color-text-default: #090306 !default;
+$bp-color-text-error: #c43837 !default;
+$bp-color-text-disabled: #5e5a5c !default;
+$bp-color-text-heading-h1: #076ea8 !default;
+$bp-color-text-heading-h2: #090306 !default;
+$bp-color-text-heading-h3: #090306 !default;
+$bp-color-text-heading-h4: #076ea8 !default;
+$bp-color-text-heading-h5: #090306 !default;
+$bp-color-text-heading-h6: #090306 !default;
+$bp-color-text-help-text: #777476 !default;
+$bp-color-admin-navigation-background-default: #090306 !default;
+$bp-color-admin-navigation-text-default: #ffffff !default;
+$bp-color-inline-radio-background-default: #ffffff !default;
+$bp-color-inline-radio-background-selected: #076ea8 !default;
+$bp-color-inline-radio-background-hover: #e6f5fd !default;
+$bp-color-inline-radio-border-default: #cdcccd !default;
+$bp-color-inline-radio-border-selected: #076ea8 !default;
+$bp-color-inline-radio-border-hover: #e6f5fd !default;
+$bp-color-inline-radio-text-default: #090306 !default;
+$bp-color-inline-radio-text-selected: #ffffff !default;
+$bp-color-inline-radio-text-help-text: #777476 !default;
+$bp-color-label-background-default: #ffffff !default;
+$bp-color-label-background-disabled: #dad9d9 !default;
+$bp-color-label-background-error: #ffffff !default;
+$bp-color-label-text-default: #090306 !default;
+$bp-color-label-text-required: #c43837 !default;
+$bp-color-label-text-disabled: #5e5a5c !default;
+$bp-color-label-text-error: #c43837 !default;
+$bp-color-status-dot-success: #028663 !default;
+$bp-color-status-dot-warning: #b19014 !default;
+$bp-color-status-dot-error: #c43837 !default;
+$bp-color-destructive-button-outlined-background-default: #ffffff !default;
+$bp-color-destructive-button-outlined-background-hover: #c43837 !default;
+$bp-color-destructive-button-outlined-background-active: #320e11 !default;
+$bp-color-destructive-button-outlined-background-disabled: #dad9d9 !default;
+$bp-color-destructive-button-outlined-border-default: #c43837 !default;
+$bp-color-destructive-button-outlined-border-hover: #c43837 !default;
+$bp-color-destructive-button-outlined-border-active: #c43837 !default;
+$bp-color-destructive-button-outlined-border-disabled: #5e5a5c !default;
+$bp-color-destructive-button-outlined-text-default: #c43837 !default;
+$bp-color-destructive-button-outlined-text-hover: #ffffff !default;
+$bp-color-destructive-button-outlined-text-active: #ffffff !default;
+$bp-color-destructive-button-outlined-text-disabled: #5e5a5c !default;
+$bp-color-destructive-button-outlined-icon-default: #c43837 !default;
+$bp-color-destructive-button-outlined-icon-hover: #ffffff !default;
+$bp-color-destructive-button-outlined-icon-active: #ffffff !default;
+$bp-color-destructive-button-outlined-icon-disabled: #5e5a5c !default;
+$bp-color-destructive-button-contained-background-default: #c43837 !default;
+$bp-color-destructive-button-contained-background-hover: #320e11 !default;
+$bp-color-destructive-button-contained-background-active: #320e11 !default;
+$bp-color-destructive-button-contained-background-disabled: #dad9d9 !default;
+$bp-color-destructive-button-contained-border-default: #c43837 !default;
+$bp-color-destructive-button-contained-border-hover: #320e11 !default;
+$bp-color-destructive-button-contained-border-active: #320e11 !default;
+$bp-color-destructive-button-contained-border-disabled: #dad9d9 !default;
+$bp-color-destructive-button-contained-text-default: #ffffff !default;
+$bp-color-destructive-button-contained-text-disabled: #5e5a5c !default;
+$bp-color-destructive-button-contained-icon-default: #ffffff !default;
+$bp-color-destructive-button-contained-icon-hover: #320e11 !default;
+$bp-color-destructive-button-contained-icon-active: #320e11 !default;
+$bp-color-destructive-button-contained-icon-disabled: #5e5a5c !default;
+$bp-color-destructive-button-text-default: #c43837 !default;
+$bp-color-destructive-button-text-hover: #320e11 !default;
+$bp-color-destructive-button-text-active: #320e11 !default;
+$bp-color-destructive-button-text-disabled: #5e5a5c !default;
+$bp-color-destructive-button-text-icon-default: #c43837 !default;
+$bp-color-destructive-button-text-icon-hover: #320e11 !default;
+$bp-color-destructive-button-text-icon-active: #320e11 !default;
+$bp-color-destructive-button-text-icon-disabled: #5e5a5c !default;
+$bp-color-destructive-button-text-background-hover: #fdf7f7 !default;
+$bp-color-destructive-button-text-background-active: #fdf7f7 !default;
+$bp-color-destructive-button-icon-background-default: #ffffff !default;
+$bp-color-destructive-button-icon-background-hover: #fdf7f7 !default;
+$bp-color-destructive-button-icon-background-active: #fdf7f7 !default;
+$bp-color-destructive-button-icon-background-disabled: #dad9d9 !default;
+$bp-color-destructive-button-icon-border-active: #320e11 !default;
+$bp-color-destructive-button-icon-icon-default: #c43837 !default;
+$bp-color-destructive-button-icon-icon-hover: #320e11 !default;
+$bp-color-destructive-button-icon-icon-active: #320e11 !default;
+$bp-color-destructive-button-icon-icon-disabled: #5e5a5c !default;
+$bp-color-drag-item-icon-default: #076ea8 !default;
+$bp-color-dropdown-option-background-default: #ffffff !default;
+$bp-color-dropdown-option-background-hover: #e6f5fd !default;
+$bp-color-dropdown-option-background-selected: #e6f5fd !default;
+$bp-color-card-background-default: #ffffff !default;
+$bp-color-checkbox-background-default: #ffffff !default;
+$bp-color-checkbox-background-hover: #e6f5fd !default;
+$bp-color-checkbox-background-selected: #076ea8 !default;
+$bp-color-checkbox-background-selected-hover: #084f7a !default;
+$bp-color-checkbox-background-disabled: #dad9d9 !default;
+$bp-color-checkbox-background-disabled-selected: #5e5a5c !default;
+$bp-color-checkbox-border-default: #cdcccd !default;
+$bp-color-checkbox-border-hover: #cdcccd !default;
+$bp-color-checkbox-border-selected: #076ea8 !default;
+$bp-color-checkbox-border-selected-hover: #084f7a !default;
+$bp-color-checkbox-border-error: #c43837 !default;
+$bp-color-checkbox-border-disabled: #5e5a5c !default;
+$bp-color-checkbox-icon-default: #076ea8 !default;
+$bp-color-checkbox-icon-hover: #076ea8 !default;
+$bp-color-checkbox-icon-selected: #ffffff !default;
+$bp-color-checkbox-icon-active: #076ea8 !default;
+$bp-color-checkbox-icon-disabled: #5e5a5c !default;
+$bp-color-checkbox-icon-disabled-selected: #dad9d9 !default;
+$bp-color-list-item-background-default: #ffffff !default;
+$bp-color-list-item-background-hover: #e6f5fd !default;
+$bp-color-list-item-background-selected: #e6f5fd !default;
+$bp-color-list-item-background-disabled: #dad9d9 !default;
+$bp-color-list-item-border-default: #cdcccd !default;
+$bp-color-list-item-border-selected: #079cee !default;
+$bp-color-list-item-text-default: #090306 !default;
+$bp-color-text-field-background-default: #ffffff !default;
+$bp-color-text-field-background-hover: #ffffff !default;
+$bp-color-text-field-background-selected: #076ea8 !default;
+$bp-color-text-field-background-disabled: #dad9d9 !default;
+$bp-color-text-field-background-disabled-selected: #5e5a5c !default;
+$bp-color-text-field-icon-default: #777476 !default;
+$bp-color-text-field-icon-disabled: #5e5a5c !default;
+$bp-color-text-field-border-default: #cdcccd !default;
+$bp-color-text-field-border-hover: #cdcccd !default;
+$bp-color-text-field-border-selected: #076ea8 !default;
+$bp-color-text-field-border-error: #c43837 !default;
+$bp-color-text-field-border-disabled: #5e5a5c !default;
+$bp-color-text-field-text-placeholder: #777476 !default;
+$bp-color-text-field-text-input: #090306 !default;
+$bp-color-text-field-text-requried: #c43837 !default;
+$bp-color-select-background-default: #ffffff !default;
+$bp-color-select-background-hover: #ffffff !default;
+$bp-color-select-background-selected: #ffffff !default;
+$bp-color-select-background-disabled: #dad9d9 !default;
+$bp-color-select-background-error: #ffffff !default;
+$bp-color-select-border-default: #cdcccd !default;
+$bp-color-select-border-hover: #848182 !default;
+$bp-color-select-border-selected: #848182 !default;
+$bp-color-select-border-error: #c43837 !default;
+$bp-color-select-border-disabled: #5e5a5c !default;
+$bp-color-select-border-selected-variant: #e6f5fd !default;
+$bp-color-select-icon-default: #777476 !default;
+$bp-color-select-icon-disabled: #5e5a5c !default;
+$bp-color-select-option-background-default: #ffffff !default;
+$bp-color-select-option-background-hover: #e6f5fd !default;
+$bp-color-select-option-background-selected: #e6f5fd !default;
+$bp-color-multi-select-option-background-default: #ffffff !default;
+$bp-color-multi-select-option-border-selected: #cdcccd !default;
+$bp-color-file-upload-background-default: #ffffff !default;
+$bp-color-file-upload-background-hover: #ffffff !default;
+$bp-color-file-upload-background-selected: #076ea8 !default;
+$bp-color-file-upload-background-disabled: #dad9d9 !default;
+$bp-color-file-upload-background-disabled-selected: #5e5a5c !default;
+$bp-color-file-upload-icon-default: #777476 !default;
+$bp-color-file-upload-icon-disabled: #5e5a5c !default;
+$bp-color-file-upload-border-default: #cdcccd !default;
+$bp-color-file-upload-border-hover: #cdcccd !default;
+$bp-color-file-upload-border-selected: #848182 !default;
+$bp-color-file-upload-border-error: #c43837 !default;
+$bp-color-file-upload-border-disabled: #5e5a5c !default;
+$bp-color-file-upload-text-placeholder: #777476 !default;
+$bp-color-file-upload-text-input: #090306 !default;
+$bp-color-file-upload-text-requried: #c43837 !default;
+$bp-typography-heading-h1-font-family: Overpass !default;
+$bp-typography-heading-h1-font-weight: 300 !default;
+$bp-typography-heading-h1-line-height: 2.5rem !default;
+$bp-typography-heading-h1-font-size: 2.25rem !default;
+$bp-typography-heading-h1-letter-spacing: 0% !default;
+$bp-typography-heading-h1-paragraph-spacing: 0 !default;
+$bp-typography-heading-h1-text-case: none !default;
+$bp-typography-heading-h1-text-decoration: none !default;
+$bp-typography-heading-h2-font-family: Overpass !default;
+$bp-typography-heading-h2-font-weight: 700 !default;
+$bp-typography-heading-h2-line-height: 2rem !default;
+$bp-typography-heading-h2-font-size: 1.75rem !default;
+$bp-typography-heading-h2-letter-spacing: 0% !default;
+$bp-typography-heading-h2-paragraph-spacing: 0 !default;
+$bp-typography-heading-h2-text-case: none !default;
+$bp-typography-heading-h2-text-decoration: none !default;
+$bp-typography-heading-h3-font-family: Overpass !default;
+$bp-typography-heading-h3-font-weight: 400 !default;
+$bp-typography-heading-h3-line-height: 1.75rem !default;
+$bp-typography-heading-h3-font-size: 1.5rem !default;
+$bp-typography-heading-h3-letter-spacing: 0% !default;
+$bp-typography-heading-h3-paragraph-spacing: 0 !default;
+$bp-typography-heading-h3-text-case: none !default;
+$bp-typography-heading-h3-text-decoration: none !default;
+$bp-typography-heading-h4-font-family: Overpass !default;
+$bp-typography-heading-h4-font-weight: 900 !default;
+$bp-typography-heading-h4-line-height: 1.3125rem !default;
+$bp-typography-heading-h4-font-size: 1.125rem !default;
+$bp-typography-heading-h4-letter-spacing: 1.75 !default;
+$bp-typography-heading-h4-paragraph-spacing: 0 !default;
+$bp-typography-heading-h4-text-case: uppercase !default;
+$bp-typography-heading-h4-text-decoration: none !default;
+$bp-typography-heading-h5-font-family: Overpass !default;
+$bp-typography-heading-h5-font-weight: 800 !default;
+$bp-typography-heading-h5-line-height: 1.3125rem !default;
+$bp-typography-heading-h5-font-size: 1rem !default;
+$bp-typography-heading-h5-letter-spacing: 0% !default;
+$bp-typography-heading-h5-paragraph-spacing: 0 !default;
+$bp-typography-heading-h5-text-case: none !default;
+$bp-typography-heading-h5-text-decoration: none !default;
+$bp-typography-heading-h6-font-family: Overpass !default;
+$bp-typography-heading-h6-font-weight: 600 !default;
+$bp-typography-heading-h6-line-height: 1.3125rem !default;
+$bp-typography-heading-h6-font-size: 0.875rem !default;
+$bp-typography-heading-h6-letter-spacing: 0% !default;
+$bp-typography-heading-h6-paragraph-spacing: 0 !default;
+$bp-typography-heading-h6-text-case: none !default;
+$bp-typography-heading-h6-text-decoration: none !default;
+$bp-typography-label-large-font-family: Overpass !default;
+$bp-typography-label-large-font-weight: 700 !default;
+$bp-typography-label-large-line-height: 1.25rem !default;
+$bp-typography-label-large-font-size: 0.875rem !default;
+$bp-typography-label-large-letter-spacing: 0% !default;
+$bp-typography-label-large-paragraph-spacing: 0 !default;
+$bp-typography-label-large-text-case: Title Case !default;
+$bp-typography-label-large-text-decoration: none !default;
+$bp-typography-label-tab-font-family: Overpass !default;
+$bp-typography-label-tab-font-weight: 700 !default;
+$bp-typography-label-tab-line-height: 1.25rem !default;
+$bp-typography-label-tab-font-size: 0.875rem !default;
+$bp-typography-label-tab-letter-spacing: 0% !default;
+$bp-typography-label-tab-paragraph-spacing: 0 !default;
+$bp-typography-label-tab-text-case: uppercase !default;
+$bp-typography-label-tab-text-decoration: none !default;
+$bp-typography-label-table-heading-font-family: Overpass !default;
+$bp-typography-label-table-heading-font-weight: 800 !default;
+$bp-typography-label-table-heading-line-height: 1.5rem !default;
+$bp-typography-label-table-heading-font-size: 0.875rem !default;
+$bp-typography-label-table-heading-letter-spacing: 0% !default;
+$bp-typography-label-table-heading-paragraph-spacing: 0 !default;
+$bp-typography-label-table-heading-text-decoration: none !default;
+$bp-typography-label-table-heading-text-case: none !default;
+$bp-typography-label-form-label-font-family: Overpass !default;
+$bp-typography-label-form-label-font-weight: 700 !default;
+$bp-typography-label-form-label-line-height: 1.25rem !default;
+$bp-typography-label-form-label-font-size: 0.875rem !default;
+$bp-typography-label-form-label-letter-spacing: 0% !default;
+$bp-typography-label-form-label-paragraph-spacing: 0 !default;
+$bp-typography-label-form-label-text-decoration: none !default;
+$bp-typography-label-form-label-text-case: none !default;
+$bp-typography-label-input-label-font-family: Overpass !default;
+$bp-typography-label-input-label-font-weight: 400 !default;
+$bp-typography-label-input-label-line-height: 1.3125rem !default;
+$bp-typography-label-input-label-font-size: 0.875rem !default;
+$bp-typography-label-input-label-letter-spacing: 0% !default;
+$bp-typography-label-input-label-paragraph-spacing: 0 !default;
+$bp-typography-label-input-label-text-decoration: none !default;
+$bp-typography-label-input-label-text-case: none !default;
+$bp-typography-body-default-font-family: Overpass !default;
+$bp-typography-body-default-font-weight: 400 !default;
+$bp-typography-body-default-line-height: 1.3125rem !default;
+$bp-typography-body-default-font-size: 0.875rem !default;
+$bp-typography-body-default-letter-spacing: 0% !default;
+$bp-typography-body-default-paragraph-spacing: 0 !default;
+$bp-typography-body-default-text-case: none !default;
+$bp-typography-body-default-text-decoration: none !default;
+$bp-typography-body-help-text-font-family: Overpass !default;
+$bp-typography-body-help-text-font-weight: Italic !default;
+$bp-typography-body-help-text-line-height: 1.25rem !default;
+$bp-typography-body-help-text-font-size: 0.875rem !default;
+$bp-typography-body-help-text-letter-spacing: 0% !default;
+$bp-typography-body-help-text-paragraph-spacing: 0 !default;
+$bp-typography-body-help-text-text-case: none !default;
+$bp-typography-body-help-text-text-decoration: none !default;
+$bp-typography-body-link-font-family: Overpass !default;
+$bp-typography-body-link-font-weight: 400 !default;
+$bp-typography-body-link-line-height: 1rem !default;
+$bp-typography-body-link-font-size: 0.875rem !default;
+$bp-typography-body-link-letter-spacing: 0% !default;
+$bp-typography-body-link-paragraph-spacing: 0 !default;
+$bp-typography-body-link-text-case: none !default;
+$bp-typography-body-link-text-decoration: UNDERLINE !default;
+$bp-typography-body-small-font-family: Overpass !default;
+$bp-typography-body-small-font-weight: 400 !default;
+$bp-typography-body-small-line-height: 1rem !default;
+$bp-typography-body-small-font-size: 0.75rem !default;
+$bp-typography-body-small-letter-spacing: 0% !default;
+$bp-typography-body-small-paragraph-spacing: 0 !default;
+$bp-typography-body-small-text-decoration: none !default;
+$bp-typography-body-small-text-case: none !default;
+$bp-typography-navigation-primary-font-family: Overpass !default;
+$bp-typography-navigation-primary-font-weight: 600 !default;
+$bp-typography-navigation-primary-line-height: 1.5rem !default;
+$bp-typography-navigation-primary-font-size: 0.875rem !default;
+$bp-typography-navigation-primary-letter-spacing: 0% !default;
+$bp-typography-navigation-primary-paragraph-spacing: 0 !default;
+$bp-typography-navigation-primary-text-case: none !default;
+$bp-typography-navigation-primary-text-decoration: none !default;
+$bp-typography-navigation-secondary-font-family: Overpass !default;
+$bp-typography-navigation-secondary-font-weight: 400 !default;
+$bp-typography-navigation-secondary-line-height: 1.25rem !default;
+$bp-typography-navigation-secondary-font-size: 0.875rem !default;
+$bp-typography-navigation-secondary-letter-spacing: 0% !default;
+$bp-typography-navigation-secondary-paragraph-spacing: 0 !default;
+$bp-typography-navigation-secondary-text-case: none !default;
+$bp-typography-navigation-secondary-text-decoration: none !default;
+$bp-typography-navigation-copyright-font-family: Overpass !default;
+$bp-typography-navigation-copyright-font-weight: 400 !default;
+$bp-typography-navigation-copyright-line-height: AUTO !default;
+$bp-typography-navigation-copyright-font-size: 0.75rem !default;
+$bp-typography-navigation-copyright-letter-spacing: 0% !default;
+$bp-typography-navigation-copyright-paragraph-spacing: 0 !default;
+$bp-typography-navigation-copyright-text-case: none !default;
+$bp-typography-navigation-copyright-text-decoration: none !default;
+$bp-typography-utility-chip-font-family: Overpass !default;
+$bp-typography-utility-chip-font-weight: 700 !default;
+$bp-typography-utility-chip-line-height: 0.75rem !default;
+$bp-typography-utility-chip-font-size: 0.75rem !default;
+$bp-typography-utility-chip-letter-spacing: 0% !default;
+$bp-typography-utility-chip-paragraph-spacing: 0 !default;
+$bp-typography-utility-chip-text-decoration: none !default;
+$bp-typography-utility-chip-text-case: uppercase !default;
+$bp-typography-utility-button-font-family: Overpass !default;
+$bp-typography-utility-button-font-weight: 600 !default;
+$bp-typography-utility-button-line-height: 1rem !default;
+$bp-typography-utility-button-font-size: 0.875rem !default;
+$bp-typography-utility-button-letter-spacing: 0% !default;
+$bp-typography-utility-button-paragraph-spacing: 0 !default;
+$bp-typography-utility-button-text-decoration: none !default;
+$bp-typography-utility-button-text-case: uppercase !default;
+$bp-typography-utility-accordion-font-family: Overpass !default;
+$bp-typography-utility-accordion-font-weight: 700 !default;
+$bp-typography-utility-accordion-line-height: 0.75rem !default;
+$bp-typography-utility-accordion-font-size: 0.75rem !default;
+$bp-typography-utility-accordion-letter-spacing: 0% !default;
+$bp-typography-utility-accordion-paragraph-spacing: 0 !default;
+$bp-typography-utility-accordion-text-decoration: none !default;
+$bp-typography-utility-accordion-text-case: uppercase !default;
+$bp-typography-utility-badge-font-family: Overpass !default;
+$bp-typography-utility-badge-font-weight: 700 !default;
+$bp-typography-utility-badge-line-height: 0.75rem !default;
+$bp-typography-utility-badge-font-size: 0.75rem !default;
+$bp-typography-utility-badge-letter-spacing: 0% !default;
+$bp-typography-utility-badge-paragraph-spacing: 0 !default;
+$bp-typography-utility-badge-text-decoration: none !default;
+$bp-typography-utility-badge-text-case: uppercase !default;
+$bp-typography-utility-inline-radio-font-family: Overpass !default;
+$bp-typography-utility-inline-radio-font-weight: 300 !default;
+$bp-typography-utility-inline-radio-line-height: 1.25rem !default;
+$bp-typography-utility-inline-radio-font-size: 1rem !default;
+$bp-typography-utility-inline-radio-letter-spacing: 0% !default;
+$bp-typography-utility-inline-radio-paragraph-spacing: 0 !default;
+$bp-typography-utility-inline-radio-text-decoration: none !default;
+$bp-typography-utility-inline-radio-text-case: none !default;
+$bp-border-radius-navigation: 0.5rem !default;
+$bp-border-radius-dropdown: 0.25rem !default;
+$bp-border-radius-inline-radio: 0.875rem !default;
+$bp-border-radius-inline-radio-large: 0.375rem !default;
+$bp-border-radius-link: 2rem !default;
+$bp-border-radius-label: 2rem !default;
+$bp-border-radius-input: 0.25rem !default;
+$bp-border-radius-select: 0.25rem !default;
+$bp-border-radius-text-field: 0.25rem !default;
+$bp-border-radius-status-dot: 2rem !default;
+$bp-border-radius-slim-navigation: 2rem !default;
+$bp-border-radius-badge: 0.25rem !default;
+$bp-border-radius-button: 2rem !default;
+$bp-border-radius-accordion: 0 !default;
+$bp-border-radius-card: 0.25rem !default;
+$bp-border-radius-checkbox: 0.25rem !default;
+$bp-border-radius-table: 0.25rem !default;
+$bp-border-radius-multi-select-item: 0.25rem !default;
+$bp-outline-width-focus: 0.125rem !default;
+$bp-outline-width-input-focus: 0.125rem !default;
+$bp-border-width-active: 0.125rem !default;
+$bp-border-width-navigation-seperator: 0.0625rem !default;
+$bp-border-width-input-default: 0.125rem !default;
+$bp-border-width-input-active: 0.25rem !default;
+$bp-border-width-dropdown-default: 0.125rem !default;
+$bp-border-width-dropdown-active: 0.25rem !default;
+$bp-border-width-button: 0.125rem !default;
+$bp-border-width-navigation: 0.125rem !default;
+$bp-border-width-table: 0.0625rem !default;
+$bp-border-width-text-field-default: 0.125rem !default;
+$bp-border-width-text-field-active: 0.25rem !default;
+$bp-border-width-select-default: 0.125rem !default;
+$bp-border-width-select-active: 0.25rem !default;
+$bp-shadow-navigation-secondary-old-hover: 0 2 3 -2 #00000035 !default;
+$bp-shadow-navigation-secondary-hover: 0px 1px 5px 0px #00000033, 0px 3px 1px 0px #0000001f, 0px 2px 2px 0px #00000024 !default;
+$bp-shadow-navigation-header: 0 0 10 0 #0000000d, 0 1 1 0 #0000001a !default;
+$bp-shadow-card-default: 0px 1px 1px 0px #00000024, 0px 2px 1px 0px #0000001f, 0px 1px 3px 0px #00000033 !default;
+$bp-shadow-focus: 0 0 0 2 #079cee !default;
+$bp-shadow-focus-visible: 0 0 0 2 #079cee !default;
+$bp-shadow-table-scroll-left: 5 0 10 0 #00000024 !default;
+$bp-shadow-table-scroll-right: -5 0 10 0 #00000024 !default;
+$bp-spacing-none: 0 !default;
+$bp-spacing-xxxx-sm: 0.125rem !default;
+$bp-spacing-xxx-sm: 0.25rem !default;
+$bp-spacing-xx-sm: 0.5rem !default;
+$bp-spacing-x-sm: 0.75rem !default;
+$bp-spacing-sm: 1rem !default;
+$bp-spacing-med: 1.5rem !default;
+$bp-spacing-lg: 2rem !default;
+$bp-spacing-x-lg: 4rem !default;
+$bp-elevation-12: 0px 7px 8px 0px #00000033, 0px 5px 22px 0px #0000001f, 0px 12px 17px 0px #00000024 !default;
+$bp-elevation-16: 0px 8px 10px 0px #00000033, 0px 6px 30px 0px #0000001f, 0px 16px 24px 0px #00000024 !default;
+$bp-elevation-24: 0px 24px 38px 0px #00000024, 0px 9px 46px 0px #0000001f, 0px 11px 15px 0px #00000033 !default;
+$bp-elevation-01: 0px 1px 1px 0px #00000024, 0px 2px 1px 0px #0000001f, 0px 1px 3px 0px #00000033 !default;
+$bp-elevation-02: 0px 1px 5px 0px #00000033, 0px 3px 1px 0px #0000001f, 0px 2px 2px 0px #00000024 !default;
+$bp-elevation-03: 0px 1px 8px 0px #00000033, 0px 3px 3px 0px #0000001f, 0px 3px 4px 0px #00000024 !default;
+$bp-elevation-04: 0px 2px 4px 0px #00000033, 0px 1px 10px 0px #0000001f, 0px 4px 5px 0px #00000024 !default;
+$bp-elevation-06: 0px 3px 5px 0px #00000033, 0px 1px 18px 0px #0000001f, 0px 6px 10px 0px #00000024 !default;
+$bp-elevation-08: 0px 5px 5px 0px #00000033, 0px 3px 14px 0px #0000001f, 0px 8px 10px 0px #00000024 !default;
+$bp-elevation-09: 0px 5px 6px 0px #00000033, 0px 3px 16px 0px #0000001f, 0px 9px 12px 0px #00000024 !default;
+$bp-border-table: [object Object] !default;
+
+$tokens: (
+  'bp': (
+    'sys': (
+      'color': (
+        'primary': (
+          'main': $bp-sys-color-primary-main,
+          'onMain': $bp-sys-color-primary-on-main,
+          'container': $bp-sys-color-primary-container,
+          'containerVariant': $bp-sys-color-primary-container-variant,
+          'onContainer': $bp-sys-color-primary-on-container
+        ),
+        'secondary': (
+          'main': $bp-sys-color-secondary-main,
+          'onMain': $bp-sys-color-secondary-on-main,
+          'container': $bp-sys-color-secondary-container,
+          'containerVariant': $bp-sys-color-secondary-container-variant,
+          'onContainer': $bp-sys-color-secondary-on-container
+        ),
+        'tertiary': (
+          'main': $bp-sys-color-tertiary-main,
+          'onMain': $bp-sys-color-tertiary-on-main,
+          'container': $bp-sys-color-tertiary-container,
+          'containerVariant': $bp-sys-color-tertiary-container-variant,
+          'onContainer': $bp-sys-color-tertiary-on-container
+        ),
+        'error': (
+          'main': $bp-sys-color-error-main,
+          'onMain': $bp-sys-color-error-on-main,
+          'container': $bp-sys-color-error-container,
+          'containerVariant': $bp-sys-color-error-container-variant,
+          'onContainer': $bp-sys-color-error-on-container
+        ),
+        'warning': (
+          'main': $bp-sys-color-warning-main,
+          'onMain': $bp-sys-color-warning-on-main,
+          'container': $bp-sys-color-warning-container,
+          'containerVariant': $bp-sys-color-warning-container-variant,
+          'onContainer': $bp-sys-color-warning-on-container
+        ),
+        'success': (
+          'main': $bp-sys-color-success-main,
+          'onMain': $bp-sys-color-success-on-main,
+          'container': $bp-sys-color-success-container,
+          'containerVariant': $bp-sys-color-success-container-variant,
+          'onContainer': $bp-sys-color-success-on-container
+        ),
+        'surface': (
+          'main': $bp-sys-color-surface-main,
+          'onMain': $bp-sys-color-surface-on-main,
+          'variant': $bp-sys-color-surface-variant,
+          'onVariant': $bp-sys-color-surface-on-variant
+        ),
+        'background': (
+          'main': $bp-sys-color-background-main,
+          'onMain': $bp-sys-color-background-on-main,
+          'variant': $bp-sys-color-background-variant
+        ),
+        'outline': (
+          'main': $bp-sys-color-outline-main,
+          'variant': $bp-sys-color-outline-variant,
+          'primary': $bp-sys-color-outline-primary,
+          'warning': $bp-sys-color-outline-warning,
+          'error': $bp-sys-color-outline-error,
+          'success': $bp-sys-color-outline-success,
+          'seperator': $bp-sys-color-outline-seperator
+        ),
+        'disabled': (
+          'main': $bp-sys-color-disabled-main,
+          'onMain': $bp-sys-color-disabled-on-main
+        )
+      ),
+      'm01': $bp-sys-m01,
+      'm02': $bp-sys-m02,
+      'm03': $bp-sys-m03,
+      'm04': $bp-sys-m04,
+      'm06': $bp-sys-m06,
+      'm08': $bp-sys-m08,
+      'm09': $bp-sys-m09,
+      'm12': $bp-sys-m12,
+      'm16': $bp-sys-m16,
+      'm24': $bp-sys-m24
+    ),
+    'color': (
+      'background': (
+        'primary': $bp-color-background-primary,
+        'disabled': $bp-color-background-disabled,
+        'success': $bp-color-background-success,
+        'warning': $bp-color-background-warning,
+        'info': $bp-color-background-info,
+        'error': $bp-color-background-error
+      ),
+      'accordion': (
+        'background': (
+          'default': $bp-color-accordion-background-default,
+          'features': $bp-color-accordion-background-features
+        ),
+        'border': (
+          'default': $bp-color-accordion-border-default
+        )
+      ),
+      'surface': (
+        'primary': $bp-color-surface-primary,
+        'secondary': $bp-color-surface-secondary
+      ),
+      'navigation': (
+        'background': (
+          'default': $bp-color-navigation-background-default,
+          'hover': $bp-color-navigation-background-hover,
+          'active': $bp-color-navigation-background-active,
+          'selected': $bp-color-navigation-background-selected,
+          'emergency': $bp-color-navigation-background-emergency,
+          'slim': (
+            'default': $bp-color-navigation-background-slim-default,
+            'hover': $bp-color-navigation-background-slim-hover,
+            'active': $bp-color-navigation-background-slim-active,
+            'selected': $bp-color-navigation-background-slim-selected,
+            'emergency': $bp-color-navigation-background-slim-emergency
+          )
+        ),
+        'icon': (
+          'default': $bp-color-navigation-icon-default,
+          'hover': $bp-color-navigation-icon-hover,
+          'active': $bp-color-navigation-icon-active,
+          'selected': $bp-color-navigation-icon-selected,
+          'slim': (
+            'default': $bp-color-navigation-icon-slim-default,
+            'hover': $bp-color-navigation-icon-slim-hover,
+            'active': $bp-color-navigation-icon-slim-active,
+            'selected': $bp-color-navigation-icon-slim-selected
+          )
+        ),
+        'text': (
+          'default': $bp-color-navigation-text-default,
+          'hover': $bp-color-navigation-text-hover,
+          'active': $bp-color-navigation-text-active
+        ),
+        'border': (
+          'active': $bp-color-navigation-border-active,
+          'default': $bp-color-navigation-border-default
+        )
+      ),
+      'secondary-navigation': (
+        'background': (
+          'default': $bp-color-secondary-navigation-background-default,
+          'hover': $bp-color-secondary-navigation-background-hover,
+          'active': $bp-color-secondary-navigation-background-active,
+          'selected': $bp-color-secondary-navigation-background-selected
+        ),
+        'text': (
+          'default': $bp-color-secondary-navigation-text-default,
+          'selected': $bp-color-secondary-navigation-text-selected,
+          'active': $bp-color-secondary-navigation-text-active
+        ),
+        'border': (
+          'active': $bp-color-secondary-navigation-border-active
+        )
+      ),
+      'input': (
+        'background': (
+          'default': $bp-color-input-background-default,
+          'hover': $bp-color-input-background-hover,
+          'selected': $bp-color-input-background-selected,
+          'disabled': $bp-color-input-background-disabled,
+          'disabled-selected': $bp-color-input-background-disabled-selected
+        ),
+        'icon': (
+          'default': $bp-color-input-icon-default,
+          'disabled': $bp-color-input-icon-disabled
+        ),
+        'border': (
+          'default': $bp-color-input-border-default,
+          'hover': $bp-color-input-border-hover,
+          'selected': $bp-color-input-border-selected,
+          'error': $bp-color-input-border-error,
+          'disabled': $bp-color-input-border-disabled
+        ),
+        'text': (
+          'placeholder': $bp-color-input-text-placeholder,
+          'input': $bp-color-input-text-input,
+          'requried': $bp-color-input-text-requried
+        )
+      ),
+      'dropdown': (
+        'background': (
+          'default': $bp-color-dropdown-background-default,
+          'hover': $bp-color-dropdown-background-hover,
+          'selected': $bp-color-dropdown-background-selected,
+          'disabled': $bp-color-dropdown-background-disabled,
+          'error': $bp-color-dropdown-background-error
+        ),
+        'border': (
+          'default': $bp-color-dropdown-border-default,
+          'hover': $bp-color-dropdown-border-hover,
+          'selected': $bp-color-dropdown-border-selected,
+          'error': $bp-color-dropdown-border-error,
+          'disabled': $bp-color-dropdown-border-disabled,
+          'selected-variant': $bp-color-dropdown-border-selected-variant
+        ),
+        'icon': (
+          'default': $bp-color-dropdown-icon-default,
+          'disabled': $bp-color-dropdown-icon-disabled
+        )
+      ),
+      'chip': (
+        'background': (
+          'default': $bp-color-chip-background-default,
+          'enabled': $bp-color-chip-background-enabled,
+          'error': $bp-color-chip-background-error,
+          'pending': $bp-color-chip-background-pending,
+          'messaging': $bp-color-chip-background-messaging,
+          'voice': $bp-color-chip-background-voice,
+          'disabled': $bp-color-chip-background-disabled,
+          'numbers': $bp-color-chip-background-numbers
+        ),
+        'text': (
+          'default': $bp-color-chip-text-default,
+          'enabled': $bp-color-chip-text-enabled,
+          'error': $bp-color-chip-text-error,
+          'pending': $bp-color-chip-text-pending,
+          'messaging': $bp-color-chip-text-messaging,
+          'voice': $bp-color-chip-text-voice,
+          'disabled': $bp-color-chip-text-disabled,
+          'numbers': $bp-color-chip-text-numbers
+        )
+      ),
+      'modal': (
+        'background': (
+          'header': $bp-color-modal-background-header,
+          'footer': $bp-color-modal-background-footer
+        )
+      ),
+      'radio': (
+        'background': (
+          'default': $bp-color-radio-background-default,
+          'hover': $bp-color-radio-background-hover,
+          'active': $bp-color-radio-background-active,
+          'selected': $bp-color-radio-background-selected,
+          'selected-hover': $bp-color-radio-background-selected-hover,
+          'disabled': $bp-color-radio-background-disabled,
+          'disabled-selected': $bp-color-radio-background-disabled-selected,
+          'selected-active': $bp-color-radio-background-selected-active
+        ),
+        'border': (
+          'default': $bp-color-radio-border-default,
+          'hover': $bp-color-radio-border-hover,
+          'active': $bp-color-radio-border-active,
+          'selected': $bp-color-radio-border-selected,
+          'selected-hover': $bp-color-radio-border-selected-hover,
+          'disabled': $bp-color-radio-border-disabled,
+          'disabled-selected': $bp-color-radio-border-disabled-selected,
+          'selected-active': $bp-color-radio-border-selected-active
+        )
+      ),
+      'switch': (
+        'background': (
+          'default': $bp-color-switch-background-default,
+          'hover': $bp-color-switch-background-hover,
+          'selected': $bp-color-switch-background-selected,
+          'selected-hover': $bp-color-switch-background-selected-hover,
+          'disabled': $bp-color-switch-background-disabled,
+          'disabled-selected': $bp-color-switch-background-disabled-selected
+        ),
+        'icon': (
+          'default': $bp-color-switch-icon-default,
+          'selected': $bp-color-switch-icon-selected,
+          'disabled': $bp-color-switch-icon-disabled
+        ),
+        'border': (
+          'default': $bp-color-switch-border-default,
+          'selected': $bp-color-switch-border-selected,
+          'selected-hover': $bp-color-switch-border-selected-hover,
+          'disabled': $bp-color-switch-border-disabled
+        )
+      ),
+      'table': (
+        'background': (
+          'header': $bp-color-table-background-header,
+          'cell': $bp-color-table-background-cell
+        ),
+        'border': (
+          'default': $bp-color-table-border-default
+        ),
+        'icons': (
+          'default': $bp-color-table-icons-default,
+          'active': $bp-color-table-icons-active
+        )
+      ),
+      'badge': (
+        'background': (
+          'default': $bp-color-badge-background-default,
+          'disabled': $bp-color-badge-background-disabled,
+          'error': $bp-color-badge-background-error,
+          'warning': $bp-color-badge-background-warning,
+          'admin': $bp-color-badge-background-admin,
+          'success': $bp-color-badge-background-success,
+          'product': (
+            'messaging': $bp-color-badge-background-product-messaging,
+            'voice': $bp-color-badge-background-product-voice,
+            'numbers': $bp-color-badge-background-product-numbers
+          )
+        ),
+        'text': (
+          'default': $bp-color-badge-text-default,
+          'disabled': $bp-color-badge-text-disabled,
+          'error': $bp-color-badge-text-error,
+          'warning': $bp-color-badge-text-warning,
+          'success': $bp-color-badge-text-success,
+          'product': (
+            'messagin': $bp-color-badge-text-product-messagin,
+            'voice': $bp-color-badge-text-product-voice,
+            'numbers': $bp-color-badge-text-product-numbers
+          ),
+          'admin': $bp-color-badge-text-admin
+        ),
+        'border': (
+          'default': $bp-color-badge-border-default,
+          'error': $bp-color-badge-border-error,
+          'warning': $bp-color-badge-border-warning
+        ),
+        'icon': (
+          'admin': $bp-color-badge-icon-admin,
+          'admin-background': $bp-color-badge-icon-admin-background
+        )
+      ),
+      'button': (
+        'outlined': (
+          'background': (
+            'default': $bp-color-button-outlined-background-default,
+            'hover': $bp-color-button-outlined-background-hover,
+            'active': $bp-color-button-outlined-background-active,
+            'disabled': $bp-color-button-outlined-background-disabled
+          ),
+          'border': (
+            'default': $bp-color-button-outlined-border-default,
+            'hover': $bp-color-button-outlined-border-hover,
+            'active': $bp-color-button-outlined-border-active,
+            'disabled': $bp-color-button-outlined-border-disabled
+          ),
+          'text': (
+            'default': $bp-color-button-outlined-text-default,
+            'hover': $bp-color-button-outlined-text-hover,
+            'active': $bp-color-button-outlined-text-active,
+            'disabled': $bp-color-button-outlined-text-disabled
+          ),
+          'icon': (
+            'default': $bp-color-button-outlined-icon-default,
+            'hover': $bp-color-button-outlined-icon-hover,
+            'active': $bp-color-button-outlined-icon-active,
+            'disabled': $bp-color-button-outlined-icon-disabled
+          )
+        ),
+        'contained': (
+          'background': (
+            'default': $bp-color-button-contained-background-default,
+            'hover': $bp-color-button-contained-background-hover,
+            'active': $bp-color-button-contained-background-active,
+            'disabled': $bp-color-button-contained-background-disabled
+          ),
+          'border': (
+            'default': $bp-color-button-contained-border-default,
+            'hover': $bp-color-button-contained-border-hover,
+            'active': $bp-color-button-contained-border-active,
+            'disabled': $bp-color-button-contained-border-disabled
+          ),
+          'text': (
+            'default': $bp-color-button-contained-text-default,
+            'disabled': $bp-color-button-contained-text-disabled
+          ),
+          'icon': (
+            'default': $bp-color-button-contained-icon-default,
+            'hover': $bp-color-button-contained-icon-hover,
+            'active': $bp-color-button-contained-icon-active,
+            'disabled': $bp-color-button-contained-icon-disabled
+          )
+        ),
+        'text': (
+          'default': $bp-color-button-text-default,
+          'hover': $bp-color-button-text-hover,
+          'active': $bp-color-button-text-active,
+          'disabled': $bp-color-button-text-disabled,
+          'background': (
+            'hover': $bp-color-button-text-background-hover,
+            'active': $bp-color-button-text-background-active
+          ),
+          'icon': (
+            'default': $bp-color-button-text-icon-default,
+            'hover': $bp-color-button-text-icon-hover,
+            'active': $bp-color-button-text-icon-active,
+            'disabled': $bp-color-button-text-icon-disabled
+          )
+        ),
+        'icon': (
+          'background': (
+            'default': $bp-color-button-icon-background-default,
+            'hover': $bp-color-button-icon-background-hover,
+            'active': $bp-color-button-icon-background-active,
+            'disabled': $bp-color-button-icon-background-disabled
+          ),
+          'border': (
+            'active': $bp-color-button-icon-border-active
+          ),
+          'icon': (
+            'default': $bp-color-button-icon-icon-default,
+            'hover': $bp-color-button-icon-icon-hover,
+            'active': $bp-color-button-icon-icon-active,
+            'disabled': $bp-color-button-icon-icon-disabled
+          )
+        )
+      ),
+      'outline': (
+        'focus': $bp-color-outline-focus
+      ),
+      'alert': (
+        'text': (
+          'info': $bp-color-alert-text-info,
+          'success': $bp-color-alert-text-success,
+          'warning': $bp-color-alert-text-warning,
+          'error': $bp-color-alert-text-error
+        ),
+        'border': (
+          'info': $bp-color-alert-border-info,
+          'warning': $bp-color-alert-border-warning,
+          'success': $bp-color-alert-border-success,
+          'error': $bp-color-alert-border-error
+        )
+      ),
+      'link': (
+        'text': (
+          'default': $bp-color-link-text-default,
+          'hover': $bp-color-link-text-hover,
+          'active': $bp-color-link-text-active,
+          'disabled': $bp-color-link-text-disabled,
+          'visited': $bp-color-link-text-visited
+        ),
+        'background': (
+          'hover': $bp-color-link-background-hover
+        ),
+        'icon': (
+          'default': $bp-color-link-icon-default,
+          'visited': $bp-color-link-icon-visited
+        )
+      ),
+      'icon': (
+        'default': $bp-color-icon-default,
+        'primary': $bp-color-icon-primary,
+        'info': $bp-color-icon-info,
+        'success': $bp-color-icon-success,
+        'warning': $bp-color-icon-warning,
+        'error': $bp-color-icon-error,
+        'disabled': $bp-color-icon-disabled,
+        'on-primary': $bp-color-icon-on-primary
+      ),
+      'tab': (
+        'text': (
+          'selected': $bp-color-tab-text-selected
+        ),
+        'border': (
+          'selected': $bp-color-tab-border-selected,
+          'hover': $bp-color-tab-border-hover,
+          'default': $bp-color-tab-border-default
+        )
+      ),
+      'tooltip': (
+        'background': $bp-color-tooltip-background
+      ),
+      'logo': (
+        'mark': $bp-color-logo-mark,
+        'text': $bp-color-logo-text,
+        'seperator': $bp-color-logo-seperator
+      ),
+      'text': (
+        'placeholder': $bp-color-text-placeholder,
+        'default': $bp-color-text-default,
+        'error': $bp-color-text-error,
+        'disabled': $bp-color-text-disabled,
+        'heading': (
+          'h1': $bp-color-text-heading-h1,
+          'h2': $bp-color-text-heading-h2,
+          'h3': $bp-color-text-heading-h3,
+          'h4': $bp-color-text-heading-h4,
+          'h5': $bp-color-text-heading-h5,
+          'h6': $bp-color-text-heading-h6
+        ),
+        'help-text': $bp-color-text-help-text
+      ),
+      'admin-navigation': (
+        'background': (
+          'default': $bp-color-admin-navigation-background-default
+        ),
+        'text': (
+          'default': $bp-color-admin-navigation-text-default
+        )
+      ),
+      'inline-radio': (
+        'background': (
+          'default': $bp-color-inline-radio-background-default,
+          'selected': $bp-color-inline-radio-background-selected,
+          'hover': $bp-color-inline-radio-background-hover
+        ),
+        'border': (
+          'default': $bp-color-inline-radio-border-default,
+          'selected': $bp-color-inline-radio-border-selected,
+          'hover': $bp-color-inline-radio-border-hover
+        ),
+        'text': (
+          'default': $bp-color-inline-radio-text-default,
+          'selected': $bp-color-inline-radio-text-selected,
+          'help-text': $bp-color-inline-radio-text-help-text
+        )
+      ),
+      'label': (
+        'background': (
+          'default': $bp-color-label-background-default,
+          'disabled': $bp-color-label-background-disabled,
+          'error': $bp-color-label-background-error
+        ),
+        'text': (
+          'default': $bp-color-label-text-default,
+          'required': $bp-color-label-text-required,
+          'disabled': $bp-color-label-text-disabled,
+          'error': $bp-color-label-text-error
+        )
+      ),
+      'status-dot': (
+        'success': $bp-color-status-dot-success,
+        'warning': $bp-color-status-dot-warning,
+        'error': $bp-color-status-dot-error
+      ),
+      'destructive-button': (
+        'outlined': (
+          'background': (
+            'default': $bp-color-destructive-button-outlined-background-default,
+            'hover': $bp-color-destructive-button-outlined-background-hover,
+            'active': $bp-color-destructive-button-outlined-background-active,
+            'disabled': $bp-color-destructive-button-outlined-background-disabled
+          ),
+          'border': (
+            'default': $bp-color-destructive-button-outlined-border-default,
+            'hover': $bp-color-destructive-button-outlined-border-hover,
+            'active': $bp-color-destructive-button-outlined-border-active,
+            'disabled': $bp-color-destructive-button-outlined-border-disabled
+          ),
+          'text': (
+            'default': $bp-color-destructive-button-outlined-text-default,
+            'hover': $bp-color-destructive-button-outlined-text-hover,
+            'active': $bp-color-destructive-button-outlined-text-active,
+            'disabled': $bp-color-destructive-button-outlined-text-disabled
+          ),
+          'icon': (
+            'default': $bp-color-destructive-button-outlined-icon-default,
+            'hover': $bp-color-destructive-button-outlined-icon-hover,
+            'active': $bp-color-destructive-button-outlined-icon-active,
+            'disabled': $bp-color-destructive-button-outlined-icon-disabled
+          )
+        ),
+        'contained': (
+          'background': (
+            'default': $bp-color-destructive-button-contained-background-default,
+            'hover': $bp-color-destructive-button-contained-background-hover,
+            'active': $bp-color-destructive-button-contained-background-active,
+            'disabled': $bp-color-destructive-button-contained-background-disabled
+          ),
+          'border': (
+            'default': $bp-color-destructive-button-contained-border-default,
+            'hover': $bp-color-destructive-button-contained-border-hover,
+            'active': $bp-color-destructive-button-contained-border-active,
+            'disabled': $bp-color-destructive-button-contained-border-disabled
+          ),
+          'text': (
+            'default': $bp-color-destructive-button-contained-text-default,
+            'disabled': $bp-color-destructive-button-contained-text-disabled
+          ),
+          'icon': (
+            'default': $bp-color-destructive-button-contained-icon-default,
+            'hover': $bp-color-destructive-button-contained-icon-hover,
+            'active': $bp-color-destructive-button-contained-icon-active,
+            'disabled': $bp-color-destructive-button-contained-icon-disabled
+          )
+        ),
+        'text': (
+          'default': $bp-color-destructive-button-text-default,
+          'hover': $bp-color-destructive-button-text-hover,
+          'active': $bp-color-destructive-button-text-active,
+          'disabled': $bp-color-destructive-button-text-disabled,
+          'icon': (
+            'default': $bp-color-destructive-button-text-icon-default,
+            'hover': $bp-color-destructive-button-text-icon-hover,
+            'active': $bp-color-destructive-button-text-icon-active,
+            'disabled': $bp-color-destructive-button-text-icon-disabled
+          ),
+          'background': (
+            'hover': $bp-color-destructive-button-text-background-hover,
+            'active': $bp-color-destructive-button-text-background-active
+          )
+        ),
+        'icon': (
+          'background': (
+            'default': $bp-color-destructive-button-icon-background-default,
+            'hover': $bp-color-destructive-button-icon-background-hover,
+            'active': $bp-color-destructive-button-icon-background-active,
+            'disabled': $bp-color-destructive-button-icon-background-disabled
+          ),
+          'border': (
+            'active': $bp-color-destructive-button-icon-border-active
+          ),
+          'icon': (
+            'default': $bp-color-destructive-button-icon-icon-default,
+            'hover': $bp-color-destructive-button-icon-icon-hover,
+            'active': $bp-color-destructive-button-icon-icon-active,
+            'disabled': $bp-color-destructive-button-icon-icon-disabled
+          )
+        )
+      ),
+      'drag-item': (
+        'icon': (
+          'default': $bp-color-drag-item-icon-default
+        )
+      ),
+      'dropdown-option': (
+        'background': (
+          'default': $bp-color-dropdown-option-background-default,
+          'hover': $bp-color-dropdown-option-background-hover,
+          'selected': $bp-color-dropdown-option-background-selected
+        )
+      ),
+      'card': (
+        'background': (
+          'default': $bp-color-card-background-default
+        )
+      ),
+      'checkbox': (
+        'background': (
+          'default': $bp-color-checkbox-background-default,
+          'hover': $bp-color-checkbox-background-hover,
+          'selected': $bp-color-checkbox-background-selected,
+          'selected-hover': $bp-color-checkbox-background-selected-hover,
+          'disabled': $bp-color-checkbox-background-disabled,
+          'disabled-selected': $bp-color-checkbox-background-disabled-selected
+        ),
+        'border': (
+          'default': $bp-color-checkbox-border-default,
+          'hover': $bp-color-checkbox-border-hover,
+          'selected': $bp-color-checkbox-border-selected,
+          'selected-hover': $bp-color-checkbox-border-selected-hover,
+          'error': $bp-color-checkbox-border-error,
+          'disabled': $bp-color-checkbox-border-disabled
+        ),
+        'icon': (
+          'default': $bp-color-checkbox-icon-default,
+          'hover': $bp-color-checkbox-icon-hover,
+          'selected': $bp-color-checkbox-icon-selected,
+          'active': $bp-color-checkbox-icon-active,
+          'disabled': $bp-color-checkbox-icon-disabled,
+          'disabled-selected': $bp-color-checkbox-icon-disabled-selected
+        )
+      ),
+      'list-item': (
+        'background': (
+          'default': $bp-color-list-item-background-default,
+          'hover': $bp-color-list-item-background-hover,
+          'selected': $bp-color-list-item-background-selected,
+          'disabled': $bp-color-list-item-background-disabled
+        ),
+        'border': (
+          'default': $bp-color-list-item-border-default,
+          'selected': $bp-color-list-item-border-selected
+        ),
+        'text': (
+          'default': $bp-color-list-item-text-default
+        )
+      ),
+      'text-field': (
+        'background': (
+          'default': $bp-color-text-field-background-default,
+          'hover': $bp-color-text-field-background-hover,
+          'selected': $bp-color-text-field-background-selected,
+          'disabled': $bp-color-text-field-background-disabled,
+          'disabled-selected': $bp-color-text-field-background-disabled-selected
+        ),
+        'icon': (
+          'default': $bp-color-text-field-icon-default,
+          'disabled': $bp-color-text-field-icon-disabled
+        ),
+        'border': (
+          'default': $bp-color-text-field-border-default,
+          'hover': $bp-color-text-field-border-hover,
+          'selected': $bp-color-text-field-border-selected,
+          'error': $bp-color-text-field-border-error,
+          'disabled': $bp-color-text-field-border-disabled
+        ),
+        'text': (
+          'placeholder': $bp-color-text-field-text-placeholder,
+          'input': $bp-color-text-field-text-input,
+          'requried': $bp-color-text-field-text-requried
+        )
+      ),
+      'select': (
+        'background': (
+          'default': $bp-color-select-background-default,
+          'hover': $bp-color-select-background-hover,
+          'selected': $bp-color-select-background-selected,
+          'disabled': $bp-color-select-background-disabled,
+          'error': $bp-color-select-background-error
+        ),
+        'border': (
+          'default': $bp-color-select-border-default,
+          'hover': $bp-color-select-border-hover,
+          'selected': $bp-color-select-border-selected,
+          'error': $bp-color-select-border-error,
+          'disabled': $bp-color-select-border-disabled,
+          'selected-variant': $bp-color-select-border-selected-variant
+        ),
+        'icon': (
+          'default': $bp-color-select-icon-default,
+          'disabled': $bp-color-select-icon-disabled
+        )
+      ),
+      'select-option': (
+        'background': (
+          'default': $bp-color-select-option-background-default,
+          'hover': $bp-color-select-option-background-hover,
+          'selected': $bp-color-select-option-background-selected
+        )
+      ),
+      'multi-select-option': (
+        'background': (
+          'default': $bp-color-multi-select-option-background-default
+        ),
+        'border': (
+          'selected': $bp-color-multi-select-option-border-selected
+        )
+      ),
+      'file-upload': (
+        'background': (
+          'default': $bp-color-file-upload-background-default,
+          'hover': $bp-color-file-upload-background-hover,
+          'selected': $bp-color-file-upload-background-selected,
+          'disabled': $bp-color-file-upload-background-disabled,
+          'disabled-selected': $bp-color-file-upload-background-disabled-selected
+        ),
+        'icon': (
+          'default': $bp-color-file-upload-icon-default,
+          'disabled': $bp-color-file-upload-icon-disabled
+        ),
+        'border': (
+          'default': $bp-color-file-upload-border-default,
+          'hover': $bp-color-file-upload-border-hover,
+          'selected': $bp-color-file-upload-border-selected,
+          'error': $bp-color-file-upload-border-error,
+          'disabled': $bp-color-file-upload-border-disabled
+        ),
+        'text': (
+          'placeholder': $bp-color-file-upload-text-placeholder,
+          'input': $bp-color-file-upload-text-input,
+          'requried': $bp-color-file-upload-text-requried
+        )
+      )
+    ),
+    'typography': (
+      'heading': (
+        'h1': (
+          'fontFamily': $bp-typography-heading-h1-font-family,
+          'fontWeight': $bp-typography-heading-h1-font-weight,
+          'lineHeight': $bp-typography-heading-h1-line-height,
+          'fontSize': $bp-typography-heading-h1-font-size,
+          'letterSpacing': $bp-typography-heading-h1-letter-spacing,
+          'paragraphSpacing': $bp-typography-heading-h1-paragraph-spacing,
+          'textCase': $bp-typography-heading-h1-text-case,
+          'textDecoration': $bp-typography-heading-h1-text-decoration
+        ),
+        'h2': (
+          'fontFamily': $bp-typography-heading-h2-font-family,
+          'fontWeight': $bp-typography-heading-h2-font-weight,
+          'lineHeight': $bp-typography-heading-h2-line-height,
+          'fontSize': $bp-typography-heading-h2-font-size,
+          'letterSpacing': $bp-typography-heading-h2-letter-spacing,
+          'paragraphSpacing': $bp-typography-heading-h2-paragraph-spacing,
+          'textCase': $bp-typography-heading-h2-text-case,
+          'textDecoration': $bp-typography-heading-h2-text-decoration
+        ),
+        'h3': (
+          'fontFamily': $bp-typography-heading-h3-font-family,
+          'fontWeight': $bp-typography-heading-h3-font-weight,
+          'lineHeight': $bp-typography-heading-h3-line-height,
+          'fontSize': $bp-typography-heading-h3-font-size,
+          'letterSpacing': $bp-typography-heading-h3-letter-spacing,
+          'paragraphSpacing': $bp-typography-heading-h3-paragraph-spacing,
+          'textCase': $bp-typography-heading-h3-text-case,
+          'textDecoration': $bp-typography-heading-h3-text-decoration
+        ),
+        'h4': (
+          'fontFamily': $bp-typography-heading-h4-font-family,
+          'fontWeight': $bp-typography-heading-h4-font-weight,
+          'lineHeight': $bp-typography-heading-h4-line-height,
+          'fontSize': $bp-typography-heading-h4-font-size,
+          'letterSpacing': $bp-typography-heading-h4-letter-spacing,
+          'paragraphSpacing': $bp-typography-heading-h4-paragraph-spacing,
+          'textCase': $bp-typography-heading-h4-text-case,
+          'textDecoration': $bp-typography-heading-h4-text-decoration
+        ),
+        'h5': (
+          'fontFamily': $bp-typography-heading-h5-font-family,
+          'fontWeight': $bp-typography-heading-h5-font-weight,
+          'lineHeight': $bp-typography-heading-h5-line-height,
+          'fontSize': $bp-typography-heading-h5-font-size,
+          'letterSpacing': $bp-typography-heading-h5-letter-spacing,
+          'paragraphSpacing': $bp-typography-heading-h5-paragraph-spacing,
+          'textCase': $bp-typography-heading-h5-text-case,
+          'textDecoration': $bp-typography-heading-h5-text-decoration
+        ),
+        'h6': (
+          'fontFamily': $bp-typography-heading-h6-font-family,
+          'fontWeight': $bp-typography-heading-h6-font-weight,
+          'lineHeight': $bp-typography-heading-h6-line-height,
+          'fontSize': $bp-typography-heading-h6-font-size,
+          'letterSpacing': $bp-typography-heading-h6-letter-spacing,
+          'paragraphSpacing': $bp-typography-heading-h6-paragraph-spacing,
+          'textCase': $bp-typography-heading-h6-text-case,
+          'textDecoration': $bp-typography-heading-h6-text-decoration
+        )
+      ),
+      'label': (
+        'large': (
+          'fontFamily': $bp-typography-label-large-font-family,
+          'fontWeight': $bp-typography-label-large-font-weight,
+          'lineHeight': $bp-typography-label-large-line-height,
+          'fontSize': $bp-typography-label-large-font-size,
+          'letterSpacing': $bp-typography-label-large-letter-spacing,
+          'paragraphSpacing': $bp-typography-label-large-paragraph-spacing,
+          'textCase': $bp-typography-label-large-text-case,
+          'textDecoration': $bp-typography-label-large-text-decoration
+        ),
+        'tab': (
+          'fontFamily': $bp-typography-label-tab-font-family,
+          'fontWeight': $bp-typography-label-tab-font-weight,
+          'lineHeight': $bp-typography-label-tab-line-height,
+          'fontSize': $bp-typography-label-tab-font-size,
+          'letterSpacing': $bp-typography-label-tab-letter-spacing,
+          'paragraphSpacing': $bp-typography-label-tab-paragraph-spacing,
+          'textCase': $bp-typography-label-tab-text-case,
+          'textDecoration': $bp-typography-label-tab-text-decoration
+        ),
+        'table-heading': (
+          'fontFamily': $bp-typography-label-table-heading-font-family,
+          'fontWeight': $bp-typography-label-table-heading-font-weight,
+          'lineHeight': $bp-typography-label-table-heading-line-height,
+          'fontSize': $bp-typography-label-table-heading-font-size,
+          'letterSpacing': $bp-typography-label-table-heading-letter-spacing,
+          'paragraphSpacing': $bp-typography-label-table-heading-paragraph-spacing,
+          'textDecoration': $bp-typography-label-table-heading-text-decoration,
+          'textCase': $bp-typography-label-table-heading-text-case
+        ),
+        'form-label': (
+          'fontFamily': $bp-typography-label-form-label-font-family,
+          'fontWeight': $bp-typography-label-form-label-font-weight,
+          'lineHeight': $bp-typography-label-form-label-line-height,
+          'fontSize': $bp-typography-label-form-label-font-size,
+          'letterSpacing': $bp-typography-label-form-label-letter-spacing,
+          'paragraphSpacing': $bp-typography-label-form-label-paragraph-spacing,
+          'textDecoration': $bp-typography-label-form-label-text-decoration,
+          'textCase': $bp-typography-label-form-label-text-case
+        ),
+        'input-label': (
+          'fontFamily': $bp-typography-label-input-label-font-family,
+          'fontWeight': $bp-typography-label-input-label-font-weight,
+          'lineHeight': $bp-typography-label-input-label-line-height,
+          'fontSize': $bp-typography-label-input-label-font-size,
+          'letterSpacing': $bp-typography-label-input-label-letter-spacing,
+          'paragraphSpacing': $bp-typography-label-input-label-paragraph-spacing,
+          'textDecoration': $bp-typography-label-input-label-text-decoration,
+          'textCase': $bp-typography-label-input-label-text-case
+        )
+      ),
+      'body': (
+        'default': (
+          'fontFamily': $bp-typography-body-default-font-family,
+          'fontWeight': $bp-typography-body-default-font-weight,
+          'lineHeight': $bp-typography-body-default-line-height,
+          'fontSize': $bp-typography-body-default-font-size,
+          'letterSpacing': $bp-typography-body-default-letter-spacing,
+          'paragraphSpacing': $bp-typography-body-default-paragraph-spacing,
+          'textCase': $bp-typography-body-default-text-case,
+          'textDecoration': $bp-typography-body-default-text-decoration
+        ),
+        'help-text': (
+          'fontFamily': $bp-typography-body-help-text-font-family,
+          'fontWeight': $bp-typography-body-help-text-font-weight,
+          'lineHeight': $bp-typography-body-help-text-line-height,
+          'fontSize': $bp-typography-body-help-text-font-size,
+          'letterSpacing': $bp-typography-body-help-text-letter-spacing,
+          'paragraphSpacing': $bp-typography-body-help-text-paragraph-spacing,
+          'textCase': $bp-typography-body-help-text-text-case,
+          'textDecoration': $bp-typography-body-help-text-text-decoration
+        ),
+        'link': (
+          'fontFamily': $bp-typography-body-link-font-family,
+          'fontWeight': $bp-typography-body-link-font-weight,
+          'lineHeight': $bp-typography-body-link-line-height,
+          'fontSize': $bp-typography-body-link-font-size,
+          'letterSpacing': $bp-typography-body-link-letter-spacing,
+          'paragraphSpacing': $bp-typography-body-link-paragraph-spacing,
+          'textCase': $bp-typography-body-link-text-case,
+          'textDecoration': $bp-typography-body-link-text-decoration
+        ),
+        'small': (
+          'fontFamily': $bp-typography-body-small-font-family,
+          'fontWeight': $bp-typography-body-small-font-weight,
+          'lineHeight': $bp-typography-body-small-line-height,
+          'fontSize': $bp-typography-body-small-font-size,
+          'letterSpacing': $bp-typography-body-small-letter-spacing,
+          'paragraphSpacing': $bp-typography-body-small-paragraph-spacing,
+          'textDecoration': $bp-typography-body-small-text-decoration,
+          'textCase': $bp-typography-body-small-text-case
+        )
+      ),
+      'navigation': (
+        'primary': (
+          'fontFamily': $bp-typography-navigation-primary-font-family,
+          'fontWeight': $bp-typography-navigation-primary-font-weight,
+          'lineHeight': $bp-typography-navigation-primary-line-height,
+          'fontSize': $bp-typography-navigation-primary-font-size,
+          'letterSpacing': $bp-typography-navigation-primary-letter-spacing,
+          'paragraphSpacing': $bp-typography-navigation-primary-paragraph-spacing,
+          'textCase': $bp-typography-navigation-primary-text-case,
+          'textDecoration': $bp-typography-navigation-primary-text-decoration
+        ),
+        'secondary': (
+          'fontFamily': $bp-typography-navigation-secondary-font-family,
+          'fontWeight': $bp-typography-navigation-secondary-font-weight,
+          'lineHeight': $bp-typography-navigation-secondary-line-height,
+          'fontSize': $bp-typography-navigation-secondary-font-size,
+          'letterSpacing': $bp-typography-navigation-secondary-letter-spacing,
+          'paragraphSpacing': $bp-typography-navigation-secondary-paragraph-spacing,
+          'textCase': $bp-typography-navigation-secondary-text-case,
+          'textDecoration': $bp-typography-navigation-secondary-text-decoration
+        ),
+        'copyright': (
+          'fontFamily': $bp-typography-navigation-copyright-font-family,
+          'fontWeight': $bp-typography-navigation-copyright-font-weight,
+          'lineHeight': $bp-typography-navigation-copyright-line-height,
+          'fontSize': $bp-typography-navigation-copyright-font-size,
+          'letterSpacing': $bp-typography-navigation-copyright-letter-spacing,
+          'paragraphSpacing': $bp-typography-navigation-copyright-paragraph-spacing,
+          'textCase': $bp-typography-navigation-copyright-text-case,
+          'textDecoration': $bp-typography-navigation-copyright-text-decoration
+        )
+      ),
+      'utility': (
+        'chip': (
+          'fontFamily': $bp-typography-utility-chip-font-family,
+          'fontWeight': $bp-typography-utility-chip-font-weight,
+          'lineHeight': $bp-typography-utility-chip-line-height,
+          'fontSize': $bp-typography-utility-chip-font-size,
+          'letterSpacing': $bp-typography-utility-chip-letter-spacing,
+          'paragraphSpacing': $bp-typography-utility-chip-paragraph-spacing,
+          'textDecoration': $bp-typography-utility-chip-text-decoration,
+          'textCase': $bp-typography-utility-chip-text-case
+        ),
+        'button': (
+          'fontFamily': $bp-typography-utility-button-font-family,
+          'fontWeight': $bp-typography-utility-button-font-weight,
+          'lineHeight': $bp-typography-utility-button-line-height,
+          'fontSize': $bp-typography-utility-button-font-size,
+          'letterSpacing': $bp-typography-utility-button-letter-spacing,
+          'paragraphSpacing': $bp-typography-utility-button-paragraph-spacing,
+          'textDecoration': $bp-typography-utility-button-text-decoration,
+          'textCase': $bp-typography-utility-button-text-case
+        ),
+        'accordion': (
+          'fontFamily': $bp-typography-utility-accordion-font-family,
+          'fontWeight': $bp-typography-utility-accordion-font-weight,
+          'lineHeight': $bp-typography-utility-accordion-line-height,
+          'fontSize': $bp-typography-utility-accordion-font-size,
+          'letterSpacing': $bp-typography-utility-accordion-letter-spacing,
+          'paragraphSpacing': $bp-typography-utility-accordion-paragraph-spacing,
+          'textDecoration': $bp-typography-utility-accordion-text-decoration,
+          'textCase': $bp-typography-utility-accordion-text-case
+        ),
+        'badge': (
+          'fontFamily': $bp-typography-utility-badge-font-family,
+          'fontWeight': $bp-typography-utility-badge-font-weight,
+          'lineHeight': $bp-typography-utility-badge-line-height,
+          'fontSize': $bp-typography-utility-badge-font-size,
+          'letterSpacing': $bp-typography-utility-badge-letter-spacing,
+          'paragraphSpacing': $bp-typography-utility-badge-paragraph-spacing,
+          'textDecoration': $bp-typography-utility-badge-text-decoration,
+          'textCase': $bp-typography-utility-badge-text-case
+        ),
+        'inline-radio': (
+          'fontFamily': $bp-typography-utility-inline-radio-font-family,
+          'fontWeight': $bp-typography-utility-inline-radio-font-weight,
+          'lineHeight': $bp-typography-utility-inline-radio-line-height,
+          'fontSize': $bp-typography-utility-inline-radio-font-size,
+          'letterSpacing': $bp-typography-utility-inline-radio-letter-spacing,
+          'paragraphSpacing': $bp-typography-utility-inline-radio-paragraph-spacing,
+          'textDecoration': $bp-typography-utility-inline-radio-text-decoration,
+          'textCase': $bp-typography-utility-inline-radio-text-case
+        )
+      )
+    ),
+    'border-radius': (
+      'navigation': $bp-border-radius-navigation,
+      'dropdown': $bp-border-radius-dropdown,
+      'inline-radio': $bp-border-radius-inline-radio,
+      'inline-radio-large': $bp-border-radius-inline-radio-large,
+      'link': $bp-border-radius-link,
+      'label': $bp-border-radius-label,
+      'input': $bp-border-radius-input,
+      'select': $bp-border-radius-select,
+      'text-field': $bp-border-radius-text-field,
+      'status-dot': $bp-border-radius-status-dot,
+      'slim-navigation': $bp-border-radius-slim-navigation,
+      'badge': $bp-border-radius-badge,
+      'button': $bp-border-radius-button,
+      'accordion': $bp-border-radius-accordion,
+      'card': $bp-border-radius-card,
+      'checkbox': $bp-border-radius-checkbox,
+      'table': $bp-border-radius-table,
+      'multi-select-item': $bp-border-radius-multi-select-item
+    ),
+    'outline-width': (
+      'focus': $bp-outline-width-focus,
+      'input-focus': $bp-outline-width-input-focus
+    ),
+    'border-width': (
+      'active': $bp-border-width-active,
+      'navigation-seperator': $bp-border-width-navigation-seperator,
+      'input': (
+        'default': $bp-border-width-input-default,
+        'active': $bp-border-width-input-active
+      ),
+      'dropdown': (
+        'default': $bp-border-width-dropdown-default,
+        'active': $bp-border-width-dropdown-active
+      ),
+      'button': $bp-border-width-button,
+      'navigation': $bp-border-width-navigation,
+      'table': $bp-border-width-table,
+      'text-field': (
+        'default': $bp-border-width-text-field-default,
+        'active': $bp-border-width-text-field-active
+      ),
+      'select': (
+        'default': $bp-border-width-select-default,
+        'active': $bp-border-width-select-active
+      )
+    ),
+    'shadow': (
+      'navigation': (
+        'secondary': (
+          'old-hover': $bp-shadow-navigation-secondary-old-hover,
+          'hover': $bp-shadow-navigation-secondary-hover
+        ),
+        'header': $bp-shadow-navigation-header
+      ),
+      'card': (
+        'default': $bp-shadow-card-default
+      ),
+      'focus': $bp-shadow-focus,
+      'focus-visible': $bp-shadow-focus-visible,
+      'table': (
+        'scroll-left': $bp-shadow-table-scroll-left,
+        'scroll-right': $bp-shadow-table-scroll-right
+      )
+    ),
+    'spacing': (
+      'none': $bp-spacing-none,
+      'xxxx-sm': $bp-spacing-xxxx-sm,
+      'xxx-sm': $bp-spacing-xxx-sm,
+      'xx-sm': $bp-spacing-xx-sm,
+      'x-sm': $bp-spacing-x-sm,
+      'sm': $bp-spacing-sm,
+      'med': $bp-spacing-med,
+      'lg': $bp-spacing-lg,
+      'x-lg': $bp-spacing-x-lg
+    ),
+    'elevation': (
+      '12': $bp-elevation-12,
+      '16': $bp-elevation-16,
+      '24': $bp-elevation-24,
+      '01': $bp-elevation-01,
+      '02': $bp-elevation-02,
+      '03': $bp-elevation-03,
+      '04': $bp-elevation-04,
+      '06': $bp-elevation-06,
+      '08': $bp-elevation-08,
+      '09': $bp-elevation-09
+    ),
+    'border': (
+      'table': $bp-border-table
+    )
+  )
+);

@@ -1,14 +1,30 @@
-{
-  "type": "commonjs",
-  "main": "dist/bwStyles.css",
-  "files": [
-    "bwStyles.css"
+{ 
+  "name": "blueprint-design-tokens",
+  "description": "A repo for storing and generating the tokens used in the BluePrint design system.",
+  "version": "1.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braxtonCoats/BluePrint-Design-Tokens.git"
+  },
+  
+  "keywords": [
+    "tokens",
+    "design",
+    "system"
   ],
+  "author": "Braxton Coats",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/braxtonCoats/BluePrint-Design-Tokens/issues"
+  },
+  "homepage": "https://github.com/braxtonCoats/BluePrint-Design-Tokens#readme",
+  "main": "index.js",
   "scripts": {
     "transform-light": "npx token-transformer tokens/figmaTokens tokens/output/light.json reference,system,BluePrint reference --expandTypography",
     "transform-dark": "npx token-transformer tokens/figmaTokens tokens/output/dark.json reference,systemDark,BluePrint reference --expandTypography",
     "transform": "npm run transform-light && npm run transform-dark",
-    "build-tokens": "cd tokens && node buildTokens.js && cd ../../ && mv tokens/output/scss/light.scss ./scss/_theme.scss && mv tokens/output/scss/dark.scss ./scss/_themeDark.scss"
+    "build-tokens": "cd tokens && node buildTokens.js && cd ../../ && mv tokens/output/scss/light.scss ./scss/_theme.scss && mv tokens/output/scss/dark.scss ./scss/_themeDark.scss",
+    "build-all": "npm run transform && npm run build-tokens"
   },
   "dependencies": {
     "@changesets/cli": "^2.22.0",
@@ -20,23 +36,5 @@
   },
   "devDependencies": {
     "sass": "^1.56.1"
-  },
-  "name": "blueprint-design-tokens",
-  "description": "A repo for storing and generating the tokens used in the BluePrint design system.",
-  "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/braxtonCoats/BluePrint-Design-Tokens.git"
-  },
-  "keywords": [
-    "tokens",
-    "design",
-    "system"
-  ],
-  "author": "Braxton Coats",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/braxtonCoats/BluePrint-Design-Tokens/issues"
-  },
-  "homepage": "https://github.com/braxtonCoats/BluePrint-Design-Tokens#readme"
+  }
 }

@@ -115,7 +115,9 @@ function getStyleDictionaryConfig(theme) {
           {
             destination: `css/${theme}.css`,
             format: "css/variables",
-            selector: `.${theme}-theme`,
+            // commenting out the original selector used in alloy in place of root
+            //selector: `.${theme}-theme`,
+            selector: ':root',
           },
         ],
       },

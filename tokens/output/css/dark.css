@@ -1,4 +1,4 @@
-.dark-theme {
+:root {
           --bp-sys-color-primary-main: #38aff1;
   --bp-sys-color-primary-on-main: #211b1e;
   --bp-sys-color-primary-container: #2d282b;
@@ -297,12 +297,18 @@
   --bp-color-inline-radio-background-default: #211b1e;
   --bp-color-inline-radio-background-selected: #38aff1;
   --bp-color-inline-radio-background-hover: #2d282b;
+  --bp-color-inline-radio-background-disabled-default: #3a3537;
+  --bp-color-inline-radio-background-disabled-selected: #908d8e;
   --bp-color-inline-radio-border-default: #777476;
   --bp-color-inline-radio-border-selected: #38aff1;
   --bp-color-inline-radio-border-hover: #2d282b;
+  --bp-color-inline-radio-border-disabled-default: #3a3537;
+  --bp-color-inline-radio-border-disabled-selected: #908d8e;
   --bp-color-inline-radio-text-default: #e5e5e5;
   --bp-color-inline-radio-text-selected: #211b1e;
   --bp-color-inline-radio-text-help-text: #b4b2b3;
+  --bp-color-inline-radio-text-disabled-default: #908d8e;
+  --bp-color-inline-radio-text-disabled-selected: #3a3537;
   --bp-color-label-background-default: #211b1e;
   --bp-color-label-background-disabled: #3a3537;
   --bp-color-label-background-error: #211b1e;
@@ -665,6 +671,7 @@
   --bp-shadow-focus-visible: 0 0 0 2 #079cee;
   --bp-shadow-table-scroll-left: 5 0 10 0 #00000024;
   --bp-shadow-table-scroll-right: -5 0 10 0 #00000024;
+  --bp-shadow-modal-default: 0px 24px 38px 0px #00000024, 0px 9px 46px 0px #0000001f, 0px 11px 15px 0px #00000033;
   --bp-spacing-none: 0;
   --bp-spacing-xxxx-sm: 0.125rem;
   --bp-spacing-xxx-sm: 0.25rem;
@@ -674,6 +681,8 @@
   --bp-spacing-med: 1.5rem;
   --bp-spacing-lg: 2rem;
   --bp-spacing-x-lg: 4rem;
+  --bp-spacing-drag-item-weight-box-top-bottom: 0.25rem;
+  --bp-spacing-drag-item-weight-box-left-right: 0.5rem;
   --bp-elevation-12: 0px 7px 8px 0px #00000033, 0px 5px 22px 0px #0000001f, 0px 12px 17px 0px #00000024;
   --bp-elevation-16: 0px 8px 10px 0px #00000033, 0px 6px 30px 0px #0000001f, 0px 16px 24px 0px #00000024;
   --bp-elevation-24: 0px 24px 38px 0px #00000024, 0px 9px 46px 0px #0000001f, 0px 11px 15px 0px #00000033;

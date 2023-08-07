@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
     "reference",
-    "system",
     "systemDark",
+    "system",
     "BluePrint"
   ]
 }

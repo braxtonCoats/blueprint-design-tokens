@@ -3,13 +3,11 @@
     "primary": {
       "main": {
         "value": "{color.blue.65}",
-        "type": "color",
-        "description": ""
+        "type": "color"
       },
       "onMain": {
         "value": "{color.blue.0}",
-        "type": "color",
-        "description": ""
+        "type": "color"
       },
       "container": {
         "value": "{color.blue.5}",

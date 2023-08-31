@@ -2885,5 +2885,9 @@
       "value": "{spacing.xx-lg}",
       "type": "spacing"
     }
+  },
+  "test": {
+    "value": "#ffffff",
+    "type": "color"
   }
 }

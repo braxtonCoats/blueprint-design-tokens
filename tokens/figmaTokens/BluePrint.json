@@ -421,6 +421,10 @@
         "value": "{theme.background.variant}",
         "type": "color"
       },
+      "hover": {
+        "value": "{theme.primary.container}",
+        "type": "color"
+      },
       "navigation": {
         "background": {
           "default": {
@@ -1255,6 +1259,22 @@
         "value": "{theme.surface.onMain}",
         "type": "color"
       },
+      "primary": {
+        "value": "{theme.primary.main}",
+        "type": "color"
+      },
+      "on-primary": {
+        "value": "{theme.primary.onMain}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{theme.secondary.main}",
+        "type": "color"
+      },
+      "on-secondary": {
+        "value": "{theme.secondary.onMain}",
+        "type": "color"
+      },
       "error": {
         "value": "{theme.error.main}",
         "type": "color"
@@ -1822,25 +1842,31 @@
           "value": "{theme.primary.container}",
           "type": "color"
         }
-      },
-      "icon": {
-        "default": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "visited": {
-          "value": "{theme.secondary.main}",
-          "type": "color"
-        }
       }
     },
     "icon": {
+      "link": {
+        "icon": {
+          "default": {
+            "value": "{theme.primary.main}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{theme.secondary.main}",
+            "type": "color"
+          }
+        }
+      },
       "default": {
         "value": "{theme.surface.onMain}",
         "type": "color"
       },
       "primary": {
         "value": "{theme.primary.main}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{theme.secondary.main}",
         "type": "color"
       },
       "info": {

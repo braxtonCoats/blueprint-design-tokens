@@ -421,18 +421,6 @@
         "value": "{theme.background.variant}",
         "type": "color"
       },
-      "accordion": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "features": {
-            "value": "{theme.surface.variant}",
-            "type": "color"
-          }
-        }
-      },
       "navigation": {
         "background": {
           "default": {
@@ -983,14 +971,6 @@
             "value": "{theme.primary.main}",
             "type": "color"
           }
-        }
-      }
-    },
-    "accordion": {
-      "border": {
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
         }
       }
     },
@@ -2288,6 +2268,12 @@
           "value": "{theme.disabled.onMain}",
           "type": "color"
         }
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{theme.outline.main}",
+        "type": "color"
       }
     }
   },

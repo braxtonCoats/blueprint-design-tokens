@@ -976,6 +976,24 @@
             "type": "color"
           }
         }
+      },
+      "interactive": {
+        "default": {
+          "value": "{theme.primary.main}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{theme.secondary.main}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{theme.secondary.main}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{theme.disabled.main}",
+          "type": "color"
+        }
       }
     },
     "navigation": {
@@ -1892,6 +1910,10 @@
       "on-primary": {
         "value": "{theme.primary.onMain}",
         "type": "color"
+      },
+      "on-secondary": {
+        "value": "{theme.secondary.onMain}",
+        "type": "color"
       }
     },
     "tab": {
@@ -2300,6 +2322,24 @@
       "default": {
         "value": "{theme.outline.main}",
         "type": "color"
+      },
+      "interactive": {
+        "default": {
+          "value": "{theme.primary.main}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{theme.secondary.main}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{theme.secondary.main}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{theme.disabled.main}",
+          "type": "color"
+        }
       }
     }
   },

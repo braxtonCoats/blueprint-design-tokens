@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
-    "Brand",
-    "Dark",
+    "BluePrint",
     "Light",
-    "BluePrint"
+    "Dark",
+    "Brand"
   ]
 }

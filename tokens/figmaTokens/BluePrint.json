@@ -2272,10 +2272,6 @@
       "value": "{border-radius.round}",
       "type": "borderRadius"
     },
-    "accordion": {
-      "value": "{border-radius.sharp}",
-      "type": "borderRadius"
-    },
     "card": {
       "value": "{border-radius.x-soft}",
       "type": "borderRadius"

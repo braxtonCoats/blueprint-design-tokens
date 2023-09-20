@@ -1902,7 +1902,7 @@
         }
       }
     },
-    "status-dot": {
+    "status": {
       "success": {
         "value": "{theme.success.main}",
         "type": "color"

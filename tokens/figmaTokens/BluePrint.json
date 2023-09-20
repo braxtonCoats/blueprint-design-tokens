@@ -1303,26 +1303,6 @@
           }
         }
       },
-      "label": {
-        "text": {
-          "default": {
-            "value": "{theme.surface.onMain}",
-            "type": "color"
-          },
-          "required": {
-            "value": "{theme.error.main}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{theme.disabled.onMain}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{theme.error.main}",
-            "type": "color"
-          }
-        }
-      },
       "destructive-button": {
         "outlined": {
           "text": {
@@ -1883,22 +1863,6 @@
             "value": "{theme.disabled.onMain}",
             "type": "color"
           }
-        }
-      }
-    },
-    "label": {
-      "background": {
-        "default": {
-          "value": "{theme.surface.main}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.main}",
-          "type": "color"
-        },
-        "error": {
-          "value": "{theme.surface.main}",
-          "type": "color"
         }
       }
     },
@@ -2523,10 +2487,6 @@
       "type": "borderRadius"
     },
     "link": {
-      "value": "{border-radius.round}",
-      "type": "borderRadius"
-    },
-    "label": {
       "value": "{border-radius.round}",
       "type": "borderRadius"
     },

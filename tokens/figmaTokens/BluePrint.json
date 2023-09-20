@@ -1121,28 +1121,6 @@
           "type": "color"
         }
       },
-      "link": {
-        "default": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        },
-        "visited": {
-          "value": "{theme.primary.onContainer}",
-          "type": "color"
-        }
-      },
       "placeholder": {
         "value": "{theme.surface.onVariant}",
         "type": "color"
@@ -1694,68 +1672,6 @@
           "value": "{theme.error.containerVariant}",
           "type": "color"
         }
-      }
-    },
-    "link": {
-      "background": {
-        "hover": {
-          "value": "{theme.primary.container}",
-          "type": "color"
-        }
-      }
-    },
-    "icon": {
-      "link": {
-        "icon": {
-          "default": {
-            "value": "{theme.primary.main}",
-            "type": "color"
-          },
-          "visited": {
-            "value": "{theme.secondary.main}",
-            "type": "color"
-          }
-        }
-      },
-      "default": {
-        "value": "{theme.surface.onMain}",
-        "type": "color"
-      },
-      "primary": {
-        "value": "{theme.primary.main}",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "{theme.secondary.main}",
-        "type": "color"
-      },
-      "info": {
-        "value": "{theme.primary.main}",
-        "type": "color"
-      },
-      "success": {
-        "value": "{theme.success.main}",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{theme.warning.main}",
-        "type": "color"
-      },
-      "error": {
-        "value": "{theme.error.main}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{theme.disabled.onMain}",
-        "type": "color"
-      },
-      "on-primary": {
-        "value": "{theme.primary.onMain}",
-        "type": "color"
-      },
-      "on-secondary": {
-        "value": "{theme.secondary.onMain}",
-        "type": "color"
       }
     },
     "tab": {

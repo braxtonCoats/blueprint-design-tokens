@@ -409,7 +409,7 @@
         "value": "{theme.warning.containerVariant}",
         "type": "color"
       },
-      "info": {
+      "info-container": {
         "value": "{theme.primary.container}",
         "type": "color"
       },
@@ -534,48 +534,6 @@
           "cell": {
             "value": "{theme.surface.main}",
             "type": "color"
-          }
-        }
-      },
-      "badge": {
-        "background": {
-          "default": {
-            "value": "{theme.success.container}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{theme.disabled.main}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{theme.error.main}",
-            "type": "color"
-          },
-          "warning": {
-            "value": "{theme.warning.main}",
-            "type": "color"
-          },
-          "admin": {
-            "value": "{theme.surface.onMain}",
-            "type": "color"
-          },
-          "success": {
-            "value": "{theme.success.main}",
-            "type": "color"
-          },
-          "product": {
-            "messaging": {
-              "value": "{color.green.50}",
-              "type": "color"
-            },
-            "voice": {
-              "value": "{color.purple.50}",
-              "type": "color"
-            },
-            "numbers": {
-              "value": "{color.maroon.50}",
-              "type": "color"
-            }
           }
         }
       },
@@ -892,6 +850,28 @@
       "container": {
         "value": "{theme.primary.container}",
         "type": "color"
+      },
+      "product": {
+        "voice": {
+          "value": "{color.purple.50}",
+          "type": "color"
+        },
+        "numbers": {
+          "value": "{color.maroon.50}",
+          "type": "color"
+        },
+        "messaging": {
+          "value": "{color.green.50}",
+          "type": "color"
+        },
+        "emergency": {
+          "value": "{color.orange.50}",
+          "type": "color"
+        },
+        "brand": {
+          "value": "{color.blue.50}",
+          "type": "color"
+        }
       }
     },
     "border": {
@@ -957,48 +937,6 @@
       }
     },
     "text": {
-      "badge": {
-        "text": {
-          "default": {
-            "value": "{theme.surface.onMain}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{theme.disabled.onMain}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{theme.error.onMain}",
-            "type": "color"
-          },
-          "warning": {
-            "value": "{theme.warning.onMain}",
-            "type": "color"
-          },
-          "success": {
-            "value": "{theme.success.onMain}",
-            "type": "color"
-          },
-          "product": {
-            "messagin": {
-              "value": "{theme.success.onContainer}",
-              "type": "color"
-            },
-            "voice": {
-              "value": "{theme.tertiary.onContainer}",
-              "type": "color"
-            },
-            "numbers": {
-              "value": "{color.maroon.0}",
-              "type": "color"
-            }
-          },
-          "admin": {
-            "value": "{color.surface.primary}",
-            "type": "color"
-          }
-        }
-      },
       "button": {
         "outlined": {
           "text": {
@@ -1428,32 +1366,6 @@
         }
       }
     },
-    "badge": {
-      "border": {
-        "default": {
-          "value": "{theme.success.main}",
-          "type": "color"
-        },
-        "error": {
-          "value": "{theme.error.main}",
-          "type": "color"
-        },
-        "warning": {
-          "value": "{theme.warning.main}",
-          "type": "color"
-        }
-      },
-      "icon": {
-        "admin": {
-          "value": "{theme.surface.main}",
-          "type": "color"
-        },
-        "admin-background": {
-          "value": "{color.blue.50}",
-          "type": "color"
-        }
-      }
-    },
     "button": {
       "outlined": {
         "border": {
@@ -1580,14 +1492,6 @@
         }
       }
     },
-    "admin-navigation": {
-      "background": {
-        "default": {
-          "value": "{theme.surface.onMain}",
-          "type": "color"
-        }
-      }
-    },
     "inline-radio": {
       "background": {
         "default": {
@@ -1636,20 +1540,6 @@
             "type": "color"
           }
         }
-      }
-    },
-    "status": {
-      "success": {
-        "value": "{theme.success.main}",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{theme.warning.main}",
-        "type": "color"
-      },
-      "error": {
-        "value": "{theme.error.main}",
-        "type": "color"
       }
     },
     "destructive-button": {
@@ -1826,52 +1716,6 @@
         },
         "selected": {
           "value": "{theme.outline.primary}",
-          "type": "color"
-        }
-      }
-    },
-    "select": {
-      "border": {
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{theme.outline.variant}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.outline.variant}",
-          "type": "color"
-        },
-        "error": {
-          "value": "{theme.error.main}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        },
-        "selected-variant": {
-          "value": "{theme.primary.container}",
-          "type": "color"
-        }
-      },
-      "icon": {
-        "default": {
-          "value": "{theme.surface.onVariant}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        }
-      }
-    },
-    "multi-select-option": {
-      "border": {
-        "selected": {
-          "value": "{theme.outline.main}",
           "type": "color"
         }
       }
@@ -2260,10 +2104,6 @@
     },
     "status-dot": {
       "value": "{border-radius.round}",
-      "type": "borderRadius"
-    },
-    "badge": {
-      "value": "{border-radius.x-soft}",
       "type": "borderRadius"
     },
     "button": {

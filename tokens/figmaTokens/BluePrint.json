@@ -799,30 +799,6 @@
           }
         }
       },
-      "text-field": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.primary.main}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{theme.disabled.main}",
-            "type": "color"
-          },
-          "disabled-selected": {
-            "value": "{theme.disabled.onMain}",
-            "type": "color"
-          }
-        }
-      },
       "select": {
         "background": {
           "default": {
@@ -971,6 +947,18 @@
       },
       "secondary": {
         "value": "{theme.secondary.main}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{theme.error.main}",
+        "type": "color"
+      },
+      "primary": {
+        "value": "{theme.primary.main}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{theme.outline.variant}",
         "type": "color"
       }
     },
@@ -1341,22 +1329,6 @@
         "text": {
           "default": {
             "value": "{theme.surface.onMain}",
-            "type": "color"
-          }
-        }
-      },
-      "text-field": {
-        "text": {
-          "placeholder": {
-            "value": "{theme.surface.onVariant}",
-            "type": "color"
-          },
-          "input": {
-            "value": "{theme.surface.onMain}",
-            "type": "color"
-          },
-          "requried": {
-            "value": "{theme.error.main}",
             "type": "color"
           }
         }
@@ -2058,40 +2030,6 @@
         }
       }
     },
-    "text-field": {
-      "icon": {
-        "default": {
-          "value": "{theme.surface.onVariant}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        }
-      },
-      "border": {
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "error": {
-          "value": "{theme.error.main}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        }
-      }
-    },
     "select": {
       "border": {
         "default": {
@@ -2183,6 +2121,14 @@
       },
       "selected": {
         "value": "{theme.primary.onMain}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{theme.disabled.onMain}",
+        "type": "color"
+      },
+      "dropdown": {
+        "value": "{theme.surface.onVariant}",
         "type": "color"
       }
     }
@@ -2498,10 +2444,6 @@
       "value": "{border-radius.x-soft}",
       "type": "borderRadius"
     },
-    "text-field": {
-      "value": "{border-radius.x-soft}",
-      "type": "borderRadius"
-    },
     "status-dot": {
       "value": "{border-radius.round}",
       "type": "borderRadius"
@@ -2578,16 +2520,6 @@
       "table": {
         "value": "1px",
         "type": "borderWidth"
-      },
-      "text-field": {
-        "default": {
-          "value": "2px",
-          "type": "borderWidth"
-        },
-        "active": {
-          "value": "4px",
-          "type": "borderWidth"
-        }
       },
       "select": {
         "default": {

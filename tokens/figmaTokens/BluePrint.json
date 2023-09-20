@@ -425,72 +425,6 @@
         "value": "{theme.primary.container}",
         "type": "color"
       },
-      "navigation": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.secondary.container}",
-            "type": "color"
-          },
-          "emergency": {
-            "value": "{color.orange.55}",
-            "type": "color"
-          },
-          "slim": {
-            "default": {
-              "value": "{theme.surface.main}",
-              "type": "color"
-            },
-            "hover": {
-              "value": "{theme.secondary.container}",
-              "type": "color"
-            },
-            "active": {
-              "value": "{theme.secondary.container}",
-              "type": "color"
-            },
-            "selected": {
-              "value": "{theme.secondary.container}",
-              "type": "color"
-            },
-            "emergency": {
-              "value": "{color.orange.55}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "secondary-navigation": {
-        "background": {
-          "default": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.secondary.onMain}",
-            "type": "color"
-          }
-        }
-      },
       "input": {
         "background": {
           "default": {
@@ -2491,47 +2425,6 @@
         "type": "typography"
       }
     },
-    "navigation": {
-      "primary": {
-        "value": {
-          "fontFamily": "{font.overpass}",
-          "fontWeight": "$font-weight.600",
-          "lineHeight": "$line-height.24",
-          "fontSize": "$font-size.1",
-          "letterSpacing": "$letter-spacing.none",
-          "paragraphSpacing": "$paragraph-spacing.none",
-          "textCase": "$text-case.none",
-          "textDecoration": "$text-decoration.none"
-        },
-        "type": "typography"
-      },
-      "secondary": {
-        "value": {
-          "fontFamily": "{font.overpass}",
-          "fontWeight": "$font-weight.400",
-          "lineHeight": "$line-height.20",
-          "fontSize": "$font-size.1",
-          "letterSpacing": "$letter-spacing.none",
-          "paragraphSpacing": "$paragraph-spacing.none",
-          "textCase": "{text-case.none}",
-          "textDecoration": "$text-decoration.none"
-        },
-        "type": "typography"
-      },
-      "copyright": {
-        "value": {
-          "fontFamily": "{font.overpass}",
-          "fontWeight": "$font-weight.400",
-          "lineHeight": "$line-height.auto",
-          "fontSize": "$font-size.0",
-          "letterSpacing": "$letter-spacing.none",
-          "paragraphSpacing": "$paragraph-spacing.none",
-          "textCase": "{text-case.none}",
-          "textDecoration": "$text-decoration.none"
-        },
-        "type": "typography"
-      }
-    },
     "utility": {
       "chip": {
         "value": {
@@ -2617,10 +2510,6 @@
       "value": "32px",
       "type": "borderRadius"
     },
-    "navigation": {
-      "value": "{border-radius.soft}",
-      "type": "borderRadius"
-    },
     "dropdown": {
       "value": "{border-radius.x-soft}",
       "type": "borderRadius"
@@ -2654,10 +2543,6 @@
       "type": "borderRadius"
     },
     "status-dot": {
-      "value": "{border-radius.round}",
-      "type": "borderRadius"
-    },
-    "slim-navigation": {
       "value": "{border-radius.round}",
       "type": "borderRadius"
     },
@@ -2706,10 +2591,6 @@
         "value": "2px",
         "type": "borderWidth"
       },
-      "navigation-seperator": {
-        "value": "1px",
-        "type": "borderWidth"
-      },
       "input": {
         "default": {
           "value": "2px",
@@ -2731,10 +2612,6 @@
         }
       },
       "button": {
-        "value": "2px",
-        "type": "borderWidth"
-      },
-      "navigation": {
         "value": "2px",
         "type": "borderWidth"
       },

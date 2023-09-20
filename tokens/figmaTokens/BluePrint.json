@@ -1600,12 +1600,6 @@
         }
       }
     },
-    "tooltip": {
-      "background": {
-        "value": "{theme.surface.main}",
-        "type": "color"
-      }
-    },
     "admin-navigation": {
       "background": {
         "default": {

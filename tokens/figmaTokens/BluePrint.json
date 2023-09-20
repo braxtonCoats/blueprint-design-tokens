@@ -425,30 +425,6 @@
         "value": "{theme.primary.container}",
         "type": "color"
       },
-      "input": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.primary.main}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{theme.disabled.main}",
-            "type": "color"
-          },
-          "disabled-selected": {
-            "value": "{theme.disabled.onMain}",
-            "type": "color"
-          }
-        }
-      },
       "dropdown": {
         "background": {
           "default": {
@@ -963,22 +939,6 @@
       }
     },
     "text": {
-      "input": {
-        "text": {
-          "placeholder": {
-            "value": "{theme.surface.onVariant}",
-            "type": "color"
-          },
-          "input": {
-            "value": "{theme.surface.onMain}",
-            "type": "color"
-          },
-          "requried": {
-            "value": "{theme.error.main}",
-            "type": "color"
-          }
-        }
-      },
       "badge": {
         "text": {
           "default": {
@@ -1311,22 +1271,6 @@
           }
         }
       },
-      "file-upload": {
-        "text": {
-          "placeholder": {
-            "value": "{theme.surface.onVariant}",
-            "type": "color"
-          },
-          "input": {
-            "value": "{theme.surface.onMain}",
-            "type": "color"
-          },
-          "requried": {
-            "value": "{theme.error.main}",
-            "type": "color"
-          }
-        }
-      },
       "calendar": {
         "text": {
           "default": {
@@ -1337,40 +1281,6 @@
             "value": "{theme.primary.onMain}",
             "type": "color"
           }
-        }
-      }
-    },
-    "input": {
-      "icon": {
-        "default": {
-          "value": "{theme.surface.onVariant}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        }
-      },
-      "border": {
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "error": {
-          "value": "{theme.error.main}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
         }
       }
     },
@@ -2352,10 +2262,6 @@
       "value": "{border-radius.round}",
       "type": "borderRadius"
     },
-    "input": {
-      "value": "{border-radius.x-soft}",
-      "type": "borderRadius"
-    },
     "select": {
       "value": "{border-radius.x-soft}",
       "type": "borderRadius"
@@ -2398,26 +2304,12 @@
       "focus": {
         "value": "2px",
         "type": "borderWidth"
-      },
-      "input-focus": {
-        "value": "2px",
-        "type": "borderWidth"
       }
     },
     "border-width": {
       "active": {
         "value": "2px",
         "type": "borderWidth"
-      },
-      "input": {
-        "default": {
-          "value": "2px",
-          "type": "borderWidth"
-        },
-        "active": {
-          "value": "4px",
-          "type": "borderWidth"
-        }
       },
       "dropdown": {
         "default": {

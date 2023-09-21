@@ -774,6 +774,24 @@
       "admin": {
         "value": "{theme.surface.onMain}",
         "type": "color"
+      },
+      "destructive": {
+        "default": {
+          "value": "{theme.error.main}",
+          "type": "color"
+        },
+        "on-container": {
+          "value": "{theme.error.onContainer}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{theme.error.onContainer}",
+          "type": "color"
+        },
+        "container": {
+          "value": "{theme.error.container}",
+          "type": "color"
+        }
       }
     },
     "border": {
@@ -834,6 +852,16 @@
         },
         "success": {
           "value": "{theme.success.main}",
+          "type": "color"
+        }
+      },
+      "destructive": {
+        "default": {
+          "value": "{theme.error.main}",
+          "type": "color"
+        },
+        "on-container": {
+          "value": "{theme.error.onContainer}",
           "type": "color"
         }
       }
@@ -1416,6 +1444,28 @@
       "on-secondary": {
         "value": "{theme.secondary.onMain}",
         "type": "color"
+      },
+      "on-error": {
+        "value": "{theme.error.onMain}",
+        "type": "color"
+      },
+      "destructive": {
+        "default": {
+          "value": "{theme.error.main}",
+          "type": "color"
+        },
+        "on-default": {
+          "value": "{theme.error.onMain}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{theme.error.onContainer}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{theme.error.onContainer}",
+          "type": "color"
+        }
       }
     }
   },

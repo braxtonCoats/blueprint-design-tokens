@@ -706,6 +706,10 @@
       "on-primary-container": {
         "value": "{theme.secondary.main}",
         "type": "color"
+      },
+      "container": {
+        "value": "{theme.primary.container}",
+        "type": "color"
       }
     },
     "text": {
@@ -828,32 +832,6 @@
           "default": {
             "value": "{theme.surface.main}",
             "type": "color"
-          }
-        }
-      },
-      "inline-radio": {
-        "text": {
-          "default": {
-            "value": "{theme.surface.onMain}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.primary.onMain}",
-            "type": "color"
-          },
-          "help-text": {
-            "value": "{theme.surface.onVariant}",
-            "type": "color"
-          },
-          "disabled": {
-            "default": {
-              "value": "{theme.disabled.onMain}",
-              "type": "color"
-            },
-            "selected": {
-              "value": "{theme.disabled.main}",
-              "type": "color"
-            }
           }
         }
       },
@@ -1021,56 +999,6 @@
         "default": {
           "value": "{theme.outline.main}",
           "type": "color"
-        }
-      }
-    },
-    "inline-radio": {
-      "background": {
-        "default": {
-          "value": "{color.surface.primary}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{theme.primary.container}",
-          "type": "color"
-        },
-        "disabled": {
-          "default": {
-            "value": "{theme.disabled.main}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.disabled.onMain}",
-            "type": "color"
-          }
-        }
-      },
-      "border": {
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{theme.primary.container}",
-          "type": "color"
-        },
-        "disabled": {
-          "default": {
-            "value": "{theme.disabled.main}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.disabled.onMain}",
-            "type": "color"
-          }
         }
       }
     },

@@ -551,22 +551,6 @@
           }
         }
       },
-      "calendar": {
-        "background": {
-          "default": {
-            "value": "{color.surface.primary}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.primary.main}",
-            "type": "color"
-          }
-        }
-      },
       "interactive": {
         "default": {
           "value": "{theme.primary.main}",
@@ -901,18 +885,6 @@
         "text": {
           "default": {
             "value": "{theme.surface.onMain}",
-            "type": "color"
-          }
-        }
-      },
-      "calendar": {
-        "text": {
-          "default": {
-            "value": "{color.text.default}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.primary.onMain}",
             "type": "color"
           }
         }

@@ -507,26 +507,6 @@
           }
         }
       },
-      "list-item": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{theme.disabled.main}",
-            "type": "color"
-          }
-        }
-      },
       "interactive": {
         "default": {
           "value": "{theme.primary.main}",
@@ -835,14 +815,6 @@
           }
         }
       },
-      "list-item": {
-        "text": {
-          "default": {
-            "value": "{theme.surface.onMain}",
-            "type": "color"
-          }
-        }
-      },
       "info": {
         "default": {
           "value": "{theme.primary.main}",
@@ -890,128 +862,10 @@
       "admin": {
         "value": "{theme.surface.main}",
         "type": "color"
-      }
-    },
-    "radio": {
-      "border": {
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{theme.secondary.main}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "selected-hover": {
-          "value": "{theme.secondary.main}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        },
-        "disabled-selected": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        },
-        "selected-active": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        }
-      }
-    },
-    "switch": {
-      "icon": {
-        "default": {
-          "value": "{color.icon.default}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.primary.onMain}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        }
       },
-      "border": {
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "selected-hover": {
-          "value": "{theme.secondary.main}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        }
-      }
-    },
-    "table": {
-      "border": {
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        }
-      },
-      "icons": {
-        "default": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        }
-      }
-    },
-    "outline": {
-      "focus": {
-        "value": "{theme.outline.primary}",
+      "link": {
+        "value": "{theme.primary.main}",
         "type": "color"
-      }
-    },
-    "tab": {
-      "border": {
-        "selected": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{theme.secondary.main}",
-          "type": "color"
-        },
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        }
-      }
-    },
-    "list-item": {
-      "border": {
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.outline.primary}",
-          "type": "color"
-        }
       }
     },
     "graphic": {

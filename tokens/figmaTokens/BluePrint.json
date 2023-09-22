@@ -527,30 +527,6 @@
           }
         }
       },
-      "file-upload": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.primary.main}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{theme.disabled.main}",
-            "type": "color"
-          },
-          "disabled-selected": {
-            "value": "{theme.disabled.onMain}",
-            "type": "color"
-          }
-        }
-      },
       "interactive": {
         "default": {
           "value": "{theme.primary.main}",
@@ -1098,14 +1074,6 @@
         }
       }
     },
-    "drag-item": {
-      "icon": {
-        "default": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        }
-      }
-    },
     "list-item": {
       "border": {
         "default": {
@@ -1114,40 +1082,6 @@
         },
         "selected": {
           "value": "{theme.outline.primary}",
-          "type": "color"
-        }
-      }
-    },
-    "file-upload": {
-      "icon": {
-        "default": {
-          "value": "{theme.surface.onVariant}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        }
-      },
-      "border": {
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.outline.variant}",
-          "type": "color"
-        },
-        "error": {
-          "value": "{theme.error.main}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
           "type": "color"
         }
       }
@@ -1600,18 +1534,6 @@
     "xx-lg": {
       "value": "128px",
       "type": "spacing"
-    },
-    "drag-item": {
-      "weight-box": {
-        "top-bottom": {
-          "value": "{spacing.xxx-sm}",
-          "type": "spacing"
-        },
-        "left-right": {
-          "value": "{spacing.xx-sm}",
-          "type": "spacing"
-        }
-      }
     }
   },
   "padding": {

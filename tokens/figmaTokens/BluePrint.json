@@ -332,12 +332,6 @@
         "type": "boxShadow"
       }
     },
-    "card": {
-      "default": {
-        "value": "{shadow.elevation.01}",
-        "type": "boxShadow"
-      }
-    },
     "focus": {
       "value": {
         "x": "0",
@@ -549,14 +543,6 @@
           },
           "selected": {
             "value": "{theme.primary.container}",
-            "type": "color"
-          }
-        }
-      },
-      "card": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
             "type": "color"
           }
         }
@@ -1765,10 +1751,6 @@
     },
     "status-dot": {
       "value": "{border-radius.round}",
-      "type": "borderRadius"
-    },
-    "card": {
-      "value": "{border-radius.x-soft}",
       "type": "borderRadius"
     },
     "checkbox": {

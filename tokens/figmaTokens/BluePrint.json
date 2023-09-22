@@ -547,34 +547,6 @@
           }
         }
       },
-      "checkbox": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.primary.main}",
-            "type": "color"
-          },
-          "selected-hover": {
-            "value": "{theme.primary.onContainer}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{theme.disabled.main}",
-            "type": "color"
-          },
-          "disabled-selected": {
-            "value": "{theme.disabled.onMain}",
-            "type": "color"
-          }
-        }
-      },
       "list-item": {
         "background": {
           "default": {
@@ -699,6 +671,10 @@
         "disabled": {
           "value": "{theme.disabled.main}",
           "type": "color"
+        },
+        "selected-hover": {
+          "value": "{theme.secondary.main}",
+          "type": "color"
         }
       },
       "selected": {
@@ -778,6 +754,10 @@
           "value": "{theme.error.container}",
           "type": "color"
         }
+      },
+      "disabled-selected": {
+        "value": "{theme.disabled.onMain}",
+        "type": "color"
       }
     },
     "border": {
@@ -850,6 +830,10 @@
           "value": "{theme.error.onContainer}",
           "type": "color"
         }
+      },
+      "on-primary-container": {
+        "value": "{theme.secondary.main}",
+        "type": "color"
       }
     },
     "text": {
@@ -1276,60 +1260,6 @@
         }
       }
     },
-    "checkbox": {
-      "border": {
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "selected-hover": {
-          "value": "{theme.primary.onContainer}",
-          "type": "color"
-        },
-        "error": {
-          "value": "{theme.error.main}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        }
-      },
-      "icon": {
-        "default": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.primary.onMain}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{theme.primary.main}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        },
-        "disabled-selected": {
-          "value": "{theme.disabled.main}",
-          "type": "color"
-        }
-      }
-    },
     "list-item": {
       "border": {
         "default": {
@@ -1452,6 +1382,10 @@
           "value": "{theme.error.onContainer}",
           "type": "color"
         }
+      },
+      "on-disabled": {
+        "value": "{theme.disabled.main}",
+        "type": "color"
       }
     }
   },
@@ -1751,10 +1685,6 @@
     },
     "status-dot": {
       "value": "{border-radius.round}",
-      "type": "borderRadius"
-    },
-    "checkbox": {
-      "value": "{border-radius.x-soft}",
       "type": "borderRadius"
     },
     "table": {

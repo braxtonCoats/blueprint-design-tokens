@@ -1767,10 +1767,6 @@
       "value": "{border-radius.round}",
       "type": "borderRadius"
     },
-    "button": {
-      "value": "{border-radius.round}",
-      "type": "borderRadius"
-    },
     "card": {
       "value": "{border-radius.x-soft}",
       "type": "borderRadius"
@@ -1809,10 +1805,6 @@
           "value": "4px",
           "type": "borderWidth"
         }
-      },
-      "button": {
-        "value": "2px",
-        "type": "borderWidth"
       },
       "table": {
         "value": "1px",

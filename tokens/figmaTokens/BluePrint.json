@@ -419,30 +419,6 @@
         "value": "{theme.primary.container}",
         "type": "color"
       },
-      "dropdown": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{theme.disabled.main}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          }
-        }
-      },
       "modal": {
         "background": {
           "header": {
@@ -531,22 +507,6 @@
           }
         }
       },
-      "dropdown-option": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          }
-        }
-      },
       "list-item": {
         "background": {
           "default": {
@@ -563,54 +523,6 @@
           },
           "disabled": {
             "value": "{theme.disabled.main}",
-            "type": "color"
-          }
-        }
-      },
-      "select": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{theme.disabled.main}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          }
-        }
-      },
-      "select-option": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          }
-        }
-      },
-      "multi-select-option": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
             "type": "color"
           }
         }
@@ -1052,44 +964,6 @@
       "admin": {
         "value": "{theme.surface.main}",
         "type": "color"
-      }
-    },
-    "dropdown": {
-      "border": {
-        "default": {
-          "value": "{theme.outline.main}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{theme.outline.variant}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{theme.outline.variant}",
-          "type": "color"
-        },
-        "error": {
-          "value": "{theme.error.main}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        },
-        "selected-variant": {
-          "value": "{theme.primary.container}",
-          "type": "color"
-        }
-      },
-      "icon": {
-        "default": {
-          "value": "{theme.surface.onVariant}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{theme.disabled.onMain}",
-          "type": "color"
-        }
       }
     },
     "radio": {
@@ -1663,10 +1537,6 @@
       "value": "32px",
       "type": "borderRadius"
     },
-    "dropdown": {
-      "value": "{border-radius.x-soft}",
-      "type": "borderRadius"
-    },
     "inline-radio": {
       "value": "14px",
       "type": "borderRadius"
@@ -1679,19 +1549,11 @@
       "value": "{border-radius.round}",
       "type": "borderRadius"
     },
-    "select": {
-      "value": "{border-radius.x-soft}",
-      "type": "borderRadius"
-    },
     "status-dot": {
       "value": "{border-radius.round}",
       "type": "borderRadius"
     },
     "table": {
-      "value": "4px",
-      "type": "borderRadius"
-    },
-    "multi-select-item": {
       "value": "4px",
       "type": "borderRadius"
     }
@@ -1708,29 +1570,9 @@
         "value": "2px",
         "type": "borderWidth"
       },
-      "dropdown": {
-        "default": {
-          "value": "2px",
-          "type": "borderWidth"
-        },
-        "active": {
-          "value": "4px",
-          "type": "borderWidth"
-        }
-      },
       "table": {
         "value": "1px",
         "type": "borderWidth"
-      },
-      "select": {
-        "default": {
-          "value": "2px",
-          "type": "borderWidth"
-        },
-        "active": {
-          "value": "4px",
-          "type": "borderWidth"
-        }
       }
     },
     "table": {

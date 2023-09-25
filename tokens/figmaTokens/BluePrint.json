@@ -723,22 +723,6 @@
           "type": "color"
         }
       },
-      "tab": {
-        "text": {
-          "selected": {
-            "value": "{theme.primary.main}",
-            "type": "color"
-          }
-        }
-      },
-      "admin-navigation": {
-        "text": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          }
-        }
-      },
       "info": {
         "default": {
           "value": "{theme.primary.main}",

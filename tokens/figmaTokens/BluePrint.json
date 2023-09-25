@@ -873,7 +873,7 @@
           "fontSize": "{font-size.6}",
           "letterSpacing": "{letter-spacing.none}",
           "paragraphSpacing": "{paragraph-spacing.none}",
-          "textCase": "{text-case.none}",
+          "textCase": "{text-case.title}",
           "textDecoration": "{text-decoration.none}"
         },
         "type": "typography"

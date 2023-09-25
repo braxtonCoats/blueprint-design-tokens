@@ -959,7 +959,7 @@
       "type": "textCase"
     },
     "title": {
-      "value": "Title Case",
+      "value": "Capitalize",
       "type": "textCase"
     }
   },

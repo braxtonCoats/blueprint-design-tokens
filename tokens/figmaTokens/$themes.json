@@ -491,7 +491,6 @@
       "color.text.product.messaging": "a74c7dda83720c7d29e8d2a2a7a731571716668b",
       "color.text.product.bandwidth": "b9adff4d0910307a1468c70c1002f39566b52531",
       "color.text.admin": "8b71602a24a88a62166ee4d01830e6094633f477",
-      "color.graphic.default": "1a37cb1feeb5fc8d8c48aa4404bde704c62868be",
       "color.graphic.hover": "e81421ab277e70662af2e9ee457630e97019ad86",
       "color.graphic.pressed": "214a7881f159a253eb92cacb3a621d5e1cb345a6",
       "color.graphic.selected": "cd45aaea7e48404cf49e5d32de4866a9f167b9ef",
@@ -545,7 +544,8 @@
       "padding.md": "6a349a635229c33d83965d781a268d0312f976c4",
       "padding.lg": "fa4ae554e68f20e777e6fcee478139aad0d7a530",
       "padding.x-lg": "472abd3191c8e7c42c413126ac55e9903d843ad9",
-      "padding.xx-lg": "a63dd219dd79ce1d9674733fa178bdfd68908de6"
+      "padding.xx-lg": "a63dd219dd79ce1d9674733fa178bdfd68908de6",
+      "color.graphic.primary": "1a37cb1feeb5fc8d8c48aa4404bde704c62868be"
     },
     "group": "BluePrint"
   },
@@ -710,7 +710,6 @@
       "color.text.product.messaging": "a74c7dda83720c7d29e8d2a2a7a731571716668b",
       "color.text.product.bandwidth": "b9adff4d0910307a1468c70c1002f39566b52531",
       "color.text.admin": "8b71602a24a88a62166ee4d01830e6094633f477",
-      "color.graphic.default": "1a37cb1feeb5fc8d8c48aa4404bde704c62868be",
       "color.graphic.hover": "e81421ab277e70662af2e9ee457630e97019ad86",
       "color.graphic.pressed": "214a7881f159a253eb92cacb3a621d5e1cb345a6",
       "color.graphic.selected": "cd45aaea7e48404cf49e5d32de4866a9f167b9ef",
@@ -764,7 +763,8 @@
       "padding.md": "6a349a635229c33d83965d781a268d0312f976c4",
       "padding.lg": "fa4ae554e68f20e777e6fcee478139aad0d7a530",
       "padding.x-lg": "472abd3191c8e7c42c413126ac55e9903d843ad9",
-      "padding.xx-lg": "a63dd219dd79ce1d9674733fa178bdfd68908de6"
+      "padding.xx-lg": "a63dd219dd79ce1d9674733fa178bdfd68908de6",
+      "color.graphic.primary": "1a37cb1feeb5fc8d8c48aa4404bde704c62868be"
     },
     "group": "BluePrint"
   }

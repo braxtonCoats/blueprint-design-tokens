@@ -419,82 +419,6 @@
         "value": "{theme.primary.container}",
         "type": "color"
       },
-      "modal": {
-        "background": {
-          "header": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "footer": {
-            "value": "{theme.surface.variant}",
-            "type": "color"
-          }
-        }
-      },
-      "radio": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.primary.main}",
-            "type": "color"
-          },
-          "selected-hover": {
-            "value": "{theme.secondary.main}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{theme.disabled.main}",
-            "type": "color"
-          },
-          "disabled-selected": {
-            "value": "{theme.disabled.onMain}",
-            "type": "color"
-          },
-          "selected-active": {
-            "value": "{theme.secondary.main}",
-            "type": "color"
-          }
-        }
-      },
-      "switch": {
-        "background": {
-          "default": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{theme.primary.container}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{theme.primary.main}",
-            "type": "color"
-          },
-          "selected-hover": {
-            "value": "{theme.secondary.main}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{theme.disabled.main}",
-            "type": "color"
-          },
-          "disabled-selected": {
-            "value": "{theme.disabled.onMain}",
-            "type": "color"
-          }
-        }
-      },
       "table": {
         "background": {
           "header": {
@@ -869,7 +793,7 @@
       }
     },
     "graphic": {
-      "default": {
+      "primary": {
         "value": "{theme.primary.main}",
         "type": "color"
       },
@@ -947,6 +871,10 @@
       },
       "on-disabled": {
         "value": "{theme.disabled.main}",
+        "type": "color"
+      },
+      "default": {
+        "value": "{theme.surface.onMain}",
         "type": "color"
       }
     }

@@ -459,6 +459,10 @@
         "selected-hover": {
           "value": "{theme.secondary.main}",
           "type": "color"
+        },
+        "pressed-variant": {
+          "value": "{theme.surface.variant}",
+          "type": "color"
         }
       },
       "product": {

@@ -20,8 +20,8 @@
   "homepage": "https://github.com/braxtonCoats/BluePrint-Design-Tokens#readme",
   "main": "index.js",
   "scripts": {
-    "transform-light": "npx token-transformer tokens/figmaTokens tokens/output/light.json reference,system,BluePrint reference --expandTypography",
-    "transform-dark": "npx token-transformer tokens/figmaTokens tokens/output/dark.json reference,systemDark,BluePrint reference --expandTypography",
+    "transform-light": "npx token-transformer tokens/figmaTokens tokens/output/light.json Brand,Light,BluePrint Brand --expandTypography",
+    "transform-dark": "npx token-transformer tokens/figmaTokens tokens/output/dark.json Brand,Dark,BluePrint Brand --expandTypography",
     "transform": "npm run transform-light && npm run transform-dark",
     "build-tokens": "cd tokens && node buildTokens.js && cd ../../ && mv tokens/output/scss/light.scss ./scss/_theme.scss && mv tokens/output/scss/dark.scss ./scss/_themeDark.scss",
     "build-all": "npm run transform && npm run build-tokens"

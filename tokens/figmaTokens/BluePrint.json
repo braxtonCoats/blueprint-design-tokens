@@ -605,6 +605,10 @@
       }
     },
     "text": {
+      "default": {
+        "value": "{theme.surface.onMain}",
+        "type": "color"
+      },
       "placeholder": {
         "value": "{theme.surface.onVariant}",
         "type": "color"
@@ -619,10 +623,6 @@
       },
       "on-disabled": {
         "value": "{theme.disabled.main}",
-        "type": "color"
-      },
-      "default": {
-        "value": "{theme.surface.onMain}",
         "type": "color"
       },
       "primary": {

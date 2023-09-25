@@ -387,6 +387,10 @@
   },
   "color": {
     "background": {
+      "admin": {
+        "value": "{theme.surface.onMain}",
+        "type": "color"
+      },
       "surface": {
         "value": "{theme.surface.main}",
         "type": "color"
@@ -419,17 +423,21 @@
         "value": "{theme.primary.container}",
         "type": "color"
       },
-      "table": {
-        "background": {
-          "header": {
-            "value": "{theme.surface.variant}",
-            "type": "color"
-          },
-          "cell": {
-            "value": "{theme.surface.main}",
-            "type": "color"
-          }
-        }
+      "selected": {
+        "value": "{theme.primary.main}",
+        "type": "color"
+      },
+      "selected-hover": {
+        "value": "{theme.secondary.container}",
+        "type": "color"
+      },
+      "container": {
+        "value": "{theme.primary.container}",
+        "type": "color"
+      },
+      "disabled-selected": {
+        "value": "{theme.disabled.onMain}",
+        "type": "color"
       },
       "interactive": {
         "default": {
@@ -452,18 +460,6 @@
           "value": "{theme.secondary.main}",
           "type": "color"
         }
-      },
-      "selected": {
-        "value": "{theme.primary.main}",
-        "type": "color"
-      },
-      "selected-hover": {
-        "value": "{theme.secondary.container}",
-        "type": "color"
-      },
-      "container": {
-        "value": "{theme.primary.container}",
-        "type": "color"
       },
       "product": {
         "voice": {
@@ -509,10 +505,6 @@
           "type": "color"
         }
       },
-      "admin": {
-        "value": "{theme.surface.onMain}",
-        "type": "color"
-      },
       "destructive": {
         "default": {
           "value": "{theme.error.main}",
@@ -530,19 +522,39 @@
           "value": "{theme.error.container}",
           "type": "color"
         }
-      },
-      "disabled-selected": {
-        "value": "{theme.disabled.onMain}",
-        "type": "color"
       }
     },
     "border": {
+      "default": {
+        "value": "{theme.outline.main}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{theme.secondary.main}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{theme.error.main}",
+        "type": "color"
+      },
+      "primary": {
+        "value": "{theme.primary.main}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{theme.outline.variant}",
+        "type": "color"
+      },
       "disabled": {
         "value": "{theme.disabled.onMain}",
         "type": "color"
       },
-      "default": {
-        "value": "{theme.outline.main}",
+      "on-primary-container": {
+        "value": "{theme.secondary.main}",
+        "type": "color"
+      },
+      "container": {
+        "value": "{theme.primary.container}",
         "type": "color"
       },
       "interactive": {
@@ -562,22 +574,6 @@
           "value": "{theme.disabled.main}",
           "type": "color"
         }
-      },
-      "secondary": {
-        "value": "{theme.secondary.main}",
-        "type": "color"
-      },
-      "error": {
-        "value": "{theme.error.main}",
-        "type": "color"
-      },
-      "primary": {
-        "value": "{theme.primary.main}",
-        "type": "color"
-      },
-      "selected": {
-        "value": "{theme.outline.variant}",
-        "type": "color"
       },
       "info": {
         "default": {
@@ -606,14 +602,6 @@
           "value": "{theme.error.onContainer}",
           "type": "color"
         }
-      },
-      "on-primary-container": {
-        "value": "{theme.secondary.main}",
-        "type": "color"
-      },
-      "container": {
-        "value": "{theme.primary.container}",
-        "type": "color"
       }
     },
     "text": {
@@ -651,6 +639,14 @@
       },
       "on-secondary": {
         "value": "{theme.secondary.onMain}",
+        "type": "color"
+      },
+      "admin": {
+        "value": "{theme.surface.main}",
+        "type": "color"
+      },
+      "link": {
+        "value": "{theme.primary.main}",
         "type": "color"
       },
       "error": {
@@ -766,17 +762,13 @@
           "value": "{color.blue.0}",
           "type": "color"
         }
-      },
-      "admin": {
-        "value": "{theme.surface.main}",
-        "type": "color"
-      },
-      "link": {
-        "value": "{theme.primary.main}",
-        "type": "color"
       }
     },
     "graphic": {
+      "default": {
+        "value": "{theme.surface.onMain}",
+        "type": "color"
+      },
       "primary": {
         "value": "{theme.primary.main}",
         "type": "color"
@@ -801,6 +793,26 @@
         "value": "{theme.surface.onVariant}",
         "type": "color"
       },
+      "on-disabled": {
+        "value": "{theme.disabled.main}",
+        "type": "color"
+      },
+      "admin": {
+        "value": "{theme.surface.main}",
+        "type": "color"
+      },
+      "on-primary": {
+        "value": "{theme.primary.onMain}",
+        "type": "color"
+      },
+      "on-secondary": {
+        "value": "{theme.secondary.onMain}",
+        "type": "color"
+      },
+      "on-error": {
+        "value": "{theme.error.onMain}",
+        "type": "color"
+      },
       "info": {
         "default": {
           "value": "{theme.primary.main}",
@@ -819,22 +831,6 @@
           "type": "color"
         }
       },
-      "admin": {
-        "value": "{theme.surface.main}",
-        "type": "color"
-      },
-      "on-primary": {
-        "value": "{theme.primary.onMain}",
-        "type": "color"
-      },
-      "on-secondary": {
-        "value": "{theme.secondary.onMain}",
-        "type": "color"
-      },
-      "on-error": {
-        "value": "{theme.error.onMain}",
-        "type": "color"
-      },
       "destructive": {
         "default": {
           "value": "{theme.error.main}",
@@ -852,14 +848,6 @@
           "value": "{theme.error.onContainer}",
           "type": "color"
         }
-      },
-      "on-disabled": {
-        "value": "{theme.disabled.main}",
-        "type": "color"
-      },
-      "default": {
-        "value": "{theme.surface.onMain}",
-        "type": "color"
       }
     }
   },

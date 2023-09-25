@@ -602,6 +602,12 @@
           "value": "{theme.error.onContainer}",
           "type": "color"
         }
+      },
+      "accent": {
+        "tertiary": {
+          "value": "{theme.tertiary.main}",
+          "type": "color"
+        }
       }
     },
     "text": {
@@ -760,6 +766,12 @@
         },
         "bandwidth": {
           "value": "{color.blue.0}",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "on-tertiary": {
+          "value": "{theme.tertiary.containerVariant}",
           "type": "color"
         }
       }

@@ -878,12 +878,12 @@
         },
         "type": "typography"
       },
-      "h3": {
+      "h2": {
         "value": {
           "fontFamily": "{font.overpass}",
-          "fontWeight": "{font-weight.400}",
-          "lineHeight": "$line-height.28",
-          "fontSize": "$font-size.4",
+          "fontWeight": "{font-weight.700}",
+          "lineHeight": "$line-height.32",
+          "fontSize": "$font-size.5",
           "letterSpacing": "$letter-spacing.none",
           "paragraphSpacing": "$paragraph-spacing.none",
           "textCase": "$text-case.none",
@@ -891,12 +891,12 @@
         },
         "type": "typography"
       },
-      "h2": {
+      "h3": {
         "value": {
           "fontFamily": "{font.overpass}",
-          "fontWeight": "{font-weight.700}",
-          "lineHeight": "$line-height.32",
-          "fontSize": "$font-size.5",
+          "fontWeight": "{font-weight.400}",
+          "lineHeight": "$line-height.28",
+          "fontSize": "$font-size.4",
           "letterSpacing": "$letter-spacing.none",
           "paragraphSpacing": "$paragraph-spacing.none",
           "textCase": "$text-case.none",

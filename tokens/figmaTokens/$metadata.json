@@ -3,6 +3,7 @@
     "BluePrint",
     "Light",
     "Dark",
-    "Brand"
+    "Brand",
+    "singleTokenFile"
   ]
 }

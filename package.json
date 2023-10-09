@@ -27,10 +27,7 @@
     "build-all": "npm run transform && npm run build-tokens"
   },
   "dependencies": {
-    "@changesets/cli": "^2.22.0",
-    "mdb-ui-kit": "^5.0.0",
     "node": "^19.8.1",
-    "rimraf": "^3.0.2",
     "style-dictionary": "^3.7.0",
     "token-transformer": "^0.0.27"
   },

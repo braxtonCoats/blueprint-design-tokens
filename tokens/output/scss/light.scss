@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Mon, 07 Aug 2023 13:41:03 GMT
+ * Generated on Mon, 09 Oct 2023 13:57:50 GMT
  */
 
 $theme-primary-main: #076ea8 !default;
@@ -50,433 +50,142 @@ $theme-outline-success: #99e5d1 !default;
 $theme-outline-seperator: #cdcccd !default;
 $theme-disabled-main: #dad9d9 !default;
 $theme-disabled-on-main: #5e5a5c !default;
-$elevation-12: 0px 7px 8px 0px #00000033, 0px 5px 22px 0px #0000001f, 0px 12px 17px 0px #00000024 !default;
-$elevation-16: 0px 8px 10px 0px #00000033, 0px 6px 30px 0px #0000001f, 0px 16px 24px 0px #00000024 !default;
-$elevation-24: 0px 24px 38px 0px #00000024, 0px 9px 46px 0px #0000001f, 0px 11px 15px 0px #00000033 !default;
-$elevation-01: 0px 1px 1px 0px #00000024, 0px 2px 1px 0px #0000001f, 0px 1px 3px 0px #00000033 !default;
-$elevation-02: 0px 1px 5px 0px #00000033, 0px 3px 1px 0px #0000001f, 0px 2px 2px 0px #00000024 !default;
-$elevation-03: 0px 1px 8px 0px #00000033, 0px 3px 3px 0px #0000001f, 0px 3px 4px 0px #00000024 !default;
-$elevation-04: 0px 2px 4px 0px #00000033, 0px 1px 10px 0px #0000001f, 0px 4px 5px 0px #00000024 !default;
-$elevation-06: 0px 3px 5px 0px #00000033, 0px 1px 18px 0px #0000001f, 0px 6px 10px 0px #00000024 !default;
-$elevation-08: 0px 5px 5px 0px #00000033, 0px 3px 14px 0px #0000001f, 0px 8px 10px 0px #00000024 !default;
-$elevation-09: 0px 5px 6px 0px #00000033, 0px 3px 16px 0px #0000001f, 0px 9px 12px 0px #00000024 !default;
+$shadow-elevation-12: 0px 7px 8px 0px #00000033, 0px 5px 22px 0px #0000001f, 0px 12px 17px 0px #00000024 !default;
+$shadow-elevation-16: 0px 8px 10px 0px #00000033, 0px 6px 30px 0px #0000001f, 0px 16px 24px 0px #00000024 !default;
+$shadow-elevation-24: 0px 24px 38px 0px #00000024, 0px 9px 46px 0px #0000001f, 0px 11px 15px 0px #00000033 !default;
+$shadow-elevation-01: 0px 1px 1px 0px #00000024, 0px 2px 1px 0px #0000001f, 0px 1px 3px 0px #00000033 !default;
+$shadow-elevation-02: 0px 1px 5px 0px #00000033, 0px 3px 1px 0px #0000001f, 0px 2px 2px 0px #00000024 !default;
+$shadow-elevation-03: 0px 1px 8px 0px #00000033, 0px 3px 3px 0px #0000001f, 0px 3px 4px 0px #00000024 !default;
+$shadow-elevation-04: 0px 2px 4px 0px #00000033, 0px 1px 10px 0px #0000001f, 0px 4px 5px 0px #00000024 !default;
+$shadow-elevation-06: 0px 3px 5px 0px #00000033, 0px 1px 18px 0px #0000001f, 0px 6px 10px 0px #00000024 !default;
+$shadow-elevation-08: 0px 5px 5px 0px #00000033, 0px 3px 14px 0px #0000001f, 0px 8px 10px 0px #00000024 !default;
+$shadow-elevation-09: 0px 5px 6px 0px #00000033, 0px 3px 16px 0px #0000001f, 0px 9px 12px 0px #00000024 !default;
+$shadow-navigation-secondary-old-hover: 0 2 3 -2 #00000035 !default;
+$shadow-navigation-secondary-hover: 0px 1px 5px 0px #00000033, 0px 3px 1px 0px #0000001f, 0px 2px 2px 0px #00000024 !default;
+$shadow-navigation-header: 0 0 10 0 #0000000d, 0 1 1 0 #0000001a !default;
+$shadow-focus: 0 0 0 2 #079cee !default;
+$shadow-focus-visible: 0 0 0 2 #079cee !default;
+$shadow-table-scroll-left: 5 0 10 0 #00000024 !default;
+$shadow-table-scroll-right: -5 0 10 0 #00000024 !default;
+$shadow-modal-default: 0px 24px 38px 0px #00000024, 0px 9px 46px 0px #0000001f, 0px 11px 15px 0px #00000033 !default;
+$color-background-admin: #090306 !default;
+$color-background-surface: #ffffff !default;
 $color-background-disabled: #dad9d9 !default;
 $color-background-success: #e5f8f3 !default;
 $color-background-warning: #fefae8 !default;
-$color-background-info: #e6f5fd !default;
+$color-background-info-container: #e6f5fd !default;
 $color-background-error: #fbebeb !default;
-$color-background-primary: #f2f2f2 !default;
-$color-accordion-background-default: #ffffff !default;
-$color-accordion-background-features: #e5e5e5 !default;
-$color-accordion-border-default: #cdcccd !default;
-$color-surface-primary: #ffffff !default;
-$color-surface-secondary: #e5e5e5 !default;
-$color-navigation-background-default: #ffffff !default;
-$color-navigation-background-hover: #e6f5fd !default;
-$color-navigation-background-active: #e6f5fd !default;
-$color-navigation-background-selected: #075e91 !default;
-$color-navigation-background-emergency: #e66440 !default;
-$color-navigation-background-slim-default: #ffffff !default;
-$color-navigation-background-slim-hover: #075e91 !default;
-$color-navigation-background-slim-active: #075e91 !default;
-$color-navigation-background-slim-selected: #075e91 !default;
-$color-navigation-background-slim-emergency: #e66440 !default;
-$color-navigation-icon-default: #076ea8 !default;
-$color-navigation-icon-hover: #084f7a !default;
-$color-navigation-icon-active: #084f7a !default;
-$color-navigation-icon-selected: #ffffff !default;
-$color-navigation-icon-slim-default: #076ea8 !default;
-$color-navigation-icon-slim-hover: #ffffff !default;
-$color-navigation-icon-slim-active: #ffffff !default;
-$color-navigation-icon-slim-selected: #ffffff !default;
-$color-navigation-text-default: #090306 !default;
-$color-navigation-text-hover: #084f7a !default;
-$color-navigation-text-active: #ffffff !default;
-$color-navigation-border-active: #084f7a !default;
-$color-navigation-border-default: #cdcccd !default;
-$color-secondary-navigation-background-default: #e6f5fd !default;
-$color-secondary-navigation-background-hover: #ffffff !default;
-$color-secondary-navigation-background-active: #e6f5fd !default;
-$color-secondary-navigation-background-selected: #ffffff !default;
-$color-secondary-navigation-text-default: #090306 !default;
-$color-secondary-navigation-text-selected: #076ea8 !default;
-$color-secondary-navigation-text-active: #084f7a !default;
-$color-secondary-navigation-border-active: #084f7a !default;
-$color-input-background-default: #ffffff !default;
-$color-input-background-hover: #ffffff !default;
-$color-input-background-selected: #076ea8 !default;
-$color-input-background-disabled: #dad9d9 !default;
-$color-input-background-disabled-selected: #5e5a5c !default;
-$color-input-icon-default: #777476 !default;
-$color-input-icon-disabled: #5e5a5c !default;
-$color-input-border-default: #cdcccd !default;
-$color-input-border-hover: #cdcccd !default;
-$color-input-border-selected: #076ea8 !default;
-$color-input-border-error: #c43837 !default;
-$color-input-border-disabled: #5e5a5c !default;
-$color-input-text-placeholder: #777476 !default;
-$color-input-text-input: #090306 !default;
-$color-input-text-requried: #c43837 !default;
-$color-dropdown-background-default: #ffffff !default;
-$color-dropdown-background-hover: #ffffff !default;
-$color-dropdown-background-selected: #ffffff !default;
-$color-dropdown-background-disabled: #dad9d9 !default;
-$color-dropdown-background-error: #ffffff !default;
-$color-dropdown-border-default: #cdcccd !default;
-$color-dropdown-border-hover: #848182 !default;
-$color-dropdown-border-selected: #848182 !default;
-$color-dropdown-border-error: #c43837 !default;
-$color-dropdown-border-disabled: #5e5a5c !default;
-$color-dropdown-border-selected-variant: #e6f5fd !default;
-$color-dropdown-icon-default: #777476 !default;
-$color-dropdown-icon-disabled: #5e5a5c !default;
-$color-chip-background-default: #ffffff !default;
-$color-chip-background-enabled: #028663 !default;
-$color-chip-background-error: #c43837 !default;
-$color-chip-background-pending: #b19014 !default;
-$color-chip-background-messaging: #00bf8c !default;
-$color-chip-background-voice: #9a59c5 !default;
-$color-chip-background-disabled: #dad9d9 !default;
-$color-chip-background-numbers: #652b51 !default;
-$color-chip-text-default: #090306 !default;
-$color-chip-text-enabled: #ffffff !default;
-$color-chip-text-error: #ffffff !default;
-$color-chip-text-pending: #ffffff !default;
-$color-chip-text-messaging: #072820 !default;
-$color-chip-text-voice: #ffffff !default;
-$color-chip-text-disabled: #5e5a5c !default;
-$color-chip-text-numbers: #ffffff !default;
-$color-modal-background-header: #ffffff !default;
-$color-modal-background-footer: #e5e5e5 !default;
-$color-radio-background-default: #ffffff !default;
-$color-radio-background-hover: #e6f5fd !default;
-$color-radio-background-active: #ffffff !default;
-$color-radio-background-selected: #076ea8 !default;
-$color-radio-background-selected-hover: #084f7a !default;
-$color-radio-background-disabled: #dad9d9 !default;
-$color-radio-background-disabled-selected: #5e5a5c !default;
-$color-radio-background-selected-active: #084f7a !default;
-$color-radio-border-default: #cdcccd !default;
-$color-radio-border-hover: #cdcccd !default;
-$color-radio-border-active: #084f7a !default;
-$color-radio-border-selected: #076ea8 !default;
-$color-radio-border-selected-hover: #084f7a !default;
-$color-radio-border-disabled: #5e5a5c !default;
-$color-radio-border-disabled-selected: #5e5a5c !default;
-$color-radio-border-selected-active: #076ea8 !default;
-$color-switch-background-default: #ffffff !default;
-$color-switch-background-hover: #e6f5fd !default;
-$color-switch-background-selected: #076ea8 !default;
-$color-switch-background-selected-hover: #084f7a !default;
-$color-switch-background-disabled: #dad9d9 !default;
-$color-switch-background-disabled-selected: #5e5a5c !default;
-$color-switch-icon-default: #090306 !default;
-$color-switch-icon-selected: #ffffff !default;
-$color-switch-icon-disabled: #5e5a5c !default;
-$color-switch-border-default: #cdcccd !default;
-$color-switch-border-selected: #076ea8 !default;
-$color-switch-border-selected-hover: #084f7a !default;
-$color-switch-border-disabled: #5e5a5c !default;
-$color-table-background-header: #e5e5e5 !default;
-$color-table-background-cell: #ffffff !default;
-$color-table-border-default: #cdcccd !default;
-$color-table-icons-default: #5e5a5c !default;
-$color-table-icons-active: #076ea8 !default;
-$color-badge-background-default: #f4fcfa !default;
-$color-badge-background-disabled: #dad9d9 !default;
-$color-badge-background-error: #c43837 !default;
-$color-badge-background-warning: #b19014 !default;
-$color-badge-background-admin: #090306 !default;
-$color-badge-background-success: #028663 !default;
-$color-badge-background-product-messaging: #00bf8c !default;
-$color-badge-background-product-voice: #9a59c5 !default;
-$color-badge-background-product-numbers: #652b51 !default;
-$color-badge-text-default: #090306 !default;
-$color-badge-text-disabled: #5e5a5c !default;
-$color-badge-text-error: #ffffff !default;
-$color-badge-text-warning: #ffffff !default;
-$color-badge-text-success: #ffffff !default;
-$color-badge-text-product-messagin: #072820 !default;
-$color-badge-text-product-voice: #ffffff !default;
-$color-badge-text-product-numbers: #ffffff !default;
-$color-badge-text-admin: #ffffff !default;
-$color-badge-border-default: #028663 !default;
-$color-badge-border-error: #c43837 !default;
-$color-badge-border-warning: #b19014 !default;
-$color-badge-icon-admin: #ffffff !default;
-$color-badge-icon-admin-background: #079cee !default;
-$color-button-outlined-background-default: #ffffff !default;
-$color-button-outlined-background-hover: #ffffff !default;
-$color-button-outlined-background-active: #ffffff !default;
-$color-button-outlined-background-disabled: #f2f2f2 !default;
-$color-button-outlined-border-default: #076ea8 !default;
-$color-button-outlined-border-hover: #075e91 !default;
-$color-button-outlined-border-active: #084f7a !default;
-$color-button-outlined-border-disabled: #dad9d9 !default;
-$color-button-outlined-text-default: #076ea8 !default;
-$color-button-outlined-text-hover: #075e91 !default;
-$color-button-outlined-text-active: #084f7a !default;
-$color-button-outlined-text-disabled: #5e5a5c !default;
-$color-button-outlined-icon-default: #076ea8 !default;
-$color-button-outlined-icon-hover: #075e91 !default;
-$color-button-outlined-icon-active: #084f7a !default;
-$color-button-outlined-icon-disabled: #5e5a5c !default;
-$color-button-contained-background-default: #076ea8 !default;
-$color-button-contained-background-hover: #075e91 !default;
-$color-button-contained-background-active: #084f7a !default;
-$color-button-contained-background-disabled: #dad9d9 !default;
-$color-button-contained-border-default: #076ea8 !default;
-$color-button-contained-border-hover: #075e91 !default;
-$color-button-contained-border-active: #084f7a !default;
-$color-button-contained-border-disabled: #dad9d9 !default;
-$color-button-contained-text-default: #ffffff !default;
-$color-button-contained-text-disabled: #5e5a5c !default;
-$color-button-contained-icon-default: #ffffff !default;
-$color-button-contained-icon-hover: #ffffff !default;
-$color-button-contained-icon-active: #ffffff !default;
-$color-button-contained-icon-disabled: #5e5a5c !default;
-$color-button-text-default: #076ea8 !default;
-$color-button-text-hover: #084f7a !default;
-$color-button-text-active: #084f7a !default;
-$color-button-text-disabled: #5e5a5c !default;
-$color-button-text-background-hover: #e6f5fd !default;
-$color-button-text-background-active: #e6f5fd !default;
-$color-button-text-icon-default: #076ea8 !default;
-$color-button-text-icon-hover: #084f7a !default;
-$color-button-text-icon-active: #084f7a !default;
-$color-button-text-icon-disabled: #5e5a5c !default;
-$color-button-icon-background-default: #ffffff !default;
-$color-button-icon-background-hover: #e6f5fd !default;
-$color-button-icon-background-active: #e6f5fd !default;
-$color-button-icon-background-disabled: #dad9d9 !default;
-$color-button-icon-border-active: #084f7a !default;
-$color-button-icon-icon-default: #076ea8 !default;
-$color-button-icon-icon-hover: #084f7a !default;
-$color-button-icon-icon-active: #084f7a !default;
-$color-button-icon-icon-disabled: #5e5a5c !default;
-$color-outline-focus: #079cee !default;
-$color-alert-text-info: #084f7a !default;
-$color-alert-text-warning: #392b0a !default;
-$color-alert-text-success: #072820 !default;
-$color-alert-text-error: #320e11 !default;
-$color-alert-border-info: #076ea8 !default;
-$color-alert-border-warning: #b19014 !default;
-$color-alert-border-success: #028663 !default;
-$color-alert-border-error: #c43837 !default;
-$color-alert-background-info: #e6f5fd !default;
-$color-alert-background-warning: #fefae8 !default;
-$color-alert-background-success: #e5f8f3 !default;
-$color-alert-background-error: #fbebeb !default;
-$color-link-text-default: #076ea8 !default;
-$color-link-text-hover: #076ea8 !default;
-$color-link-text-active: #076ea8 !default;
-$color-link-text-disabled: #5e5a5c !default;
-$color-link-text-visited: #084f7a !default;
-$color-link-background-hover: #e6f5fd !default;
-$color-link-icon-default: #076ea8 !default;
-$color-link-icon-visited: #084f7a !default;
-$color-icon-default: #090306 !default;
-$color-icon-primary: #076ea8 !default;
-$color-icon-info: #076ea8 !default;
-$color-icon-success: #028663 !default;
-$color-icon-warning: #b19014 !default;
-$color-icon-error: #c43837 !default;
-$color-icon-disabled: #5e5a5c !default;
-$color-icon-on-primary: #ffffff !default;
-$color-tab-text-selected: #076ea8 !default;
-$color-tab-border-selected: #076ea8 !default;
-$color-tab-border-hover: #084f7a !default;
-$color-tab-border-default: #cdcccd !default;
-$color-tooltip-background: #ffffff !default;
-$color-logo-mark: #076ea8 !default;
-$color-logo-text: #076ea8 !default;
-$color-logo-seperator: #076ea8 !default;
-$color-text-placeholder: #777476 !default;
+$color-background-default: #f2f2f2 !default;
+$color-background-hover: #e6f5fd !default;
+$color-background-selected: #076ea8 !default;
+$color-background-selected-hover: #075e91 !default;
+$color-background-container: #e6f5fd !default;
+$color-background-disabled-selected: #5e5a5c !default;
+$color-background-interactive-default: #076ea8 !default;
+$color-background-interactive-hover: #084f7a !default;
+$color-background-interactive-pressed: #084f7a !default;
+$color-background-interactive-disabled: #dad9d9 !default;
+$color-background-interactive-selected-hover: #084f7a !default;
+$color-background-interactive-pressed-variant: #e5e5e5 !default;
+$color-background-product-voice: #9a59c5 !default;
+$color-background-product-numbers: #652b51 !default;
+$color-background-product-messaging: #00bf8c !default;
+$color-background-product-emergency: #ff6f47 !default;
+$color-background-product-brand: #079cee !default;
+$color-background-info-default: #076ea8 !default;
+$color-background-info-warning: #b19014 !default;
+$color-background-info-error: #c43837 !default;
+$color-background-info-success: #028663 !default;
+$color-background-info-disabled: #dad9d9 !default;
+$color-background-destructive-default: #c43837 !default;
+$color-background-destructive-on-container: #320e11 !default;
+$color-background-destructive-pressed: #320e11 !default;
+$color-background-destructive-container: #fdf7f7 !default;
+$color-border-default: #cdcccd !default;
+$color-border-secondary: #084f7a !default;
+$color-border-error: #c43837 !default;
+$color-border-primary: #076ea8 !default;
+$color-border-selected: #848182 !default;
+$color-border-disabled: #5e5a5c !default;
+$color-border-on-primary-container: #084f7a !default;
+$color-border-container: #e6f5fd !default;
+$color-border-interactive-default: #076ea8 !default;
+$color-border-interactive-hover: #084f7a !default;
+$color-border-interactive-pressed: #084f7a !default;
+$color-border-interactive-disabled: #dad9d9 !default;
+$color-border-info-default: #076ea8 !default;
+$color-border-info-warning: #b19014 !default;
+$color-border-info-error: #c43837 !default;
+$color-border-info-success: #028663 !default;
+$color-border-destructive-default: #c43837 !default;
+$color-border-destructive-on-container: #320e11 !default;
+$color-border-accent-tertiary: #8b50b1 !default;
 $color-text-default: #090306 !default;
-$color-text-error: #c43837 !default;
+$color-text-placeholder: #777476 !default;
+$color-text-help-text: #777476 !default;
 $color-text-disabled: #5e5a5c !default;
+$color-text-on-disabled: #dad9d9 !default;
+$color-text-primary: #076ea8 !default;
+$color-text-on-primary: #ffffff !default;
+$color-text-secondary: #084f7a !default;
+$color-text-on-secondary: #ffffff !default;
+$color-text-admin: #ffffff !default;
+$color-text-link: #076ea8 !default;
+$color-text-error: #c43837 !default;
+$color-text-interactive-primary: #076ea8 !default;
+$color-text-interactive-on-primary: #ffffff !default;
+$color-text-interactive-primary-on-container: #084f7a !default;
+$color-text-interactive-secondary: #084f7a !default;
+$color-text-interactive-on-secondary: #ffffff !default;
+$color-text-interactive-secondary-container: #075e91 !default;
+$color-text-interactive-destructive-main: #c43837 !default;
+$color-text-interactive-destructive-on-main: #ffffff !default;
+$color-text-interactive-destructive-on-container: #320e11 !default;
 $color-text-heading-h1: #076ea8 !default;
 $color-text-heading-h2: #090306 !default;
 $color-text-heading-h3: #090306 !default;
 $color-text-heading-h4: #076ea8 !default;
 $color-text-heading-h5: #090306 !default;
 $color-text-heading-h6: #090306 !default;
-$color-text-help-text: #777476 !default;
-$color-admin-navigation-background-default: #090306 !default;
-$color-admin-navigation-text-default: #ffffff !default;
-$color-inline-radio-background-default: #ffffff !default;
-$color-inline-radio-background-selected: #076ea8 !default;
-$color-inline-radio-background-hover: #e6f5fd !default;
-$color-inline-radio-background-disabled-default: #dad9d9 !default;
-$color-inline-radio-background-disabled-selected: #5e5a5c !default;
-$color-inline-radio-border-default: #cdcccd !default;
-$color-inline-radio-border-selected: #076ea8 !default;
-$color-inline-radio-border-hover: #e6f5fd !default;
-$color-inline-radio-border-disabled-default: #dad9d9 !default;
-$color-inline-radio-border-disabled-selected: #5e5a5c !default;
-$color-inline-radio-text-default: #090306 !default;
-$color-inline-radio-text-selected: #ffffff !default;
-$color-inline-radio-text-help-text: #777476 !default;
-$color-inline-radio-text-disabled-default: #5e5a5c !default;
-$color-inline-radio-text-disabled-selected: #dad9d9 !default;
-$color-label-background-default: #ffffff !default;
-$color-label-background-disabled: #dad9d9 !default;
-$color-label-background-error: #ffffff !default;
-$color-label-text-default: #090306 !default;
-$color-label-text-required: #c43837 !default;
-$color-label-text-disabled: #5e5a5c !default;
-$color-label-text-error: #c43837 !default;
-$color-status-dot-success: #028663 !default;
-$color-status-dot-warning: #b19014 !default;
-$color-status-dot-error: #c43837 !default;
-$color-destructive-button-outlined-background-default: #ffffff !default;
-$color-destructive-button-outlined-background-hover: #c43837 !default;
-$color-destructive-button-outlined-background-active: #320e11 !default;
-$color-destructive-button-outlined-background-disabled: #dad9d9 !default;
-$color-destructive-button-outlined-border-default: #c43837 !default;
-$color-destructive-button-outlined-border-hover: #c43837 !default;
-$color-destructive-button-outlined-border-active: #c43837 !default;
-$color-destructive-button-outlined-border-disabled: #5e5a5c !default;
-$color-destructive-button-outlined-text-default: #c43837 !default;
-$color-destructive-button-outlined-text-hover: #ffffff !default;
-$color-destructive-button-outlined-text-active: #ffffff !default;
-$color-destructive-button-outlined-text-disabled: #5e5a5c !default;
-$color-destructive-button-outlined-icon-default: #c43837 !default;
-$color-destructive-button-outlined-icon-hover: #ffffff !default;
-$color-destructive-button-outlined-icon-active: #ffffff !default;
-$color-destructive-button-outlined-icon-disabled: #5e5a5c !default;
-$color-destructive-button-contained-background-default: #c43837 !default;
-$color-destructive-button-contained-background-hover: #320e11 !default;
-$color-destructive-button-contained-background-active: #320e11 !default;
-$color-destructive-button-contained-background-disabled: #dad9d9 !default;
-$color-destructive-button-contained-border-default: #c43837 !default;
-$color-destructive-button-contained-border-hover: #320e11 !default;
-$color-destructive-button-contained-border-active: #320e11 !default;
-$color-destructive-button-contained-border-disabled: #dad9d9 !default;
-$color-destructive-button-contained-text-default: #ffffff !default;
-$color-destructive-button-contained-text-disabled: #5e5a5c !default;
-$color-destructive-button-contained-icon-default: #ffffff !default;
-$color-destructive-button-contained-icon-hover: #320e11 !default;
-$color-destructive-button-contained-icon-active: #320e11 !default;
-$color-destructive-button-contained-icon-disabled: #5e5a5c !default;
-$color-destructive-button-text-default: #c43837 !default;
-$color-destructive-button-text-hover: #320e11 !default;
-$color-destructive-button-text-active: #320e11 !default;
-$color-destructive-button-text-disabled: #5e5a5c !default;
-$color-destructive-button-text-icon-default: #c43837 !default;
-$color-destructive-button-text-icon-hover: #320e11 !default;
-$color-destructive-button-text-icon-active: #320e11 !default;
-$color-destructive-button-text-icon-disabled: #5e5a5c !default;
-$color-destructive-button-text-background-hover: #fdf7f7 !default;
-$color-destructive-button-text-background-active: #fdf7f7 !default;
-$color-destructive-button-icon-background-default: #ffffff !default;
-$color-destructive-button-icon-background-hover: #fdf7f7 !default;
-$color-destructive-button-icon-background-active: #fdf7f7 !default;
-$color-destructive-button-icon-background-disabled: #dad9d9 !default;
-$color-destructive-button-icon-border-active: #320e11 !default;
-$color-destructive-button-icon-icon-default: #c43837 !default;
-$color-destructive-button-icon-icon-hover: #320e11 !default;
-$color-destructive-button-icon-icon-active: #320e11 !default;
-$color-destructive-button-icon-icon-disabled: #5e5a5c !default;
-$color-drag-item-icon-default: #076ea8 !default;
-$color-dropdown-option-background-default: #ffffff !default;
-$color-dropdown-option-background-hover: #e6f5fd !default;
-$color-dropdown-option-background-selected: #e6f5fd !default;
-$color-card-background-default: #ffffff !default;
-$color-checkbox-background-default: #ffffff !default;
-$color-checkbox-background-hover: #e6f5fd !default;
-$color-checkbox-background-selected: #076ea8 !default;
-$color-checkbox-background-selected-hover: #084f7a !default;
-$color-checkbox-background-disabled: #dad9d9 !default;
-$color-checkbox-background-disabled-selected: #5e5a5c !default;
-$color-checkbox-border-default: #cdcccd !default;
-$color-checkbox-border-hover: #cdcccd !default;
-$color-checkbox-border-selected: #076ea8 !default;
-$color-checkbox-border-selected-hover: #084f7a !default;
-$color-checkbox-border-error: #c43837 !default;
-$color-checkbox-border-disabled: #5e5a5c !default;
-$color-checkbox-icon-default: #076ea8 !default;
-$color-checkbox-icon-hover: #076ea8 !default;
-$color-checkbox-icon-selected: #ffffff !default;
-$color-checkbox-icon-active: #076ea8 !default;
-$color-checkbox-icon-disabled: #5e5a5c !default;
-$color-checkbox-icon-disabled-selected: #dad9d9 !default;
-$color-list-item-background-default: #ffffff !default;
-$color-list-item-background-hover: #e6f5fd !default;
-$color-list-item-background-selected: #e6f5fd !default;
-$color-list-item-background-disabled: #dad9d9 !default;
-$color-list-item-border-default: #cdcccd !default;
-$color-list-item-border-selected: #079cee !default;
-$color-list-item-text-default: #090306 !default;
-$color-text-field-background-default: #ffffff !default;
-$color-text-field-background-hover: #ffffff !default;
-$color-text-field-background-selected: #076ea8 !default;
-$color-text-field-background-disabled: #dad9d9 !default;
-$color-text-field-background-disabled-selected: #5e5a5c !default;
-$color-text-field-icon-default: #777476 !default;
-$color-text-field-icon-disabled: #5e5a5c !default;
-$color-text-field-border-default: #cdcccd !default;
-$color-text-field-border-hover: #cdcccd !default;
-$color-text-field-border-selected: #076ea8 !default;
-$color-text-field-border-error: #c43837 !default;
-$color-text-field-border-disabled: #5e5a5c !default;
-$color-text-field-text-placeholder: #777476 !default;
-$color-text-field-text-input: #090306 !default;
-$color-text-field-text-requried: #c43837 !default;
-$color-select-background-default: #ffffff !default;
-$color-select-background-hover: #ffffff !default;
-$color-select-background-selected: #ffffff !default;
-$color-select-background-disabled: #dad9d9 !default;
-$color-select-background-error: #ffffff !default;
-$color-select-border-default: #cdcccd !default;
-$color-select-border-hover: #848182 !default;
-$color-select-border-selected: #848182 !default;
-$color-select-border-error: #c43837 !default;
-$color-select-border-disabled: #5e5a5c !default;
-$color-select-border-selected-variant: #e6f5fd !default;
-$color-select-icon-default: #777476 !default;
-$color-select-icon-disabled: #5e5a5c !default;
-$color-select-option-background-default: #ffffff !default;
-$color-select-option-background-hover: #e6f5fd !default;
-$color-select-option-background-selected: #e6f5fd !default;
-$color-multi-select-option-background-default: #ffffff !default;
-$color-multi-select-option-border-selected: #cdcccd !default;
-$color-file-upload-background-default: #ffffff !default;
-$color-file-upload-background-hover: #ffffff !default;
-$color-file-upload-background-selected: #076ea8 !default;
-$color-file-upload-background-disabled: #dad9d9 !default;
-$color-file-upload-background-disabled-selected: #5e5a5c !default;
-$color-file-upload-icon-default: #777476 !default;
-$color-file-upload-icon-disabled: #5e5a5c !default;
-$color-file-upload-border-default: #cdcccd !default;
-$color-file-upload-border-hover: #cdcccd !default;
-$color-file-upload-border-selected: #848182 !default;
-$color-file-upload-border-error: #c43837 !default;
-$color-file-upload-border-disabled: #5e5a5c !default;
-$color-file-upload-text-placeholder: #777476 !default;
-$color-file-upload-text-input: #090306 !default;
-$color-file-upload-text-requried: #c43837 !default;
-$color-calendar-background-default: #ffffff !default;
-$color-calendar-background-hover: #e6f5fd !default;
-$color-calendar-background-selected: #076ea8 !default;
-$color-calendar-text-default: #090306 !default;
-$color-calendar-text-selected: #ffffff !default;
+$color-text-info-default: #076ea8 !default;
+$color-text-info-warning: #392b0a !default;
+$color-text-info-error: #320e11 !default;
+$color-text-info-success: #072820 !default;
+$color-text-info-disabled: #5e5a5c !default;
+$color-text-product-emergency: #3a1812 !default;
+$color-text-product-numbers: #EFE9ED !default;
+$color-text-product-voice: #faf8fc !default;
+$color-text-product-messaging: #072820 !default;
+$color-text-product-bandwidth: #ffffff !default;
+$color-text-accent-on-tertiary: #341c3f !default;
+$color-graphic-default: #090306 !default;
+$color-graphic-primary: #076ea8 !default;
+$color-graphic-hover: #084f7a !default;
+$color-graphic-pressed: #084f7a !default;
+$color-graphic-selected: #ffffff !default;
+$color-graphic-disabled: #5e5a5c !default;
+$color-graphic-dropdown: #777476 !default;
+$color-graphic-on-disabled: #dad9d9 !default;
+$color-graphic-admin: #ffffff !default;
+$color-graphic-on-primary: #ffffff !default;
+$color-graphic-on-secondary: #ffffff !default;
+$color-graphic-on-error: #ffffff !default;
+$color-graphic-info-default: #076ea8 !default;
+$color-graphic-info-warning: #b19014 !default;
+$color-graphic-info-error: #c43837 !default;
+$color-graphic-info-success: #028663 !default;
+$color-graphic-destructive-default: #c43837 !default;
+$color-graphic-destructive-on-default: #ffffff !default;
+$color-graphic-destructive-hover: #320e11 !default;
+$color-graphic-destructive-pressed: #320e11 !default;
 $typography-heading-h1-font-family: Overpass !default;
 $typography-heading-h1-font-weight: 300 !default;
 $typography-heading-h1-line-height: 2.5rem !default;
 $typography-heading-h1-font-size: 2.25rem !default;
 $typography-heading-h1-letter-spacing: 0% !default;
 $typography-heading-h1-paragraph-spacing: 0 !default;
-$typography-heading-h1-text-case: none !default;
+$typography-heading-h1-text-case: Capitalize !default;
 $typography-heading-h1-text-decoration: none !default;
-$typography-heading-h3-font-family: Overpass !default;
-$typography-heading-h3-font-weight: 400 !default;
-$typography-heading-h3-line-height: 1.75rem !default;
-$typography-heading-h3-font-size: 1.5rem !default;
-$typography-heading-h3-letter-spacing: 0% !default;
-$typography-heading-h3-paragraph-spacing: 0 !default;
-$typography-heading-h3-text-case: none !default;
-$typography-heading-h3-text-decoration: none !default;
 $typography-heading-h2-font-family: Overpass !default;
 $typography-heading-h2-font-weight: 700 !default;
 $typography-heading-h2-line-height: 2rem !default;
@@ -485,6 +194,14 @@ $typography-heading-h2-letter-spacing: 0% !default;
 $typography-heading-h2-paragraph-spacing: 0 !default;
 $typography-heading-h2-text-case: none !default;
 $typography-heading-h2-text-decoration: none !default;
+$typography-heading-h3-font-family: Overpass !default;
+$typography-heading-h3-font-weight: 400 !default;
+$typography-heading-h3-line-height: 1.75rem !default;
+$typography-heading-h3-font-size: 1.5rem !default;
+$typography-heading-h3-letter-spacing: 0% !default;
+$typography-heading-h3-paragraph-spacing: 0 !default;
+$typography-heading-h3-text-case: none !default;
+$typography-heading-h3-text-decoration: none !default;
 $typography-heading-h4-font-family: Overpass !default;
 $typography-heading-h4-font-weight: 900 !default;
 $typography-heading-h4-line-height: 1.3125rem !default;
@@ -515,7 +232,7 @@ $typography-label-large-line-height: 1.25rem !default;
 $typography-label-large-font-size: 0.875rem !default;
 $typography-label-large-letter-spacing: 0% !default;
 $typography-label-large-paragraph-spacing: 0 !default;
-$typography-label-large-text-case: Title Case !default;
+$typography-label-large-text-case: Capitalize !default;
 $typography-label-large-text-decoration: none !default;
 $typography-label-tab-font-family: Overpass !default;
 $typography-label-tab-font-weight: 700 !default;
@@ -581,38 +298,6 @@ $typography-body-small-letter-spacing: 0% !default;
 $typography-body-small-paragraph-spacing: 0 !default;
 $typography-body-small-text-decoration: none !default;
 $typography-body-small-text-case: none !default;
-$typography-navigation-primary-font-family: Overpass !default;
-$typography-navigation-primary-font-weight: 600 !default;
-$typography-navigation-primary-line-height: 1.5rem !default;
-$typography-navigation-primary-font-size: 0.875rem !default;
-$typography-navigation-primary-letter-spacing: 0% !default;
-$typography-navigation-primary-paragraph-spacing: 0 !default;
-$typography-navigation-primary-text-case: none !default;
-$typography-navigation-primary-text-decoration: none !default;
-$typography-navigation-secondary-font-family: Overpass !default;
-$typography-navigation-secondary-font-weight: 400 !default;
-$typography-navigation-secondary-line-height: 1.25rem !default;
-$typography-navigation-secondary-font-size: 0.875rem !default;
-$typography-navigation-secondary-letter-spacing: 0% !default;
-$typography-navigation-secondary-paragraph-spacing: 0 !default;
-$typography-navigation-secondary-text-case: none !default;
-$typography-navigation-secondary-text-decoration: none !default;
-$typography-navigation-copyright-font-family: Overpass !default;
-$typography-navigation-copyright-font-weight: 400 !default;
-$typography-navigation-copyright-line-height: AUTO !default;
-$typography-navigation-copyright-font-size: 0.75rem !default;
-$typography-navigation-copyright-letter-spacing: 0% !default;
-$typography-navigation-copyright-paragraph-spacing: 0 !default;
-$typography-navigation-copyright-text-case: none !default;
-$typography-navigation-copyright-text-decoration: none !default;
-$typography-utility-chip-font-family: Overpass !default;
-$typography-utility-chip-font-weight: 700 !default;
-$typography-utility-chip-line-height: 0.75rem !default;
-$typography-utility-chip-font-size: 0.75rem !default;
-$typography-utility-chip-letter-spacing: 0% !default;
-$typography-utility-chip-paragraph-spacing: 0 !default;
-$typography-utility-chip-text-decoration: none !default;
-$typography-utility-chip-text-case: uppercase !default;
 $typography-utility-button-font-family: Overpass !default;
 $typography-utility-button-font-weight: 600 !default;
 $typography-utility-button-line-height: 1rem !default;
@@ -649,48 +334,15 @@ $border-radius-soft: 0.5rem !default;
 $border-radius-x-soft: 0.25rem !default;
 $border-radius-sharp: 0 !default;
 $border-radius-round: 2rem !default;
-$border-radius-navigation: 0.5rem !default;
-$border-radius-dropdown: 0.25rem !default;
 $border-radius-inline-radio: 0.875rem !default;
 $border-radius-inline-radio-large: 0.375rem !default;
 $border-radius-link: 2rem !default;
-$border-radius-label: 2rem !default;
-$border-radius-input: 0.25rem !default;
-$border-radius-select: 0.25rem !default;
-$border-radius-text-field: 0.25rem !default;
 $border-radius-status-dot: 2rem !default;
-$border-radius-slim-navigation: 2rem !default;
-$border-radius-badge: 0.25rem !default;
-$border-radius-button: 2rem !default;
-$border-radius-accordion: 0 !default;
-$border-radius-card: 0.25rem !default;
-$border-radius-checkbox: 0.25rem !default;
 $border-radius-table: 0.25rem !default;
-$border-radius-multi-select-item: 0.25rem !default;
-$outline-width-focus: 0.125rem !default;
-$outline-width-input-focus: 0.125rem !default;
-$border-width-active: 0.125rem !default;
-$border-width-navigation-seperator: 0.0625rem !default;
-$border-width-input-default: 0.125rem !default;
-$border-width-input-active: 0.25rem !default;
-$border-width-dropdown-default: 0.125rem !default;
-$border-width-dropdown-active: 0.25rem !default;
-$border-width-button: 0.125rem !default;
-$border-width-navigation: 0.125rem !default;
-$border-width-table: 0.0625rem !default;
-$border-width-text-field-default: 0.125rem !default;
-$border-width-text-field-active: 0.25rem !default;
-$border-width-select-default: 0.125rem !default;
-$border-width-select-active: 0.25rem !default;
-$shadow-navigation-secondary-old-hover: 0 2 3 -2 #00000035 !default;
-$shadow-navigation-secondary-hover: 0px 1px 5px 0px #00000033, 0px 3px 1px 0px #0000001f, 0px 2px 2px 0px #00000024 !default;
-$shadow-navigation-header: 0 0 10 0 #0000000d, 0 1 1 0 #0000001a !default;
-$shadow-card-default: 0px 1px 1px 0px #00000024, 0px 2px 1px 0px #0000001f, 0px 1px 3px 0px #00000033 !default;
-$shadow-focus: 0 0 0 2 #079cee !default;
-$shadow-focus-visible: 0 0 0 2 #079cee !default;
-$shadow-table-scroll-left: 5 0 10 0 #00000024 !default;
-$shadow-table-scroll-right: -5 0 10 0 #00000024 !default;
-$shadow-modal-default: 0px 24px 38px 0px #00000024, 0px 9px 46px 0px #0000001f, 0px 11px 15px 0px #00000033 !default;
+$border-outline-width-focus: 0.125rem !default;
+$border-border-width-active: 0.125rem !default;
+$border-border-width-table: 0.0625rem !default;
+$border-table: [object Object] !default;
 $spacing-none: 0 !default;
 $spacing-xxxxx-sm: 0.125rem !default;
 $spacing-xxxx-sm: 0.25rem !default;
@@ -702,9 +354,6 @@ $spacing-md: 2rem !default;
 $spacing-lg: 3rem !default;
 $spacing-x-lg: 4rem !default;
 $spacing-xx-lg: 8rem !default;
-$spacing-drag-item-weight-box-top-bottom: 0.5rem !default;
-$spacing-drag-item-weight-box-left-right: 0.75rem !default;
-$border-table: [object Object] !default;
 $padding-none: 0 !default;
 $padding-xxxxx-sm: 0.125rem !default;
 $padding-xxxx-sm: 0.25rem !default;
@@ -786,417 +435,135 @@ $tokens: (
       'onMain': $theme-disabled-on-main
     )
   ),
-  'elevation': (
-    '12': $elevation-12,
-    '16': $elevation-16,
-    '24': $elevation-24,
-    '01': $elevation-01,
-    '02': $elevation-02,
-    '03': $elevation-03,
-    '04': $elevation-04,
-    '06': $elevation-06,
-    '08': $elevation-08,
-    '09': $elevation-09
+  'shadow': (
+    'elevation': (
+      '12': $shadow-elevation-12,
+      '16': $shadow-elevation-16,
+      '24': $shadow-elevation-24,
+      '01': $shadow-elevation-01,
+      '02': $shadow-elevation-02,
+      '03': $shadow-elevation-03,
+      '04': $shadow-elevation-04,
+      '06': $shadow-elevation-06,
+      '08': $shadow-elevation-08,
+      '09': $shadow-elevation-09
+    ),
+    'navigation': (
+      'secondary': (
+        'old-hover': $shadow-navigation-secondary-old-hover,
+        'hover': $shadow-navigation-secondary-hover
+      ),
+      'header': $shadow-navigation-header
+    ),
+    'focus': $shadow-focus,
+    'focus-visible': $shadow-focus-visible,
+    'table': (
+      'scroll-left': $shadow-table-scroll-left,
+      'scroll-right': $shadow-table-scroll-right
+    ),
+    'modal': (
+      'default': $shadow-modal-default
+    )
   ),
   'color': (
     'background': (
+      'admin': $color-background-admin,
+      'surface': $color-background-surface,
       'disabled': $color-background-disabled,
       'success': $color-background-success,
       'warning': $color-background-warning,
-      'info': $color-background-info,
+      'info-container': $color-background-info-container,
       'error': $color-background-error,
-      'primary': $color-background-primary
-    ),
-    'accordion': (
-      'background': (
-        'default': $color-accordion-background-default,
-        'features': $color-accordion-background-features
+      'default': $color-background-default,
+      'hover': $color-background-hover,
+      'selected': $color-background-selected,
+      'selected-hover': $color-background-selected-hover,
+      'container': $color-background-container,
+      'disabled-selected': $color-background-disabled-selected,
+      'interactive': (
+        'default': $color-background-interactive-default,
+        'hover': $color-background-interactive-hover,
+        'pressed': $color-background-interactive-pressed,
+        'disabled': $color-background-interactive-disabled,
+        'selected-hover': $color-background-interactive-selected-hover,
+        'pressed-variant': $color-background-interactive-pressed-variant
       ),
-      'border': (
-        'default': $color-accordion-border-default
+      'product': (
+        'voice': $color-background-product-voice,
+        'numbers': $color-background-product-numbers,
+        'messaging': $color-background-product-messaging,
+        'emergency': $color-background-product-emergency,
+        'brand': $color-background-product-brand
+      ),
+      'info': (
+        'default': $color-background-info-default,
+        'warning': $color-background-info-warning,
+        'error': $color-background-info-error,
+        'success': $color-background-info-success,
+        'disabled': $color-background-info-disabled
+      ),
+      'destructive': (
+        'default': $color-background-destructive-default,
+        'on-container': $color-background-destructive-on-container,
+        'pressed': $color-background-destructive-pressed,
+        'container': $color-background-destructive-container
       )
     ),
-    'surface': (
-      'primary': $color-surface-primary,
-      'secondary': $color-surface-secondary
-    ),
-    'navigation': (
-      'background': (
-        'default': $color-navigation-background-default,
-        'hover': $color-navigation-background-hover,
-        'active': $color-navigation-background-active,
-        'selected': $color-navigation-background-selected,
-        'emergency': $color-navigation-background-emergency,
-        'slim': (
-          'default': $color-navigation-background-slim-default,
-          'hover': $color-navigation-background-slim-hover,
-          'active': $color-navigation-background-slim-active,
-          'selected': $color-navigation-background-slim-selected,
-          'emergency': $color-navigation-background-slim-emergency
-        )
+    'border': (
+      'default': $color-border-default,
+      'secondary': $color-border-secondary,
+      'error': $color-border-error,
+      'primary': $color-border-primary,
+      'selected': $color-border-selected,
+      'disabled': $color-border-disabled,
+      'on-primary-container': $color-border-on-primary-container,
+      'container': $color-border-container,
+      'interactive': (
+        'default': $color-border-interactive-default,
+        'hover': $color-border-interactive-hover,
+        'pressed': $color-border-interactive-pressed,
+        'disabled': $color-border-interactive-disabled
       ),
-      'icon': (
-        'default': $color-navigation-icon-default,
-        'hover': $color-navigation-icon-hover,
-        'active': $color-navigation-icon-active,
-        'selected': $color-navigation-icon-selected,
-        'slim': (
-          'default': $color-navigation-icon-slim-default,
-          'hover': $color-navigation-icon-slim-hover,
-          'active': $color-navigation-icon-slim-active,
-          'selected': $color-navigation-icon-slim-selected
-        )
+      'info': (
+        'default': $color-border-info-default,
+        'warning': $color-border-info-warning,
+        'error': $color-border-info-error,
+        'success': $color-border-info-success
       ),
-      'text': (
-        'default': $color-navigation-text-default,
-        'hover': $color-navigation-text-hover,
-        'active': $color-navigation-text-active
+      'destructive': (
+        'default': $color-border-destructive-default,
+        'on-container': $color-border-destructive-on-container
       ),
-      'border': (
-        'active': $color-navigation-border-active,
-        'default': $color-navigation-border-default
+      'accent': (
+        'tertiary': $color-border-accent-tertiary
       )
-    ),
-    'secondary-navigation': (
-      'background': (
-        'default': $color-secondary-navigation-background-default,
-        'hover': $color-secondary-navigation-background-hover,
-        'active': $color-secondary-navigation-background-active,
-        'selected': $color-secondary-navigation-background-selected
-      ),
-      'text': (
-        'default': $color-secondary-navigation-text-default,
-        'selected': $color-secondary-navigation-text-selected,
-        'active': $color-secondary-navigation-text-active
-      ),
-      'border': (
-        'active': $color-secondary-navigation-border-active
-      )
-    ),
-    'input': (
-      'background': (
-        'default': $color-input-background-default,
-        'hover': $color-input-background-hover,
-        'selected': $color-input-background-selected,
-        'disabled': $color-input-background-disabled,
-        'disabled-selected': $color-input-background-disabled-selected
-      ),
-      'icon': (
-        'default': $color-input-icon-default,
-        'disabled': $color-input-icon-disabled
-      ),
-      'border': (
-        'default': $color-input-border-default,
-        'hover': $color-input-border-hover,
-        'selected': $color-input-border-selected,
-        'error': $color-input-border-error,
-        'disabled': $color-input-border-disabled
-      ),
-      'text': (
-        'placeholder': $color-input-text-placeholder,
-        'input': $color-input-text-input,
-        'requried': $color-input-text-requried
-      )
-    ),
-    'dropdown': (
-      'background': (
-        'default': $color-dropdown-background-default,
-        'hover': $color-dropdown-background-hover,
-        'selected': $color-dropdown-background-selected,
-        'disabled': $color-dropdown-background-disabled,
-        'error': $color-dropdown-background-error
-      ),
-      'border': (
-        'default': $color-dropdown-border-default,
-        'hover': $color-dropdown-border-hover,
-        'selected': $color-dropdown-border-selected,
-        'error': $color-dropdown-border-error,
-        'disabled': $color-dropdown-border-disabled,
-        'selected-variant': $color-dropdown-border-selected-variant
-      ),
-      'icon': (
-        'default': $color-dropdown-icon-default,
-        'disabled': $color-dropdown-icon-disabled
-      )
-    ),
-    'chip': (
-      'background': (
-        'default': $color-chip-background-default,
-        'enabled': $color-chip-background-enabled,
-        'error': $color-chip-background-error,
-        'pending': $color-chip-background-pending,
-        'messaging': $color-chip-background-messaging,
-        'voice': $color-chip-background-voice,
-        'disabled': $color-chip-background-disabled,
-        'numbers': $color-chip-background-numbers
-      ),
-      'text': (
-        'default': $color-chip-text-default,
-        'enabled': $color-chip-text-enabled,
-        'error': $color-chip-text-error,
-        'pending': $color-chip-text-pending,
-        'messaging': $color-chip-text-messaging,
-        'voice': $color-chip-text-voice,
-        'disabled': $color-chip-text-disabled,
-        'numbers': $color-chip-text-numbers
-      )
-    ),
-    'modal': (
-      'background': (
-        'header': $color-modal-background-header,
-        'footer': $color-modal-background-footer
-      )
-    ),
-    'radio': (
-      'background': (
-        'default': $color-radio-background-default,
-        'hover': $color-radio-background-hover,
-        'active': $color-radio-background-active,
-        'selected': $color-radio-background-selected,
-        'selected-hover': $color-radio-background-selected-hover,
-        'disabled': $color-radio-background-disabled,
-        'disabled-selected': $color-radio-background-disabled-selected,
-        'selected-active': $color-radio-background-selected-active
-      ),
-      'border': (
-        'default': $color-radio-border-default,
-        'hover': $color-radio-border-hover,
-        'active': $color-radio-border-active,
-        'selected': $color-radio-border-selected,
-        'selected-hover': $color-radio-border-selected-hover,
-        'disabled': $color-radio-border-disabled,
-        'disabled-selected': $color-radio-border-disabled-selected,
-        'selected-active': $color-radio-border-selected-active
-      )
-    ),
-    'switch': (
-      'background': (
-        'default': $color-switch-background-default,
-        'hover': $color-switch-background-hover,
-        'selected': $color-switch-background-selected,
-        'selected-hover': $color-switch-background-selected-hover,
-        'disabled': $color-switch-background-disabled,
-        'disabled-selected': $color-switch-background-disabled-selected
-      ),
-      'icon': (
-        'default': $color-switch-icon-default,
-        'selected': $color-switch-icon-selected,
-        'disabled': $color-switch-icon-disabled
-      ),
-      'border': (
-        'default': $color-switch-border-default,
-        'selected': $color-switch-border-selected,
-        'selected-hover': $color-switch-border-selected-hover,
-        'disabled': $color-switch-border-disabled
-      )
-    ),
-    'table': (
-      'background': (
-        'header': $color-table-background-header,
-        'cell': $color-table-background-cell
-      ),
-      'border': (
-        'default': $color-table-border-default
-      ),
-      'icons': (
-        'default': $color-table-icons-default,
-        'active': $color-table-icons-active
-      )
-    ),
-    'badge': (
-      'background': (
-        'default': $color-badge-background-default,
-        'disabled': $color-badge-background-disabled,
-        'error': $color-badge-background-error,
-        'warning': $color-badge-background-warning,
-        'admin': $color-badge-background-admin,
-        'success': $color-badge-background-success,
-        'product': (
-          'messaging': $color-badge-background-product-messaging,
-          'voice': $color-badge-background-product-voice,
-          'numbers': $color-badge-background-product-numbers
-        )
-      ),
-      'text': (
-        'default': $color-badge-text-default,
-        'disabled': $color-badge-text-disabled,
-        'error': $color-badge-text-error,
-        'warning': $color-badge-text-warning,
-        'success': $color-badge-text-success,
-        'product': (
-          'messagin': $color-badge-text-product-messagin,
-          'voice': $color-badge-text-product-voice,
-          'numbers': $color-badge-text-product-numbers
-        ),
-        'admin': $color-badge-text-admin
-      ),
-      'border': (
-        'default': $color-badge-border-default,
-        'error': $color-badge-border-error,
-        'warning': $color-badge-border-warning
-      ),
-      'icon': (
-        'admin': $color-badge-icon-admin,
-        'admin-background': $color-badge-icon-admin-background
-      )
-    ),
-    'button': (
-      'outlined': (
-        'background': (
-          'default': $color-button-outlined-background-default,
-          'hover': $color-button-outlined-background-hover,
-          'active': $color-button-outlined-background-active,
-          'disabled': $color-button-outlined-background-disabled
-        ),
-        'border': (
-          'default': $color-button-outlined-border-default,
-          'hover': $color-button-outlined-border-hover,
-          'active': $color-button-outlined-border-active,
-          'disabled': $color-button-outlined-border-disabled
-        ),
-        'text': (
-          'default': $color-button-outlined-text-default,
-          'hover': $color-button-outlined-text-hover,
-          'active': $color-button-outlined-text-active,
-          'disabled': $color-button-outlined-text-disabled
-        ),
-        'icon': (
-          'default': $color-button-outlined-icon-default,
-          'hover': $color-button-outlined-icon-hover,
-          'active': $color-button-outlined-icon-active,
-          'disabled': $color-button-outlined-icon-disabled
-        )
-      ),
-      'contained': (
-        'background': (
-          'default': $color-button-contained-background-default,
-          'hover': $color-button-contained-background-hover,
-          'active': $color-button-contained-background-active,
-          'disabled': $color-button-contained-background-disabled
-        ),
-        'border': (
-          'default': $color-button-contained-border-default,
-          'hover': $color-button-contained-border-hover,
-          'active': $color-button-contained-border-active,
-          'disabled': $color-button-contained-border-disabled
-        ),
-        'text': (
-          'default': $color-button-contained-text-default,
-          'disabled': $color-button-contained-text-disabled
-        ),
-        'icon': (
-          'default': $color-button-contained-icon-default,
-          'hover': $color-button-contained-icon-hover,
-          'active': $color-button-contained-icon-active,
-          'disabled': $color-button-contained-icon-disabled
-        )
-      ),
-      'text': (
-        'default': $color-button-text-default,
-        'hover': $color-button-text-hover,
-        'active': $color-button-text-active,
-        'disabled': $color-button-text-disabled,
-        'background': (
-          'hover': $color-button-text-background-hover,
-          'active': $color-button-text-background-active
-        ),
-        'icon': (
-          'default': $color-button-text-icon-default,
-          'hover': $color-button-text-icon-hover,
-          'active': $color-button-text-icon-active,
-          'disabled': $color-button-text-icon-disabled
-        )
-      ),
-      'icon': (
-        'background': (
-          'default': $color-button-icon-background-default,
-          'hover': $color-button-icon-background-hover,
-          'active': $color-button-icon-background-active,
-          'disabled': $color-button-icon-background-disabled
-        ),
-        'border': (
-          'active': $color-button-icon-border-active
-        ),
-        'icon': (
-          'default': $color-button-icon-icon-default,
-          'hover': $color-button-icon-icon-hover,
-          'active': $color-button-icon-icon-active,
-          'disabled': $color-button-icon-icon-disabled
-        )
-      )
-    ),
-    'outline': (
-      'focus': $color-outline-focus
-    ),
-    'alert': (
-      'text': (
-        'info': $color-alert-text-info,
-        'warning': $color-alert-text-warning,
-        'success': $color-alert-text-success,
-        'error': $color-alert-text-error
-      ),
-      'border': (
-        'info': $color-alert-border-info,
-        'warning': $color-alert-border-warning,
-        'success': $color-alert-border-success,
-        'error': $color-alert-border-error
-      ),
-      'background': (
-        'info': $color-alert-background-info,
-        'warning': $color-alert-background-warning,
-        'success': $color-alert-background-success,
-        'error': $color-alert-background-error
-      )
-    ),
-    'link': (
-      'text': (
-        'default': $color-link-text-default,
-        'hover': $color-link-text-hover,
-        'active': $color-link-text-active,
-        'disabled': $color-link-text-disabled,
-        'visited': $color-link-text-visited
-      ),
-      'background': (
-        'hover': $color-link-background-hover
-      ),
-      'icon': (
-        'default': $color-link-icon-default,
-        'visited': $color-link-icon-visited
-      )
-    ),
-    'icon': (
-      'default': $color-icon-default,
-      'primary': $color-icon-primary,
-      'info': $color-icon-info,
-      'success': $color-icon-success,
-      'warning': $color-icon-warning,
-      'error': $color-icon-error,
-      'disabled': $color-icon-disabled,
-      'on-primary': $color-icon-on-primary
-    ),
-    'tab': (
-      'text': (
-        'selected': $color-tab-text-selected
-      ),
-      'border': (
-        'selected': $color-tab-border-selected,
-        'hover': $color-tab-border-hover,
-        'default': $color-tab-border-default
-      )
-    ),
-    'tooltip': (
-      'background': $color-tooltip-background
-    ),
-    'logo': (
-      'mark': $color-logo-mark,
-      'text': $color-logo-text,
-      'seperator': $color-logo-seperator
     ),
     'text': (
-      'placeholder': $color-text-placeholder,
       'default': $color-text-default,
-      'error': $color-text-error,
+      'placeholder': $color-text-placeholder,
+      'help-text': $color-text-help-text,
       'disabled': $color-text-disabled,
+      'on-disabled': $color-text-on-disabled,
+      'primary': $color-text-primary,
+      'on-primary': $color-text-on-primary,
+      'secondary': $color-text-secondary,
+      'on-secondary': $color-text-on-secondary,
+      'admin': $color-text-admin,
+      'link': $color-text-link,
+      'error': $color-text-error,
+      'interactive': (
+        'primary': $color-text-interactive-primary,
+        'on-primary': $color-text-interactive-on-primary,
+        'primary-on-container': $color-text-interactive-primary-on-container,
+        'secondary': $color-text-interactive-secondary,
+        'on-secondary': $color-text-interactive-on-secondary,
+        'secondary-container': $color-text-interactive-secondary-container,
+        'destructive': (
+          'main': $color-text-interactive-destructive-main,
+          'on-main': $color-text-interactive-destructive-on-main,
+          'on-container': $color-text-interactive-destructive-on-container
+        )
+      ),
       'heading': (
         'h1': $color-text-heading-h1,
         'h2': $color-text-heading-h2,
@@ -1205,301 +572,48 @@ $tokens: (
         'h5': $color-text-heading-h5,
         'h6': $color-text-heading-h6
       ),
-      'help-text': $color-text-help-text
-    ),
-    'admin-navigation': (
-      'background': (
-        'default': $color-admin-navigation-background-default
+      'info': (
+        'default': $color-text-info-default,
+        'warning': $color-text-info-warning,
+        'error': $color-text-info-error,
+        'success': $color-text-info-success,
+        'disabled': $color-text-info-disabled
       ),
-      'text': (
-        'default': $color-admin-navigation-text-default
+      'product': (
+        'emergency': $color-text-product-emergency,
+        'numbers': $color-text-product-numbers,
+        'voice': $color-text-product-voice,
+        'messaging': $color-text-product-messaging,
+        'bandwidth': $color-text-product-bandwidth
+      ),
+      'accent': (
+        'on-tertiary': $color-text-accent-on-tertiary
       )
     ),
-    'inline-radio': (
-      'background': (
-        'default': $color-inline-radio-background-default,
-        'selected': $color-inline-radio-background-selected,
-        'hover': $color-inline-radio-background-hover,
-        'disabled': (
-          'default': $color-inline-radio-background-disabled-default,
-          'selected': $color-inline-radio-background-disabled-selected
-        )
+    'graphic': (
+      'default': $color-graphic-default,
+      'primary': $color-graphic-primary,
+      'hover': $color-graphic-hover,
+      'pressed': $color-graphic-pressed,
+      'selected': $color-graphic-selected,
+      'disabled': $color-graphic-disabled,
+      'dropdown': $color-graphic-dropdown,
+      'on-disabled': $color-graphic-on-disabled,
+      'admin': $color-graphic-admin,
+      'on-primary': $color-graphic-on-primary,
+      'on-secondary': $color-graphic-on-secondary,
+      'on-error': $color-graphic-on-error,
+      'info': (
+        'default': $color-graphic-info-default,
+        'warning': $color-graphic-info-warning,
+        'error': $color-graphic-info-error,
+        'success': $color-graphic-info-success
       ),
-      'border': (
-        'default': $color-inline-radio-border-default,
-        'selected': $color-inline-radio-border-selected,
-        'hover': $color-inline-radio-border-hover,
-        'disabled': (
-          'default': $color-inline-radio-border-disabled-default,
-          'selected': $color-inline-radio-border-disabled-selected
-        )
-      ),
-      'text': (
-        'default': $color-inline-radio-text-default,
-        'selected': $color-inline-radio-text-selected,
-        'help-text': $color-inline-radio-text-help-text,
-        'disabled': (
-          'default': $color-inline-radio-text-disabled-default,
-          'selected': $color-inline-radio-text-disabled-selected
-        )
-      )
-    ),
-    'label': (
-      'background': (
-        'default': $color-label-background-default,
-        'disabled': $color-label-background-disabled,
-        'error': $color-label-background-error
-      ),
-      'text': (
-        'default': $color-label-text-default,
-        'required': $color-label-text-required,
-        'disabled': $color-label-text-disabled,
-        'error': $color-label-text-error
-      )
-    ),
-    'status-dot': (
-      'success': $color-status-dot-success,
-      'warning': $color-status-dot-warning,
-      'error': $color-status-dot-error
-    ),
-    'destructive-button': (
-      'outlined': (
-        'background': (
-          'default': $color-destructive-button-outlined-background-default,
-          'hover': $color-destructive-button-outlined-background-hover,
-          'active': $color-destructive-button-outlined-background-active,
-          'disabled': $color-destructive-button-outlined-background-disabled
-        ),
-        'border': (
-          'default': $color-destructive-button-outlined-border-default,
-          'hover': $color-destructive-button-outlined-border-hover,
-          'active': $color-destructive-button-outlined-border-active,
-          'disabled': $color-destructive-button-outlined-border-disabled
-        ),
-        'text': (
-          'default': $color-destructive-button-outlined-text-default,
-          'hover': $color-destructive-button-outlined-text-hover,
-          'active': $color-destructive-button-outlined-text-active,
-          'disabled': $color-destructive-button-outlined-text-disabled
-        ),
-        'icon': (
-          'default': $color-destructive-button-outlined-icon-default,
-          'hover': $color-destructive-button-outlined-icon-hover,
-          'active': $color-destructive-button-outlined-icon-active,
-          'disabled': $color-destructive-button-outlined-icon-disabled
-        )
-      ),
-      'contained': (
-        'background': (
-          'default': $color-destructive-button-contained-background-default,
-          'hover': $color-destructive-button-contained-background-hover,
-          'active': $color-destructive-button-contained-background-active,
-          'disabled': $color-destructive-button-contained-background-disabled
-        ),
-        'border': (
-          'default': $color-destructive-button-contained-border-default,
-          'hover': $color-destructive-button-contained-border-hover,
-          'active': $color-destructive-button-contained-border-active,
-          'disabled': $color-destructive-button-contained-border-disabled
-        ),
-        'text': (
-          'default': $color-destructive-button-contained-text-default,
-          'disabled': $color-destructive-button-contained-text-disabled
-        ),
-        'icon': (
-          'default': $color-destructive-button-contained-icon-default,
-          'hover': $color-destructive-button-contained-icon-hover,
-          'active': $color-destructive-button-contained-icon-active,
-          'disabled': $color-destructive-button-contained-icon-disabled
-        )
-      ),
-      'text': (
-        'default': $color-destructive-button-text-default,
-        'hover': $color-destructive-button-text-hover,
-        'active': $color-destructive-button-text-active,
-        'disabled': $color-destructive-button-text-disabled,
-        'icon': (
-          'default': $color-destructive-button-text-icon-default,
-          'hover': $color-destructive-button-text-icon-hover,
-          'active': $color-destructive-button-text-icon-active,
-          'disabled': $color-destructive-button-text-icon-disabled
-        ),
-        'background': (
-          'hover': $color-destructive-button-text-background-hover,
-          'active': $color-destructive-button-text-background-active
-        )
-      ),
-      'icon': (
-        'background': (
-          'default': $color-destructive-button-icon-background-default,
-          'hover': $color-destructive-button-icon-background-hover,
-          'active': $color-destructive-button-icon-background-active,
-          'disabled': $color-destructive-button-icon-background-disabled
-        ),
-        'border': (
-          'active': $color-destructive-button-icon-border-active
-        ),
-        'icon': (
-          'default': $color-destructive-button-icon-icon-default,
-          'hover': $color-destructive-button-icon-icon-hover,
-          'active': $color-destructive-button-icon-icon-active,
-          'disabled': $color-destructive-button-icon-icon-disabled
-        )
-      )
-    ),
-    'drag-item': (
-      'icon': (
-        'default': $color-drag-item-icon-default
-      )
-    ),
-    'dropdown-option': (
-      'background': (
-        'default': $color-dropdown-option-background-default,
-        'hover': $color-dropdown-option-background-hover,
-        'selected': $color-dropdown-option-background-selected
-      )
-    ),
-    'card': (
-      'background': (
-        'default': $color-card-background-default
-      )
-    ),
-    'checkbox': (
-      'background': (
-        'default': $color-checkbox-background-default,
-        'hover': $color-checkbox-background-hover,
-        'selected': $color-checkbox-background-selected,
-        'selected-hover': $color-checkbox-background-selected-hover,
-        'disabled': $color-checkbox-background-disabled,
-        'disabled-selected': $color-checkbox-background-disabled-selected
-      ),
-      'border': (
-        'default': $color-checkbox-border-default,
-        'hover': $color-checkbox-border-hover,
-        'selected': $color-checkbox-border-selected,
-        'selected-hover': $color-checkbox-border-selected-hover,
-        'error': $color-checkbox-border-error,
-        'disabled': $color-checkbox-border-disabled
-      ),
-      'icon': (
-        'default': $color-checkbox-icon-default,
-        'hover': $color-checkbox-icon-hover,
-        'selected': $color-checkbox-icon-selected,
-        'active': $color-checkbox-icon-active,
-        'disabled': $color-checkbox-icon-disabled,
-        'disabled-selected': $color-checkbox-icon-disabled-selected
-      )
-    ),
-    'list-item': (
-      'background': (
-        'default': $color-list-item-background-default,
-        'hover': $color-list-item-background-hover,
-        'selected': $color-list-item-background-selected,
-        'disabled': $color-list-item-background-disabled
-      ),
-      'border': (
-        'default': $color-list-item-border-default,
-        'selected': $color-list-item-border-selected
-      ),
-      'text': (
-        'default': $color-list-item-text-default
-      )
-    ),
-    'text-field': (
-      'background': (
-        'default': $color-text-field-background-default,
-        'hover': $color-text-field-background-hover,
-        'selected': $color-text-field-background-selected,
-        'disabled': $color-text-field-background-disabled,
-        'disabled-selected': $color-text-field-background-disabled-selected
-      ),
-      'icon': (
-        'default': $color-text-field-icon-default,
-        'disabled': $color-text-field-icon-disabled
-      ),
-      'border': (
-        'default': $color-text-field-border-default,
-        'hover': $color-text-field-border-hover,
-        'selected': $color-text-field-border-selected,
-        'error': $color-text-field-border-error,
-        'disabled': $color-text-field-border-disabled
-      ),
-      'text': (
-        'placeholder': $color-text-field-text-placeholder,
-        'input': $color-text-field-text-input,
-        'requried': $color-text-field-text-requried
-      )
-    ),
-    'select': (
-      'background': (
-        'default': $color-select-background-default,
-        'hover': $color-select-background-hover,
-        'selected': $color-select-background-selected,
-        'disabled': $color-select-background-disabled,
-        'error': $color-select-background-error
-      ),
-      'border': (
-        'default': $color-select-border-default,
-        'hover': $color-select-border-hover,
-        'selected': $color-select-border-selected,
-        'error': $color-select-border-error,
-        'disabled': $color-select-border-disabled,
-        'selected-variant': $color-select-border-selected-variant
-      ),
-      'icon': (
-        'default': $color-select-icon-default,
-        'disabled': $color-select-icon-disabled
-      )
-    ),
-    'select-option': (
-      'background': (
-        'default': $color-select-option-background-default,
-        'hover': $color-select-option-background-hover,
-        'selected': $color-select-option-background-selected
-      )
-    ),
-    'multi-select-option': (
-      'background': (
-        'default': $color-multi-select-option-background-default
-      ),
-      'border': (
-        'selected': $color-multi-select-option-border-selected
-      )
-    ),
-    'file-upload': (
-      'background': (
-        'default': $color-file-upload-background-default,
-        'hover': $color-file-upload-background-hover,
-        'selected': $color-file-upload-background-selected,
-        'disabled': $color-file-upload-background-disabled,
-        'disabled-selected': $color-file-upload-background-disabled-selected
-      ),
-      'icon': (
-        'default': $color-file-upload-icon-default,
-        'disabled': $color-file-upload-icon-disabled
-      ),
-      'border': (
-        'default': $color-file-upload-border-default,
-        'hover': $color-file-upload-border-hover,
-        'selected': $color-file-upload-border-selected,
-        'error': $color-file-upload-border-error,
-        'disabled': $color-file-upload-border-disabled
-      ),
-      'text': (
-        'placeholder': $color-file-upload-text-placeholder,
-        'input': $color-file-upload-text-input,
-        'requried': $color-file-upload-text-requried
-      )
-    ),
-    'calendar': (
-      'background': (
-        'default': $color-calendar-background-default,
-        'hover': $color-calendar-background-hover,
-        'selected': $color-calendar-background-selected
-      ),
-      'text': (
-        'default': $color-calendar-text-default,
-        'selected': $color-calendar-text-selected
+      'destructive': (
+        'default': $color-graphic-destructive-default,
+        'on-default': $color-graphic-destructive-on-default,
+        'hover': $color-graphic-destructive-hover,
+        'pressed': $color-graphic-destructive-pressed
       )
     )
   ),
@@ -1515,16 +629,6 @@ $tokens: (
         'textCase': $typography-heading-h1-text-case,
         'textDecoration': $typography-heading-h1-text-decoration
       ),
-      'h3': (
-        'fontFamily': $typography-heading-h3-font-family,
-        'fontWeight': $typography-heading-h3-font-weight,
-        'lineHeight': $typography-heading-h3-line-height,
-        'fontSize': $typography-heading-h3-font-size,
-        'letterSpacing': $typography-heading-h3-letter-spacing,
-        'paragraphSpacing': $typography-heading-h3-paragraph-spacing,
-        'textCase': $typography-heading-h3-text-case,
-        'textDecoration': $typography-heading-h3-text-decoration
-      ),
       'h2': (
         'fontFamily': $typography-heading-h2-font-family,
         'fontWeight': $typography-heading-h2-font-weight,
@@ -1534,6 +638,16 @@ $tokens: (
         'paragraphSpacing': $typography-heading-h2-paragraph-spacing,
         'textCase': $typography-heading-h2-text-case,
         'textDecoration': $typography-heading-h2-text-decoration
+      ),
+      'h3': (
+        'fontFamily': $typography-heading-h3-font-family,
+        'fontWeight': $typography-heading-h3-font-weight,
+        'lineHeight': $typography-heading-h3-line-height,
+        'fontSize': $typography-heading-h3-font-size,
+        'letterSpacing': $typography-heading-h3-letter-spacing,
+        'paragraphSpacing': $typography-heading-h3-paragraph-spacing,
+        'textCase': $typography-heading-h3-text-case,
+        'textDecoration': $typography-heading-h3-text-decoration
       ),
       'h4': (
         'fontFamily': $typography-heading-h4-font-family,
@@ -1660,49 +774,7 @@ $tokens: (
         'textCase': $typography-body-small-text-case
       )
     ),
-    'navigation': (
-      'primary': (
-        'fontFamily': $typography-navigation-primary-font-family,
-        'fontWeight': $typography-navigation-primary-font-weight,
-        'lineHeight': $typography-navigation-primary-line-height,
-        'fontSize': $typography-navigation-primary-font-size,
-        'letterSpacing': $typography-navigation-primary-letter-spacing,
-        'paragraphSpacing': $typography-navigation-primary-paragraph-spacing,
-        'textCase': $typography-navigation-primary-text-case,
-        'textDecoration': $typography-navigation-primary-text-decoration
-      ),
-      'secondary': (
-        'fontFamily': $typography-navigation-secondary-font-family,
-        'fontWeight': $typography-navigation-secondary-font-weight,
-        'lineHeight': $typography-navigation-secondary-line-height,
-        'fontSize': $typography-navigation-secondary-font-size,
-        'letterSpacing': $typography-navigation-secondary-letter-spacing,
-        'paragraphSpacing': $typography-navigation-secondary-paragraph-spacing,
-        'textCase': $typography-navigation-secondary-text-case,
-        'textDecoration': $typography-navigation-secondary-text-decoration
-      ),
-      'copyright': (
-        'fontFamily': $typography-navigation-copyright-font-family,
-        'fontWeight': $typography-navigation-copyright-font-weight,
-        'lineHeight': $typography-navigation-copyright-line-height,
-        'fontSize': $typography-navigation-copyright-font-size,
-        'letterSpacing': $typography-navigation-copyright-letter-spacing,
-        'paragraphSpacing': $typography-navigation-copyright-paragraph-spacing,
-        'textCase': $typography-navigation-copyright-text-case,
-        'textDecoration': $typography-navigation-copyright-text-decoration
-      )
-    ),
     'utility': (
-      'chip': (
-        'fontFamily': $typography-utility-chip-font-family,
-        'fontWeight': $typography-utility-chip-font-weight,
-        'lineHeight': $typography-utility-chip-line-height,
-        'fontSize': $typography-utility-chip-font-size,
-        'letterSpacing': $typography-utility-chip-letter-spacing,
-        'paragraphSpacing': $typography-utility-chip-paragraph-spacing,
-        'textDecoration': $typography-utility-chip-text-decoration,
-        'textCase': $typography-utility-chip-text-case
-      ),
       'button': (
         'fontFamily': $typography-utility-button-font-family,
         'fontWeight': $typography-utility-button-font-weight,
@@ -1750,72 +822,21 @@ $tokens: (
     'x-soft': $border-radius-x-soft,
     'sharp': $border-radius-sharp,
     'round': $border-radius-round,
-    'navigation': $border-radius-navigation,
-    'dropdown': $border-radius-dropdown,
     'inline-radio': $border-radius-inline-radio,
     'inline-radio-large': $border-radius-inline-radio-large,
     'link': $border-radius-link,
-    'label': $border-radius-label,
-    'input': $border-radius-input,
-    'select': $border-radius-select,
-    'text-field': $border-radius-text-field,
     'status-dot': $border-radius-status-dot,
-    'slim-navigation': $border-radius-slim-navigation,
-    'badge': $border-radius-badge,
-    'button': $border-radius-button,
-    'accordion': $border-radius-accordion,
-    'card': $border-radius-card,
-    'checkbox': $border-radius-checkbox,
-    'table': $border-radius-table,
-    'multi-select-item': $border-radius-multi-select-item
+    'table': $border-radius-table
   ),
-  'outline-width': (
-    'focus': $outline-width-focus,
-    'input-focus': $outline-width-input-focus
-  ),
-  'border-width': (
-    'active': $border-width-active,
-    'navigation-seperator': $border-width-navigation-seperator,
-    'input': (
-      'default': $border-width-input-default,
-      'active': $border-width-input-active
+  'border': (
+    'outline-width': (
+      'focus': $border-outline-width-focus
     ),
-    'dropdown': (
-      'default': $border-width-dropdown-default,
-      'active': $border-width-dropdown-active
+    'border-width': (
+      'active': $border-border-width-active,
+      'table': $border-border-width-table
     ),
-    'button': $border-width-button,
-    'navigation': $border-width-navigation,
-    'table': $border-width-table,
-    'text-field': (
-      'default': $border-width-text-field-default,
-      'active': $border-width-text-field-active
-    ),
-    'select': (
-      'default': $border-width-select-default,
-      'active': $border-width-select-active
-    )
-  ),
-  'shadow': (
-    'navigation': (
-      'secondary': (
-        'old-hover': $shadow-navigation-secondary-old-hover,
-        'hover': $shadow-navigation-secondary-hover
-      ),
-      'header': $shadow-navigation-header
-    ),
-    'card': (
-      'default': $shadow-card-default
-    ),
-    'focus': $shadow-focus,
-    'focus-visible': $shadow-focus-visible,
-    'table': (
-      'scroll-left': $shadow-table-scroll-left,
-      'scroll-right': $shadow-table-scroll-right
-    ),
-    'modal': (
-      'default': $shadow-modal-default
-    )
+    'table': $border-table
   ),
   'spacing': (
     'none': $spacing-none,
@@ -1828,16 +849,7 @@ $tokens: (
     'md': $spacing-md,
     'lg': $spacing-lg,
     'x-lg': $spacing-x-lg,
-    'xx-lg': $spacing-xx-lg,
-    'drag-item': (
-      'weight-box': (
-        'top-bottom': $spacing-drag-item-weight-box-top-bottom,
-        'left-right': $spacing-drag-item-weight-box-left-right
-      )
-    )
-  ),
-  'border': (
-    'table': $border-table
+    'xx-lg': $spacing-xx-lg
   ),
   'padding': (
     'none': $padding-none,

@@ -1,12 +1,11 @@
-{ 
+{
   "name": "blueprint-design-tokens",
   "description": "A repo for storing and generating the tokens used in the BluePrint design system.",
-  "version": "2.0.0",
+  "version": "1.2.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/braxtonCoats/BluePrint-Design-Tokens.git"
   },
-  
   "keywords": [
     "tokens",
     "design",

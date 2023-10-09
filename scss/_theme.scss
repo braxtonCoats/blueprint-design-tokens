@@ -1,64 +1,55 @@
 
 /**
  * Do not edit directly
- * Generated on Mon, 25 Sep 2023 18:25:45 GMT
+ * Generated on Mon, 25 Sep 2023 18:18:13 GMT
  */
 
-$theme-primary-main: #38aff1 !default;
-$theme-primary-on-main: #211b1e !default;
-$theme-primary-container: #2d282b !default;
-$theme-primary-container-variant: #3a3537 !default;
-$theme-primary-on-container: #b4b2b3 !default;
-$theme-secondary-main: #079cee !default;
-$theme-secondary-on-main: #211b1e !default;
-$theme-secondary-container: #2d282b !default;
-$theme-secondary-container-variant: #5e5a5c !default;
-$theme-secondary-on-container: #f5fbfe !default;
-$theme-tertiary-main: #ae7ad0 !default;
-$theme-tertiary-on-main: #211b1e !default;
-$theme-tertiary-container: #341c3f !default;
-$theme-tertiary-container-variant: #432552 !default;
-$theme-tertiary-on-container: #ccace2 !default;
-$theme-error-main: #e06463 !default;
-$theme-error-on-main: #211b1e !default;
-$theme-error-container: #471416 !default;
-$theme-error-container-variant: #5c1a1c !default;
-$theme-error-on-container: #efb1b1 !default;
-$theme-warning-main: #fbd747 !default;
-$theme-warning-on-main: #211b1e !default;
-$theme-warning-container: #513f0c !default;
-$theme-warning-container-variant: #69530e !default;
-$theme-warning-on-container: #fdeba3 !default;
-$theme-success-main: #00bf8c !default;
-$theme-success-on-main: #211b1e !default;
-$theme-success-container: #063b2e !default;
-$theme-success-container-variant: #054e3b !default;
-$theme-success-on-container: #99e5d1 !default;
-$theme-surface-main: #211b1e !default;
-$theme-surface-on-main: #e5e5e5 !default;
-$theme-surface-variant: #464244 !default;
-$theme-surface-on-variant: #b4b2b3 !default;
-$theme-background-main: #090306 !default;
-$theme-background-on-main: #908d8e !default;
-$theme-background-variant: #150f12 !default;
-$theme-outline-main: #777476 !default;
-$theme-outline-variant: #dad9d9 !default;
+$theme-primary-main: #076ea8 !default;
+$theme-primary-on-main: #ffffff !default;
+$theme-primary-container: #e6f5fd !default;
+$theme-primary-container-variant: #9bd7f8 !default;
+$theme-primary-on-container: #084f7a !default;
+$theme-secondary-main: #084f7a !default;
+$theme-secondary-on-main: #ffffff !default;
+$theme-secondary-container: #075e91 !default;
+$theme-secondary-container-variant: #076ea8 !default;
+$theme-secondary-on-container: #ffffff !default;
+$theme-tertiary-main: #8b50b1 !default;
+$theme-tertiary-on-main: #ffffff !default;
+$theme-tertiary-container: #512e65 !default;
+$theme-tertiary-container-variant: #341c3f !default;
+$theme-tertiary-on-container: #ffffff !default;
+$theme-error-main: #c43837 !default;
+$theme-error-on-main: #ffffff !default;
+$theme-error-container: #fdf7f7 !default;
+$theme-error-container-variant: #fbebeb !default;
+$theme-error-on-container: #320e11 !default;
+$theme-warning-main: #b19014 !default;
+$theme-warning-on-main: #ffffff !default;
+$theme-warning-container: #fefcf1 !default;
+$theme-warning-container-variant: #fefae8 !default;
+$theme-warning-on-container: #392b0a !default;
+$theme-success-main: #028663 !default;
+$theme-success-on-main: #ffffff !default;
+$theme-success-container: #f4fcfa !default;
+$theme-success-container-variant: #e5f8f3 !default;
+$theme-success-on-container: #072820 !default;
+$theme-surface-main: #ffffff !default;
+$theme-surface-on-main: #090306 !default;
+$theme-surface-variant: #e5e5e5 !default;
+$theme-surface-on-variant: #777476 !default;
+$theme-background-main: #f9f9f9 !default;
+$theme-background-on-main: #6b6769 !default;
+$theme-background-variant: #f2f2f2 !default;
+$theme-outline-main: #cdcccd !default;
+$theme-outline-variant: #848182 !default;
 $theme-outline-primary: #079cee !default;
-$theme-outline-success: #00bf8c !default;
 $theme-outline-warning: #facd1a !default;
-$theme-outline-error: #d93e3d !default;
-$theme-disabled-main: #3a3537 !default;
-$theme-disabled-on-main: #908d8e !default;
-$m01: 0px 1px 1px 0px #00000024, 0px 2px 1px 0px #0000001f, 0px 1px 3px 0px #00000033 !default;
-$m02: 0px 1px 5px 0px #00000033, 0px 3px 1px 0px #0000001f, 0px 2px 2px 0px #00000024 !default;
-$m03: 0px 1px 8px 0px #00000033, 0px 3px 3px 0px #0000001f, 0px 3px 4px 0px #00000024 !default;
-$m04: 0px 2px 4px 0px #00000033, 0px 1px 10px 0px #0000001f, 0px 4px 5px 0px #00000024 !default;
-$m06: 0px 3px 5px 0px #00000033, 0px 1px 18px 0px #0000001f, 0px 6px 10px 0px #00000024 !default;
-$m08: 0px 5px 5px 0px #00000033, 0px 3px 14px 0px #0000001f, 0px 8px 10px 0px #00000024 !default;
-$m09: 0px 5px 6px 0px #00000033, 0px 3px 16px 0px #0000001f, 0px 9px 12px 0px #00000024 !default;
-$m12: 0px 7px 8px 0px #00000033, 0px 5px 22px 0px #0000001f, 0px 12px 17px 0px #00000024 !default;
-$m16: 0px 8px 10px 0px #00000033, 0px 6px 30px 0px #0000001f, 0px 16px 24px 0px #00000024 !default;
-$m24: 0px 24px 38px 0px #00000024, 0px 9px 46px 0px #0000001f, 0px 11px 15px 0px #00000033 !default;
+$theme-outline-error: #efb1b1 !default;
+$theme-outline-success: #99e5d1 !default;
+$theme-outline-seperator: #cdcccd !default;
+$theme-disabled-main: #dad9d9 !default;
+$theme-disabled-on-main: #5e5a5c !default;
 $shadow-elevation-12: 0px 7px 8px 0px #00000033, 0px 5px 22px 0px #0000001f, 0px 12px 17px 0px #00000024 !default;
 $shadow-elevation-16: 0px 8px 10px 0px #00000033, 0px 6px 30px 0px #0000001f, 0px 16px 24px 0px #00000024 !default;
 $shadow-elevation-24: 0px 24px 38px 0px #00000024, 0px 9px 46px 0px #0000001f, 0px 11px 15px 0px #00000033 !default;
@@ -77,116 +68,116 @@ $shadow-focus-visible: 0 0 0 2 #079cee !default;
 $shadow-table-scroll-left: 5 0 10 0 #00000024 !default;
 $shadow-table-scroll-right: -5 0 10 0 #00000024 !default;
 $shadow-modal-default: 0px 24px 38px 0px #00000024, 0px 9px 46px 0px #0000001f, 0px 11px 15px 0px #00000033 !default;
-$color-background-admin: #e5e5e5 !default;
-$color-background-surface: #211b1e !default;
-$color-background-disabled: #3a3537 !default;
-$color-background-success: #054e3b !default;
-$color-background-warning: #69530e !default;
-$color-background-info-container: #2d282b !default;
-$color-background-error: #5c1a1c !default;
-$color-background-default: #150f12 !default;
-$color-background-hover: #2d282b !default;
-$color-background-selected: #38aff1 !default;
-$color-background-selected-hover: #2d282b !default;
-$color-background-container: #2d282b !default;
-$color-background-disabled-selected: #908d8e !default;
-$color-background-interactive-default: #38aff1 !default;
-$color-background-interactive-hover: #079cee !default;
-$color-background-interactive-pressed: #079cee !default;
-$color-background-interactive-disabled: #3a3537 !default;
-$color-background-interactive-selected-hover: #079cee !default;
-$color-background-interactive-pressed-variant: #464244 !default;
+$color-background-admin: #090306 !default;
+$color-background-surface: #ffffff !default;
+$color-background-disabled: #dad9d9 !default;
+$color-background-success: #e5f8f3 !default;
+$color-background-warning: #fefae8 !default;
+$color-background-info-container: #e6f5fd !default;
+$color-background-error: #fbebeb !default;
+$color-background-default: #f2f2f2 !default;
+$color-background-hover: #e6f5fd !default;
+$color-background-selected: #076ea8 !default;
+$color-background-selected-hover: #075e91 !default;
+$color-background-container: #e6f5fd !default;
+$color-background-disabled-selected: #5e5a5c !default;
+$color-background-interactive-default: #076ea8 !default;
+$color-background-interactive-hover: #084f7a !default;
+$color-background-interactive-pressed: #084f7a !default;
+$color-background-interactive-disabled: #dad9d9 !default;
+$color-background-interactive-selected-hover: #084f7a !default;
+$color-background-interactive-pressed-variant: #e5e5e5 !default;
 $color-background-product-voice: #9a59c5 !default;
 $color-background-product-numbers: #652b51 !default;
 $color-background-product-messaging: #00bf8c !default;
 $color-background-product-emergency: #ff6f47 !default;
 $color-background-product-brand: #079cee !default;
-$color-background-info-default: #38aff1 !default;
-$color-background-info-warning: #fbd747 !default;
-$color-background-info-error: #e06463 !default;
-$color-background-info-success: #00bf8c !default;
-$color-background-info-disabled: #3a3537 !default;
-$color-background-destructive-default: #e06463 !default;
-$color-background-destructive-on-container: #efb1b1 !default;
-$color-background-destructive-pressed: #efb1b1 !default;
-$color-background-destructive-container: #471416 !default;
-$color-border-default: #777476 !default;
-$color-border-secondary: #079cee !default;
-$color-border-error: #e06463 !default;
-$color-border-primary: #38aff1 !default;
-$color-border-selected: #dad9d9 !default;
-$color-border-disabled: #908d8e !default;
-$color-border-on-primary-container: #079cee !default;
-$color-border-container: #2d282b !default;
-$color-border-interactive-default: #38aff1 !default;
-$color-border-interactive-hover: #079cee !default;
-$color-border-interactive-pressed: #079cee !default;
-$color-border-interactive-disabled: #3a3537 !default;
-$color-border-info-default: #38aff1 !default;
-$color-border-info-warning: #fbd747 !default;
-$color-border-info-error: #e06463 !default;
-$color-border-info-success: #00bf8c !default;
-$color-border-destructive-default: #e06463 !default;
-$color-border-destructive-on-container: #efb1b1 !default;
-$color-border-accent-tertiary: #ae7ad0 !default;
-$color-text-default: #e5e5e5 !default;
-$color-text-placeholder: #b4b2b3 !default;
-$color-text-help-text: #b4b2b3 !default;
-$color-text-disabled: #908d8e !default;
-$color-text-on-disabled: #3a3537 !default;
-$color-text-primary: #38aff1 !default;
-$color-text-on-primary: #211b1e !default;
-$color-text-secondary: #079cee !default;
-$color-text-on-secondary: #211b1e !default;
-$color-text-admin: #211b1e !default;
-$color-text-link: #38aff1 !default;
-$color-text-error: #e06463 !default;
-$color-text-interactive-primary: #38aff1 !default;
-$color-text-interactive-on-primary: #211b1e !default;
-$color-text-interactive-primary-on-container: #b4b2b3 !default;
-$color-text-interactive-secondary: #079cee !default;
-$color-text-interactive-on-secondary: #211b1e !default;
-$color-text-interactive-secondary-container: #2d282b !default;
-$color-text-interactive-destructive-main: #e06463 !default;
-$color-text-interactive-destructive-on-main: #211b1e !default;
-$color-text-interactive-destructive-on-container: #efb1b1 !default;
-$color-text-heading-h1: #38aff1 !default;
-$color-text-heading-h2: #e5e5e5 !default;
-$color-text-heading-h3: #e5e5e5 !default;
-$color-text-heading-h4: #38aff1 !default;
-$color-text-heading-h5: #e5e5e5 !default;
-$color-text-heading-h6: #e5e5e5 !default;
-$color-text-info-default: #38aff1 !default;
-$color-text-info-warning: #fdeba3 !default;
-$color-text-info-error: #efb1b1 !default;
-$color-text-info-success: #99e5d1 !default;
-$color-text-info-disabled: #908d8e !default;
+$color-background-info-default: #076ea8 !default;
+$color-background-info-warning: #b19014 !default;
+$color-background-info-error: #c43837 !default;
+$color-background-info-success: #028663 !default;
+$color-background-info-disabled: #dad9d9 !default;
+$color-background-destructive-default: #c43837 !default;
+$color-background-destructive-on-container: #320e11 !default;
+$color-background-destructive-pressed: #320e11 !default;
+$color-background-destructive-container: #fdf7f7 !default;
+$color-border-default: #cdcccd !default;
+$color-border-secondary: #084f7a !default;
+$color-border-error: #c43837 !default;
+$color-border-primary: #076ea8 !default;
+$color-border-selected: #848182 !default;
+$color-border-disabled: #5e5a5c !default;
+$color-border-on-primary-container: #084f7a !default;
+$color-border-container: #e6f5fd !default;
+$color-border-interactive-default: #076ea8 !default;
+$color-border-interactive-hover: #084f7a !default;
+$color-border-interactive-pressed: #084f7a !default;
+$color-border-interactive-disabled: #dad9d9 !default;
+$color-border-info-default: #076ea8 !default;
+$color-border-info-warning: #b19014 !default;
+$color-border-info-error: #c43837 !default;
+$color-border-info-success: #028663 !default;
+$color-border-destructive-default: #c43837 !default;
+$color-border-destructive-on-container: #320e11 !default;
+$color-border-accent-tertiary: #8b50b1 !default;
+$color-text-default: #090306 !default;
+$color-text-placeholder: #777476 !default;
+$color-text-help-text: #777476 !default;
+$color-text-disabled: #5e5a5c !default;
+$color-text-on-disabled: #dad9d9 !default;
+$color-text-primary: #076ea8 !default;
+$color-text-on-primary: #ffffff !default;
+$color-text-secondary: #084f7a !default;
+$color-text-on-secondary: #ffffff !default;
+$color-text-admin: #ffffff !default;
+$color-text-link: #076ea8 !default;
+$color-text-error: #c43837 !default;
+$color-text-interactive-primary: #076ea8 !default;
+$color-text-interactive-on-primary: #ffffff !default;
+$color-text-interactive-primary-on-container: #084f7a !default;
+$color-text-interactive-secondary: #084f7a !default;
+$color-text-interactive-on-secondary: #ffffff !default;
+$color-text-interactive-secondary-container: #075e91 !default;
+$color-text-interactive-destructive-main: #c43837 !default;
+$color-text-interactive-destructive-on-main: #ffffff !default;
+$color-text-interactive-destructive-on-container: #320e11 !default;
+$color-text-heading-h1: #076ea8 !default;
+$color-text-heading-h2: #090306 !default;
+$color-text-heading-h3: #090306 !default;
+$color-text-heading-h4: #076ea8 !default;
+$color-text-heading-h5: #090306 !default;
+$color-text-heading-h6: #090306 !default;
+$color-text-info-default: #076ea8 !default;
+$color-text-info-warning: #392b0a !default;
+$color-text-info-error: #320e11 !default;
+$color-text-info-success: #072820 !default;
+$color-text-info-disabled: #5e5a5c !default;
 $color-text-product-emergency: #3a1812 !default;
 $color-text-product-numbers: #EFE9ED !default;
 $color-text-product-voice: #faf8fc !default;
 $color-text-product-messaging: #072820 !default;
 $color-text-product-bandwidth: #ffffff !default;
-$color-text-accent-on-tertiary: #432552 !default;
-$color-graphic-default: #e5e5e5 !default;
-$color-graphic-primary: #38aff1 !default;
-$color-graphic-hover: #079cee !default;
-$color-graphic-pressed: #079cee !default;
-$color-graphic-selected: #211b1e !default;
-$color-graphic-disabled: #908d8e !default;
-$color-graphic-dropdown: #b4b2b3 !default;
-$color-graphic-on-disabled: #3a3537 !default;
-$color-graphic-admin: #211b1e !default;
-$color-graphic-on-primary: #211b1e !default;
-$color-graphic-on-secondary: #211b1e !default;
-$color-graphic-on-error: #211b1e !default;
-$color-graphic-info-default: #38aff1 !default;
-$color-graphic-info-warning: #fbd747 !default;
-$color-graphic-info-error: #e06463 !default;
-$color-graphic-info-success: #00bf8c !default;
-$color-graphic-destructive-default: #e06463 !default;
-$color-graphic-destructive-on-default: #211b1e !default;
-$color-graphic-destructive-hover: #efb1b1 !default;
-$color-graphic-destructive-pressed: #efb1b1 !default;
+$color-text-accent-on-tertiary: #341c3f !default;
+$color-graphic-default: #090306 !default;
+$color-graphic-primary: #076ea8 !default;
+$color-graphic-hover: #084f7a !default;
+$color-graphic-pressed: #084f7a !default;
+$color-graphic-selected: #ffffff !default;
+$color-graphic-disabled: #5e5a5c !default;
+$color-graphic-dropdown: #777476 !default;
+$color-graphic-on-disabled: #dad9d9 !default;
+$color-graphic-admin: #ffffff !default;
+$color-graphic-on-primary: #ffffff !default;
+$color-graphic-on-secondary: #ffffff !default;
+$color-graphic-on-error: #ffffff !default;
+$color-graphic-info-default: #076ea8 !default;
+$color-graphic-info-warning: #b19014 !default;
+$color-graphic-info-error: #c43837 !default;
+$color-graphic-info-success: #028663 !default;
+$color-graphic-destructive-default: #c43837 !default;
+$color-graphic-destructive-on-default: #ffffff !default;
+$color-graphic-destructive-hover: #320e11 !default;
+$color-graphic-destructive-pressed: #320e11 !default;
 $typography-heading-h1-font-family: Overpass !default;
 $typography-heading-h1-font-weight: 300 !default;
 $typography-heading-h1-line-height: 2.5rem !default;
@@ -434,25 +425,16 @@ $tokens: (
       'main': $theme-outline-main,
       'variant': $theme-outline-variant,
       'primary': $theme-outline-primary,
-      'success': $theme-outline-success,
       'warning': $theme-outline-warning,
-      'error': $theme-outline-error
+      'error': $theme-outline-error,
+      'success': $theme-outline-success,
+      'seperator': $theme-outline-seperator
     ),
     'disabled': (
       'main': $theme-disabled-main,
       'onMain': $theme-disabled-on-main
     )
   ),
-  'm01': $m01,
-  'm02': $m02,
-  'm03': $m03,
-  'm04': $m04,
-  'm06': $m06,
-  'm08': $m08,
-  'm09': $m09,
-  'm12': $m12,
-  'm16': $m16,
-  'm24': $m24,
   'shadow': (
     'elevation': (
       '12': $shadow-elevation-12,

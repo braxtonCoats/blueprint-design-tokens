@@ -1,0 +1,484 @@
+{
+    "color": {
+      "background": {
+        "admin": {
+          "$value": "{theme.surface.onMain}",
+          "$type": "color"
+        },
+        "surface": {
+          "$value": "{theme.surface.main}",
+          "$type": "color"
+        },
+        "disabled": {
+          "$value": "{theme.disabled.main}",
+          "$type": "color"
+        },
+        "success": {
+          "$value": "{theme.success.containerVariant}",
+          "$type": "color"
+        },
+        "warning": {
+          "$value": "{theme.warning.containerVariant}",
+          "$type": "color"
+        },
+        "info-container": {
+          "$value": "{theme.primary.container}",
+          "$type": "color"
+        },
+        "error": {
+          "$value": "{theme.error.containerVariant}",
+          "$type": "color"
+        },
+        "default": {
+          "$value": "{theme.background.variant}",
+          "$type": "color"
+        },
+        "hover": {
+          "$value": "{theme.primary.container}",
+          "$type": "color"
+        },
+        "selected": {
+          "$value": "{theme.primary.main}",
+          "$type": "color"
+        },
+        "selected-hover": {
+          "$value": "{theme.secondary.container}",
+          "$type": "color"
+        },
+        "container": {
+          "$value": "{theme.primary.container}",
+          "$type": "color"
+        },
+        "disabled-selected": {
+          "$value": "{theme.disabled.onMain}",
+          "$type": "color"
+        },
+        "interactive": {
+          "default": {
+            "$value": "{theme.primary.main}",
+            "$type": "color"
+          },
+          "hover": {
+            "$value": "{theme.secondary.main}",
+            "$type": "color"
+          },
+          "pressed": {
+            "$value": "{theme.secondary.main}",
+            "$type": "color"
+          },
+          "disabled": {
+            "$value": "{theme.disabled.main}",
+            "$type": "color"
+          },
+          "selected-hover": {
+            "$value": "{theme.secondary.main}",
+            "$type": "color"
+          },
+          "pressed-variant": {
+            "$value": "{theme.surface.variant}",
+            "$type": "color"
+          }
+        },
+        "product": {
+          "voice": {
+            "$value": "{color.purple.50}",
+            "$type": "color"
+          },
+          "numbers": {
+            "$value": "{color.maroon.50}",
+            "$type": "color"
+          },
+          "messaging": {
+            "$value": "{color.green.50}",
+            "$type": "color"
+          },
+          "emergency": {
+            "$value": "{color.orange.50}",
+            "$type": "color"
+          },
+          "brand": {
+            "$value": "{color.blue.50}",
+            "$type": "color"
+          }
+        },
+        "info": {
+          "default": {
+            "$value": "{theme.primary.main}",
+            "$type": "color"
+          },
+          "warning": {
+            "$value": "{theme.warning.main}",
+            "$type": "color"
+          },
+          "error": {
+            "$value": "{theme.error.main}",
+            "$type": "color"
+          },
+          "success": {
+            "$value": "{theme.success.main}",
+            "$type": "color"
+          },
+          "disabled": {
+            "$value": "{theme.disabled.main}",
+            "$type": "color"
+          }
+        },
+        "destructive": {
+          "default": {
+            "$value": "{theme.error.main}",
+            "$type": "color"
+          },
+          "on-container": {
+            "$value": "{theme.error.onContainer}",
+            "$type": "color"
+          },
+          "pressed": {
+            "$value": "{theme.error.onContainer}",
+            "$type": "color"
+          },
+          "container": {
+            "$value": "{theme.error.container}",
+            "$type": "color"
+          }
+        }
+      },
+      "border": {
+        "default": {
+          "$value": "{theme.outline.main}",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "{theme.secondary.main}",
+          "$type": "color"
+        },
+        "error": {
+          "$value": "{theme.error.main}",
+          "$type": "color"
+        },
+        "primary": {
+          "$value": "{theme.primary.main}",
+          "$type": "color"
+        },
+        "selected": {
+          "$value": "{theme.outline.variant}",
+          "$type": "color"
+        },
+        "disabled": {
+          "$value": "{theme.disabled.onMain}",
+          "$type": "color"
+        },
+        "on-primary-container": {
+          "$value": "{theme.secondary.main}",
+          "$type": "color"
+        },
+        "container": {
+          "$value": "{theme.primary.container}",
+          "$type": "color"
+        },
+        "interactive": {
+          "default": {
+            "$value": "{theme.primary.main}",
+            "$type": "color"
+          },
+          "hover": {
+            "$value": "{theme.secondary.main}",
+            "$type": "color"
+          },
+          "pressed": {
+            "$value": "{theme.secondary.main}",
+            "$type": "color"
+          },
+          "disabled": {
+            "$value": "{theme.disabled.main}",
+            "$type": "color"
+          }
+        },
+        "info": {
+          "default": {
+            "$value": "{theme.primary.main}",
+            "$type": "color"
+          },
+          "warning": {
+            "$value": "{theme.warning.main}",
+            "$type": "color"
+          },
+          "error": {
+            "$value": "{theme.error.main}",
+            "$type": "color"
+          },
+          "success": {
+            "$value": "{theme.success.main}",
+            "$type": "color"
+          }
+        },
+        "destructive": {
+          "default": {
+            "$value": "{theme.error.main}",
+            "$type": "color"
+          },
+          "on-container": {
+            "$value": "{theme.error.onContainer}",
+            "$type": "color"
+          }
+        },
+        "accent": {
+          "tertiary": {
+            "$value": "{theme.tertiary.main}",
+            "$type": "color"
+          }
+        }
+      },
+      "text": {
+        "default": {
+          "$value": "{theme.surface.onMain}",
+          "$type": "color"
+        },
+        "placeholder": {
+          "$value": "{theme.surface.onVariant}",
+          "$type": "color"
+        },
+        "help-text": {
+          "$value": "{theme.surface.onVariant}",
+          "$type": "color"
+        },
+        "disabled": {
+          "$value": "{theme.disabled.onMain}",
+          "$type": "color"
+        },
+        "on-disabled": {
+          "$value": "{theme.disabled.main}",
+          "$type": "color"
+        },
+        "primary": {
+          "$value": "{theme.primary.main}",
+          "$type": "color"
+        },
+        "on-primary": {
+          "$value": "{theme.primary.onMain}",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "{theme.secondary.main}",
+          "$type": "color"
+        },
+        "on-secondary": {
+          "$value": "{theme.secondary.onMain}",
+          "$type": "color"
+        },
+        "admin": {
+          "$value": "{theme.surface.main}",
+          "$type": "color"
+        },
+        "link": {
+          "$value": "{theme.primary.main}",
+          "$type": "color"
+        },
+        "error": {
+          "$value": "{theme.error.main}",
+          "$type": "color"
+        },
+        "interactive": {
+          "primary": {
+            "$value": "{theme.primary.main}",
+            "$type": "color"
+          },
+          "on-primary": {
+            "$value": "{theme.primary.onMain}",
+            "$type": "color"
+          },
+          "primary-on-container": {
+            "$value": "{theme.primary.onContainer}",
+            "$type": "color"
+          },
+          "secondary": {
+            "$value": "{theme.secondary.main}",
+            "$type": "color"
+          },
+          "on-secondary": {
+            "$value": "{theme.secondary.onMain}",
+            "$type": "color"
+          },
+          "secondary-container": {
+            "$value": "{theme.secondary.container}",
+            "$type": "color"
+          },
+          "destructive": {
+            "main": {
+              "$value": "{theme.error.main}",
+              "$type": "color"
+            },
+            "on-main": {
+              "$value": "{theme.error.onMain}",
+              "$type": "color"
+            },
+            "on-container": {
+              "$value": "{theme.error.onContainer}",
+              "$type": "color"
+            }
+          }
+        },
+        "heading": {
+          "h1": {
+            "$value": "{theme.primary.main}",
+            "$type": "color"
+          },
+          "h2": {
+            "$value": "{theme.surface.onMain}",
+            "$type": "color"
+          },
+          "h3": {
+            "$value": "{theme.surface.onMain}",
+            "$type": "color"
+          },
+          "h4": {
+            "$value": "{theme.primary.main}",
+            "$type": "color"
+          },
+          "h5": {
+            "$value": "{theme.surface.onMain}",
+            "$type": "color"
+          },
+          "h6": {
+            "$value": "{theme.surface.onMain}",
+            "$type": "color"
+          }
+        },
+        "info": {
+          "default": {
+            "$value": "{theme.primary.main}",
+            "$type": "color"
+          },
+          "warning": {
+            "$value": "{theme.warning.onContainer}",
+            "$type": "color"
+          },
+          "error": {
+            "$value": "{theme.error.onContainer}",
+            "$type": "color"
+          },
+          "success": {
+            "$value": "{theme.success.onContainer}",
+            "$type": "color"
+          },
+          "disabled": {
+            "$value": "{theme.disabled.onMain}",
+            "$type": "color"
+          }
+        },
+        "product": {
+          "emergency": {
+            "$value": "{color.orange.90}",
+            "$type": "color"
+          },
+          "numbers": {
+            "$value": "{color.maroon.2}",
+            "$type": "color"
+          },
+          "voice": {
+            "$value": "{color.purple.2}",
+            "$type": "color"
+          },
+          "messaging": {
+            "$value": "{color.green.90}",
+            "$type": "color"
+          },
+          "bandwidth": {
+            "$value": "{color.blue.0}",
+            "$type": "color"
+          }
+        },
+        "accent": {
+          "on-tertiary": {
+            "$value": "{theme.tertiary.containerVariant}",
+            "$type": "color"
+          }
+        }
+      },
+      "graphic": {
+        "default": {
+          "$value": "{theme.surface.onMain}",
+          "$type": "color"
+        },
+        "primary": {
+          "$value": "{theme.primary.main}",
+          "$type": "color"
+        },
+        "hover": {
+          "$value": "{theme.secondary.main}",
+          "$type": "color"
+        },
+        "pressed": {
+          "$value": "{theme.secondary.main}",
+          "$type": "color"
+        },
+        "selected": {
+          "$value": "{theme.primary.onMain}",
+          "$type": "color"
+        },
+        "disabled": {
+          "$value": "{theme.disabled.onMain}",
+          "$type": "color"
+        },
+        "dropdown": {
+          "$value": "{theme.surface.onVariant}",
+          "$type": "color"
+        },
+        "on-disabled": {
+          "$value": "{theme.disabled.main}",
+          "$type": "color"
+        },
+        "admin": {
+          "$value": "{theme.surface.main}",
+          "$type": "color"
+        },
+        "on-primary": {
+          "$value": "{theme.primary.onMain}",
+          "$type": "color"
+        },
+        "on-secondary": {
+          "$value": "{theme.secondary.onMain}",
+          "$type": "color"
+        },
+        "on-error": {
+          "$value": "{theme.error.onMain}",
+          "$type": "color"
+        },
+        "info": {
+          "default": {
+            "$value": "{theme.primary.main}",
+            "$type": "color"
+          },
+          "warning": {
+            "$value": "{theme.warning.main}",
+            "$type": "color"
+          },
+          "error": {
+            "$value": "{theme.error.main}",
+            "$type": "color"
+          },
+          "success": {
+            "$value": "{theme.success.main}",
+            "$type": "color"
+          }
+        },
+        "destructive": {
+          "default": {
+            "$value": "{theme.error.main}",
+            "$type": "color"
+          },
+          "on-default": {
+            "$value": "{theme.error.onMain}",
+            "$type": "color"
+          },
+          "hover": {
+            "$value": "{theme.error.onContainer}",
+            "$type": "color"
+          },
+          "pressed": {
+            "$value": "{theme.error.onContainer}",
+            "$type": "color"
+          }
+        }
+      }
+    }
+  }

@@ -1,4 +1,7 @@
 {
+  "BluePrint": {
+    "$description": "all blueprint tokens",
+    "$type": "color",
     "color": {
       "background": {
         "admin": {
@@ -481,4 +484,4 @@
         }
       }
     }
-  }
+  }}

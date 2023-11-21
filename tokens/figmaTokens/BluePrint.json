@@ -957,7 +957,7 @@
           "fontSize": "$font-size.1",
           "letterSpacing": "$letter-spacing.none",
           "paragraphSpacing": "$paragraph-spacing.none",
-          "textCase": "$text-case.title",
+          "textCase": "$text-case.none",
           "textDecoration": "$text-decoration.none"
         },
         "type": "typography"

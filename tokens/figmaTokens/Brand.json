@@ -1107,35 +1107,35 @@
   },
   "font-size": {
     "0": {
-      "value": "12px",
+      "value": "11px",
       "type": "fontSizes"
     },
     "1": {
-      "value": "14px",
+      "value": "12px",
       "type": "fontSizes"
     },
     "2": {
-      "value": "16px",
+      "value": "14px",
       "type": "fontSizes"
     },
     "3": {
-      "value": "18px",
+      "value": "16px",
       "type": "fontSizes"
     },
     "4": {
-      "value": "24px",
+      "value": "18px",
       "type": "fontSizes"
     },
     "5": {
-      "value": "28px",
+      "value": "24px",
       "type": "fontSizes"
     },
     "6": {
-      "value": "36px",
+      "value": "28px",
       "type": "fontSizes"
     },
-    "-1": {
-      "value": "11px",
+    "7": {
+      "value": "36px",
       "type": "fontSizes"
     }
   },

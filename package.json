@@ -27,7 +27,6 @@
     "build-all": "npm run transform && npm run build-tokens"
   },
   "dependencies": {
-    "@changesets/cli": "^2.22.0",
     "node": "^19.8.1",
     "style-dictionary": "^3.7.0",
     "token-transformer": "^0.0.27"

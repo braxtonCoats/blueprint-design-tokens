@@ -949,7 +949,7 @@
       }
     },
     "label": {
-      "large": {
+      "default": {
         "value": {
           "fontFamily": "{font.overpass}",
           "fontWeight": "{font-weight.700}",
@@ -1046,10 +1046,10 @@
         "value": {
           "fontFamily": "{font.overpass}",
           "fontWeight": "$font-weight.400",
-          "lineHeight": "$line-height.16",
+          "lineHeight": "$line-height.21",
           "fontSize": "$font-size.2",
           "letterSpacing": "$letter-spacing.none",
-          "paragraphSpacing": "$paragraph-spacing.none",
+          "paragraphSpacing": "$paragraph-spacing.sm",
           "textCase": "$text-case.none",
           "textDecoration": "$text-decoration.underline"
         },

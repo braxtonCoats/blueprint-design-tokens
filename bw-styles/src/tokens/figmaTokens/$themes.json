@@ -9,7 +9,6 @@
       "typography.heading.h4": "S:bc5692fb465e15065cbf31987ed49e80baa522bd,",
       "typography.heading.h5": "S:5bbd5baacb0d71616861041a2c0eee5012a87851,",
       "typography.heading.h6": "S:b713fcd98e7d0cae689f6f7b9c85bfd0b3fae978,",
-      "typography.label.large": "S:b114082e7b99a199b013b42a53009d25c0bf2b05,",
       "typography.label.tab": "S:c2177a27dbc19741f3d8184363d32508a33305d0,",
       "typography.label.table-heading": "S:9637999508c42d6a01703b35bb4635b110cfbca7,",
       "typography.label.form-label": "S:489221550a236bd5b67ecc4b16cf052d838e741c,",
@@ -21,7 +20,8 @@
       "typography.utility.button": "S:786c6ef6074b32dbac4cb9f78f6085cafdef2eb6,",
       "typography.utility.accordion": "S:3065403199b4fff7171307f473942fbc50187c4f,",
       "typography.utility.badge": "S:f4a08274e0353a7ef5acf48ddbf52a4a5d6dbb8b,",
-      "typography.utility.inline-radio": "S:ead622fce95581bdea8aa6941ee89c9cb813bdf1,"
+      "typography.utility.inline-radio": "S:ead622fce95581bdea8aa6941ee89c9cb813bdf1,",
+      "typography.label.default": "S:b114082e7b99a199b013b42a53009d25c0bf2b05,"
     },
     "selectedTokenSets": {
       "BluePrint": "enabled",
@@ -234,7 +234,6 @@
       "typography.heading.h4": "S:c93827602d4ca9013e50cde9bc51d1721daaf348,",
       "typography.heading.h5": "S:656cd4b314476e4320d7117d340d97b8b580b1f9,",
       "typography.heading.h6": "S:e382867600008ab0d68b4c6aaf7a2e197fcfc23f,",
-      "typography.label.large": "S:c19a8c484423b8e5ea9811e8b4c37a7163e4700e,",
       "typography.label.tab": "S:0aa595f5c6c8c2ce0257db0cb17e1b7e96003aa2,",
       "typography.label.table-heading": "S:29853973c85a70acd1cee56c814babcf02e0e5ef,",
       "typography.label.form-label": "S:067953d916fe7c151f0638a6e9391447f8a0e913,",
@@ -274,7 +273,8 @@
       "shadow.focus-visible": "S:bad3ec21f6e4c7b350a3681665ff754bf25ba6ef,",
       "shadow.table.scroll-left": "S:cbc34da32a7526601ec0d9f334e63456b96c51a0,",
       "shadow.table.scroll-right": "S:3cc8e893e919d5e6bd00ff7e62c3f9e23ca0f987,",
-      "shadow.modal.default": "S:449d245908282bea07e2eacb88ef9804474cf6a0,"
+      "shadow.modal.default": "S:449d245908282bea07e2eacb88ef9804474cf6a0,",
+      "typography.label.default": "S:c19a8c484423b8e5ea9811e8b4c37a7163e4700e,"
     },
     "selectedTokenSets": {
       "Dark": "enabled",

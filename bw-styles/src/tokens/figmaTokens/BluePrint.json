@@ -1233,51 +1233,5 @@
       "value": "128px",
       "type": "spacing"
     }
-  },
-  "padding": {
-    "none": {
-      "value": "{spacing.none}",
-      "type": "spacing"
-    },
-    "xxxxx-sm": {
-      "value": "{spacing.xxxxx-sm}",
-      "type": "spacing"
-    },
-    "xxxx-sm": {
-      "value": "{spacing.xxxx-sm}",
-      "type": "spacing"
-    },
-    "xxx-sm": {
-      "value": "{spacing.xxx-sm}",
-      "type": "spacing"
-    },
-    "x-sm": {
-      "value": "{spacing.x-sm}",
-      "type": "spacing"
-    },
-    "xx-sm": {
-      "value": "{spacing.xx-sm}",
-      "type": "spacing"
-    },
-    "sm": {
-      "value": "{spacing.sm}",
-      "type": "spacing"
-    },
-    "md": {
-      "value": "{spacing.md}",
-      "type": "spacing"
-    },
-    "lg": {
-      "value": "{spacing.lg}",
-      "type": "spacing"
-    },
-    "x-lg": {
-      "value": "{spacing.x-lg}",
-      "type": "spacing"
-    },
-    "xx-lg": {
-      "value": "{spacing.xx-lg}",
-      "type": "spacing"
-    }
   }
 }

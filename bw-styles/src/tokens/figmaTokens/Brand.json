@@ -947,6 +947,10 @@
     "reg": {
       "value": "16px",
       "type": "paragraphSpacing"
+    },
+    "sm": {
+      "value": "14px",
+      "type": "paragraphSpacing"
     }
   },
   "text-case": {
